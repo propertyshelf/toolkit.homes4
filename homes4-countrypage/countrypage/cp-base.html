@@ -1,0 +1,177 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> 
+<html class="no-js" lang="en"> <!--<![endif]-->
+   <head>
+      <meta charset="utf-8"/>
+
+      <!-- Use the .htaccess and remove these lines to avoid edge case issues.
+      More info: h5bp.com/b/378 -->
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+
+      <title></title>
+      <meta name="description" content=""/>
+      <meta name="author" content=""/>
+
+      <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+      <meta name="viewport" content="width=device-width,initial-scale=1"/>
+
+   
+
+      <!-- CSS: implied media=all -->
+      <!-- CSS concatenated and minified via ant build script-->
+      <link rel="stylesheet" href="css/public.css"/>
+      <link rel="stylesheet" href="css/reset.css"/>
+      <link rel="stylesheet" href="bootstrap/css/bootstrap.css"/>
+      <link rel="stylesheet" href="bootstrap/css/bootstrap-responsive.css" media="screen"/>
+
+      <link rel="stylesheet" href="css/theme.css"/>
+      <link rel="stylesheet" href="css/base.css"/>
+      <link rel="stylesheet" href="css/carousel.css"/>
+      <link rel="stylesheet" href="propertyshelf/featured-listing.css"/>
+      <link rel="stylesheet" href="propertyshelf/ps.css"/>
+      <link rel="stylesheet" href="countrypage/cp.css"/>
+      <link href="http://fonts.googleapis.com/css?family=Istok+Web|Sanchez|Open+Sans:400,700" rel="stylesheet" type="text/css">
+      
+      <script type="text/javascript" src="js/application.js" ></script>
+      <script type="text/javascript" src="propertyshelf/ps.js" ></script>
+      <script type="text/javascript" src="propertyshelf/featured-listing-carousel.js" ></script>
+      <!-- end CSS-->
+
+      <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
+
+         <!-- All JavaScript at the bottom, except for Modernizr / Respond.
+         Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries
+         For optimal performance, use a custom Modernizr build: www.modernizr.com/download/ -->
+         <script src="js/libs/modernizr-2.0.6.min.js"></script>
+
+      </head>
+
+      <body> 
+      <div id="globalwrapper">
+         <div id="container" class="container">
+         <div id="box">
+            <div id="header">
+                <div id="header-chooser">
+                    <div class="login-box"></div>
+
+                    <div class="country-chooser">
+                        <span class="lang lang-en"> Choose your Country</span>
+                        <span class="lang lang-es"> Selecciona tu Pais</span>
+                        <span class="lang lang-de"> Wählen Sie Ihr Land</span>
+                        <span class="lang lang-fr"> Choisissez votre pays</span>
+                        <span class="lang lang-zh"> 選擇您的國家</span>
+                        <span class="lang lang-it"> Scegli il tuo paese</span>
+                        <span class="lang lang-ja"> あなたの国を選択してください</span>
+                        <span class="lang lang-ru"> Выберите вашу страну</span>
+                        <ul id="country-chooser-list">
+                            <li><a href="http://costarica.propertyshelf.com/" class="country-costarica">Costa Rica</a></li>
+                            <li><a href="http://panama.propertyshelf.com/" class="country-panama">Panama</a></li>
+                            <li><a href="http://nicaragua.propertyshelf.com/" class="country-nicaragua">Nicaragua</a></li>
+                            <li><a href="http://ecuador.propertyshelf.com/" class="country-ecuador">Ecuador</a></li>
+                            <li><a href="http://usa.propertyshelf.com/" class="country-usa">USA</a></li>
+                        </ul>
+                    </div>
+                </div> 
+                <span class="header-content"></span>
+            </div>
+            <div id="fullbgnav"></div>
+           
+         </div> 
+          <div class="nav-over-carousel"></div> 
+            <div id="ps-slider"></div>
+         
+            <div id="main" role="main" class="icons-on">
+               <div>
+                  <ul class="breadcrumb">
+                     <li><a href="#">Home</a><span class="divider">/</span></li>
+                     <li class="active">Plone</li>
+                  </ul>
+               </div>
+               <div id="content-columns">
+                  <div class="row">
+                     <div id="left-column" class="span3">
+                        <div id="left-column-content">
+                        <span />
+                        </div>
+                     </div>
+                     <div id="center-column">
+                        <div id="center-column-content">
+                        <article>
+                           <div id="content">
+                             <span />
+                             
+                           </div>
+                        </article>
+                        </div>
+                     </div>
+                     <div id="right-column" class="span3">
+                        <div id="right-column-content">
+                         <span />
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div id="portletBelowContentManager" class="row">
+                  <div id="portletBelowContentA" class="span4">
+                    <span />
+                  </div>
+                  <div id="portletBelowContentB" class="span4">
+                    <span />
+                  </div>
+                  <div id="portletBelowContentC" class="span4">
+                     <span />
+                  </div>
+               </div>
+               <div class="row">
+                  <div id="portletBelowContentD" class="offset1 span10">
+                  </div>
+               </div>
+                <div style="clear:both">&nbsp;</div>
+            </div>
+            
+            <div id="feature-listing-slider">
+                <div class="lang lang-en">Featured Listings</div>
+                <div class="lang lang-ds">listado Especial</div>
+            </div>
+            <div id="feature-listing-above-footer"></div>
+      
+            <div id="footer-wrapper" class="footer container">
+               <span>Footer</span>
+            </div>
+         </div> <!--! end of #container -->
+      </div>
+    
+            <!-- scripts concatenated and minified via ant build script-->
+            <script>
+               var jQuery14 = jQuery;
+            </script>
+            <script src="jquery-1.7.1.min.js"></script>
+            <script src="bootstrap/js/bootstrap.js"></script>
+            <script>
+               var jQuery17 = jQuery;
+               $ = jQuery14;
+               jQuery = jQuery14;
+               jQuery17(document).ready(function () {
+                  jQuery17('.dropdown-toggle').dropdown();
+               });
+            </script>
+            <script defer src="js/plugins.js"></script>
+            <script defer src="js/script.js"></script>
+            <div id="site-scripts"></div>
+
+            <!-- end scripts-->
+
+            <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+            chromium.org/developers/how-tos/chrome-frame-getting-started -->
+            <!--[if lt IE 7 ]>
+            <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+            <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+            <![endif]-->
+
+         </body>
+      </html>

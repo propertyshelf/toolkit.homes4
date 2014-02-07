@@ -1,0 +1,1051 @@
+a:hover{
+    text-decoration:none; 
+}
+li#anon-personalbar{
+    line-height:20px;   
+}
+.agency_logo{
+    text-align: center;
+}
+.agent_avatar{
+    text-align:center;   
+}
+dl.actionMenu.activated dd{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;   
+}
+body{
+    padding:0;   
+}
+#box{
+    position:relative;   
+}
+.collapse{
+    height:auto;   
+}
+.colophonWrapper{
+    margin:0 auto;    
+}
+#content .documentDescription{
+    font-weight: normal;
+}
+#content ul.formTabs, #content-core ul.formTabs {
+    border: medium none;
+    margin-bottom: 0;
+    margin-top: 12px;
+    border-top-left-radius:0;
+    border-top-right-radius:0;
+}
+#content .listing p{
+    margin-bottom:0; 
+}
+#content .listing .visualClear p{
+    margin-bottom:0; 
+}
+#content a:link, dl.portlet a:link,a:link, a:visited{  
+    font-weight:normal;
+    letter-spacing: 0.5px;
+    border-bottom:none;
+}
+#content img.tileImage, #content div.newsImageContainer{
+    float:left;   
+}
+#content-views a, #content li.formTab a, #content-core li.formTab a {
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+}
+#contentActionMenus{
+    top:0;   
+}
+#contentActionMenus dl{
+    margin-bottom:0;   
+}
+#content .form-row-tabbed .enableFormTabbing{
+    margin:0; 
+    border: 1px solid #BBBBBB;
+}
+#content .listing-summary dd{
+    margin:0;   
+}
+#content .row{
+    margin-top:2%;    
+}
+.content_box{
+    margin:0 10% 5%;
+}
+.content_box:first-of-type{ 
+    margin-top:7%;
+}
+.content_box:last-of-type{ 
+    margin-bottom:7%;
+}
+#content .content_box  p{
+    display: table;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+#content .content_box  p a{
+    display: table-cell;
+    line-height: normal;
+    vertical-align: middle;
+    width: 100%;
+}
+#content .content_box img{
+    float:left;  
+    max-width:100px;
+}
+#content p, #content table, #content dl, dl.portlet p, dl.portlet{
+    margin-bottom:0%;  
+}
+.contact_details{
+    margin-bottom:0;   
+}
+#content #show-form{
+    margin:0;   
+}
+#content dd{
+    padding:0;   
+    margin:0; 
+}
+#content .listing-summary figure{
+    width:15%;   
+}
+.contentbody{
+    padding:2%;   
+}
+.cover-contentbody-tile{
+    padding:2.5%; 
+}
+.cover-collection-tile{
+    padding:5%;   
+}
+#doormat-container{
+    margin:0;
+    background:none transparent;
+}
+#doormat-container p{ 
+    text-shadow: none;
+    margin-top: 3%;
+}
+#edit-bar{
+    margin-bottom:0;   
+}
+.footer{
+    box-shadow:none;
+    border-top:0;
+    padding:0;
+}
+.footer .row{
+    margin:0 auto;   
+}
+.field input[type="text"]{
+    padding:4px 0; 
+    width: 100%;
+}
+.form-row-listing-type .field span.option {
+    clear: none;
+    float: left;
+}
+.form-row-tabbed dd.formPanel{
+    margin:0;
+    padding:0;
+}
+.galleria-info{
+    position:static;   
+}
+.galleria-info-text{
+    padding:8% 0;   
+}
+.galleria-thumbnails .galleria-image {
+    height: 40px !important;
+    width: 60px !important;
+}
+.galleria-thumbnails .galleria-image img {
+    height: 40px !important;
+    width: 60px !important;
+}
+#header{   
+    margin:0 auto;
+}
+#header .row{
+    z-index:3;  
+    margin:0 auto;
+}
+input[type="checkbox"] {
+    vertical-align: middle;   
+}
+.listing-summary #search-form .form-row-location .field,
+.listing-summary #search-form .form-row-price .field,
+.listing-summary #search-form .form-row-beds-baths .field,
+.listing-summary #search-form .form-row-sizes .field{
+    padding:0;
+    margin:1% 0 0 0;
+}
+.listing-summary #search-form .form-rows .field {
+    margin:1% 0 0 0;
+    padding:0;
+}
+.listing-summary #search-form .form-row-tabbed .field{ 
+    margin-top:0;
+    padding: 8px 10px;
+}
+#listing-info h2{  
+    line-height:normal;
+    padding-bottom: 5%;
+}
+
+.listing-summary #search-form .form-rows {
+    margin-bottom: 0;
+    margin-top: 1%;
+    padding: 0;
+}
+.listing-summary #search-form .form-row-listing-type,
+.listing-summary #search-form .form-row-sizes,
+.listing-summary #search-form .form-row-other{
+    border-top: 0;
+}
+.listing-summary #search-form .form-row-listing-type{
+    margin-bottom:1%;   
+}
+.label, .badge {
+    font-weight: normal;
+    text-shadow: none;
+}
+.listing-summary #search-form .form-row-price #formfield-form-widgets-location_city #form-widgets-location_city{
+    width:90%;   
+    padding:4px 0;
+}
+.listing #listing-info dl{
+    margin:0;
+    padding:0;
+    border:0;
+}
+.listing #listing-info dl.workflow{
+    border-bottom:1px dotted #5D5D5D;
+    margin-bottom: 2%;
+    padding-bottom: 5%;
+}
+#listing-info {
+    float: right;
+}
+.listing #listing-images {
+    float: left;
+    margin: 0;
+}
+table.listing th{
+    line-height: 26px;
+}
+#main{
+    margin:0;   
+}
+.modal-backdrop{
+    z-index:1;   
+}
+ul#portal-personaltools{
+    height:26px;   
+}
+ul#portal-languageselector{   
+    text-align: center;
+    width: 65px;
+}
+ul#portal-languageselector:hover li{
+    display:block
+}
+ul#portal-languageselector li.currentLanguage{
+    display:block;  
+}
+#portal-personaltools ul{
+    margin:0;
+}
+#portal-globalnav ul.submenu li{
+    line-height:22px;
+    padding:0;
+    display: block;
+    width:100%;   
+    border-right:0;
+}
+#portal-globalnav ul.submenu li a,
+#portal-globalnav ul.submenu li a:hover{
+    padding:0;
+    margin-top:0;
+    border-right:0;
+    width:100%;
+    height:auto;
+    line-height:23px;
+    margin:0;
+}
+#portal-personaltools dd{
+    padding:0;   
+}
+#portal-personaltools dd a{ 
+    margin:0;
+}
+.portletNews .portletHeader{
+    padding:0;
+}
+#portal-colophon{
+    margin-bottom:0;
+}
+#portal-colophon p{
+    margin-bottom:0;
+}
+#portal-globalnav {
+    margin: 0;
+}
+#portal-logo img{
+    margin: 5%;
+}
+#portal-globalnav li{
+    display: inline-block;
+    float: left;
+    padding: 4px 0;
+}
+#portal-globalnav li:last-of-type{
+    border-right:0;
+}
+#portal-globalnav li.plain a,
+#portal-globalnav li.selected a,
+#portal-globalnav li.selected a:hover{
+    border-top: 0 none;
+    display: table-cell;
+    height: 40px;
+    line-height: 14px;
+    margin: 4px 0;
+    min-width: 70px;
+    padding: 0 4px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+}
+dl.portlet ul.navTreeLevel0 > .navTreeItem{
+    border:0;   
+}
+.portletNavigationTree dt.portletHeader{
+    line-height: 36px;
+    padding: 0.42em 1em;
+    width:auto;
+    height:auto;
+}
+.portletAgentContact div.formControls{
+    text-align: center;
+    margin-bottom: 0;
+}
+.portletAgentContact form{
+    margin-bottom:0;   
+}
+.portletAgentContact textarea,
+.portletAgentContact input[type="text"],
+.portletAgentContact input[type="password"],
+.portletAgentContact input[type="datetime"],
+.portletAgentContact input[type="datetime-local"],
+.portletAgentContact input[type="date"],
+.portletAgentContact input[type="month"],
+.portletAgentContact input[type="time"],
+.portletAgentContact input[type="week"],
+.portletAgentContact input[type="number"],
+.portletAgentContact input[type="email"],
+.portletAgentContact input[type="url"],
+.portletAgentContact input[type="search"],
+.portletAgentContact input[type="tel"],
+.portletAgentContact input[type="color"],
+.portletAgentContact .uneditable-input{
+    border-radius: 0;
+    box-shadow:none;
+}
+.portletAgentContact input[type="submit"]{
+    width: 100px;
+    font-weight: bold;  
+}
+.portletAgentInformation .portletItem .agent_title, .portletAgentInformation .portletItem .agency_name{
+    font-weight:normal;
+}
+#portal-column-one .portletWrapper .portlet .portletItem{
+    margin-left:0;   
+}
+#portal-column-one{
+    margin-bottom:1%;   
+}
+.portletAgentInformation .portletItem h3{
+    margin-top:5%; 
+}
+#portal-columns{
+    margin:0 auto;    
+}
+#portal-column-one .portletWrapper .portlet{
+    border-radius: 8px;
+}
+#portal-column-two .portletAgentInformation .portletItem{
+    margin-left:0;
+}
+.portletAgentContact dd{
+    padding:5% 5% 5%; 
+    margin-left:0;
+}
+.portletItem form{
+    padding-top:5%;   
+}
+dl.portlet dd.portletItem, dl.portlet dd.portletFooter, dl.portletError dd{
+    margin:0;  
+}
+.portletAgentInformation .portletItem .contact_details{
+    overflow:auto;   
+}
+.portletQuickSearch select {
+    text-align: center;
+}
+.portletQuickSearch .formControls{
+    text-align:center;
+}
+.portletQuickSearch .formControls #form-buttons-search{
+    width: 100px;
+    font-weight: bold;  
+}
+.portletQuickSearch #formfield-form-widgets-price_min{
+    clear: none;
+    float: left;
+}
+.portletQuickSearch #formfield-form-widgets-price_max{
+    clear: none;
+    float: left;
+}
+.portletQuickSearch #formfield-form-widgets-location_state{
+    padding-top: 5%;   
+}
+#portal-column-two .portletWrapper{ 
+    margin-bottom: 5%;
+}
+.row{
+    margin:0;   
+}
+.row .field{
+    margin: 0; 
+}
+#recent-listings h2.tileHeadline{ 
+    line-height: 26px;
+}
+select.choice-field {
+    width: 100%;
+}
+sup sup,
+sub sub,
+sup sub,
+sub sup{
+    font-size:100%;
+}
+ul.submenu{
+    margin:0;  
+}
+ul.submenu li a{
+    margin:0;  
+}
+#tile-configure {
+    z-index: 2000;
+}
+.toolkit-slider{
+    padding:0 35px;     
+}
+.upper{
+    text-transform: uppercase;   
+}
+div.width-full{
+    left:0;
+    margin:0;
+}
+@media (min-width: 1200px){
+    #portal-columns,#header .row,.footer .row,.colophonWrapper{
+        width:1080px;   
+    }
+    #portal-column-two .portletWrapper{
+        padding: 0 7%; 
+        margin-bottom: 5%;
+    }
+    .container{
+        width:100%;   
+    }
+    div.position-3\:4{
+        margin-left:-34%;   
+    }
+    #portal-column-content.width-3\:4.position-0{
+        width:65%;
+        margin-left: -100%;
+    }   
+    #portal-column-content.width-3\:4.position-1\:4{
+        width:72%;   
+    }
+    #listing-info {
+        width: 36%;
+    }
+    .listing #listing-images {
+        width: 50%;
+        padding: 1%;
+    }
+    .listing #listing-images #galleria {
+        height: 100%;
+    }
+    ul.submenu{  
+        width:100%; 
+    }
+    ul.submenu li a{  
+        width:100%;
+    }
+    div.width-full{
+        width:100%;
+    }
+    div#portal-column-two.width-1\:4{
+        width:35%;
+    }
+    select {
+        width: 49%;
+    }
+    .portletQuickSearch select {
+        width: 47%;
+        text-align: center;
+    }
+    .portletQuickSearch #formfield-form-widgets-price_min{
+        margin-right: 8%;
+        width: 46%;
+    }
+    .portletQuickSearch #formfield-form-widgets-price_max{
+        width: 46%;
+    }
+    #portal-colophon{
+        width:100%;
+    }
+    #portal-globalnav{
+        width: 100%;
+    }
+    .form-row-listing-type .field span.option {
+        clear: none;
+        float: left;
+        width: 49%;
+    }
+    select.choice-field {
+        width: 100%;
+    }
+    .field input[type="text"] {
+        width: 99%;
+    }
+    .form-row-listing-type .field span.option {
+        width: 100%;
+    }
+    .listing-summary #search-form form span.option{
+        width:32%;
+    }
+    .listing-summary #search-form form .form-row-other .field span.option{
+        width: 28%;   
+    }
+    div.width-5 {
+        width: 32%;
+    }
+    #content .width-16.position-0{
+        margin-left: -100%;
+        width: 100%;
+    }
+    #content .width-10.position-0{
+        margin-left: -100%;
+        width: 66%;
+    }
+    #content .width-5.position-5{
+        margin-left: -66%;  
+    }
+    #content .width-5.position-0{
+        margin-left: -100%;   
+    }
+    #content .width-5.position-10{
+        margin-left: -32%;   
+    }
+    .listing-summary #search-form .form-row-location .field,
+    .listing-summary #search-form .form-row-price .field,
+    .listing-summary #search-form .form-row-beds-baths .field,
+    .listing-summary #search-form .form-row-sizes .field{
+        width:32%; 
+    }
+}
+@media (min-width: 980px) and (max-width:1199px){ 
+    #portal-columns,#header .row,.footer .row,.colophonWrapper{
+        width:870px;   
+    }
+    .container{
+        width:100%;   
+    }
+    #portal-column-two .portletWrapper{
+        padding: 0 7%;   
+    }
+    #portal-column-content.width-3\:4.position-0{
+        width:65%;
+        margin-left:-100%;
+    }   
+    #portal-column-content.width-3\:4.position-1\:4{
+        width:72%;   
+    }
+    div#portal-column-two.width-1\:4{
+        width:35%;
+    }
+    div.position-3\:4 {
+    margin-left: -34%;
+    }
+    ul.submenu{  
+        width:100%; 
+    }
+    ul.submenu li a{  
+        width:100%;
+    }
+    div.width-full{
+        width:100%;
+    }
+    #portal-colophon{
+        width:100%;
+    }
+    #portal-globalnav{
+        width: 100%;
+        margin-top:0;
+    }
+    #listing-info {
+        width: 100%;
+        margin-top:430px;
+    }
+    .listing #listing-images {
+        position: absolute;
+        width: 100%;
+    }
+    select {
+        width: 49%;
+    }
+    .portletQuickSearch #form-widgets-beds-max{
+        float:right;   
+    }
+    .portletAgentInformation .portletItem figure img{
+        width:100%;   
+    }
+    .form-row-listing-type .field span.option {
+        width: 100%;
+    }
+    .listing-summary #search-form form span.option{
+        width:30%;
+    }
+    .listing-summary #search-form form .form-row-other .field span.option{
+        width: 28%;   
+    }
+    .portletQuickSearch #formfield-form-widgets-price_min{
+        width: 48%;
+    }
+    .portletQuickSearch #formfield-form-widgets-price_max{
+        width: 48%;
+        float:right;
+    }
+    .listing-summary #search-form .form-row-location .field,
+    .listing-summary #search-form .form-row-price .field,
+    .listing-summary #search-form .form-row-beds-baths .field,
+    .listing-summary #search-form .form-row-sizes .field{
+        width:32%; 
+    }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+    #portal-columns,#header .row,.footer .row,.colophonWrapper{
+        width:680px;   
+    }
+    #portal-column-content{
+        width:98%; 
+        margin-left:0;
+        left:0;
+        padding:0 1%;
+    }
+    #portal-column-one{
+        width:100%;
+        margin-left: 0;
+        margin-top: 20px;
+        left:0;
+    }
+    #portal-column-two{
+        width:100%;
+        margin-left: 0;
+        margin-top: 20px;
+        left:0;
+    }
+    .container{
+        width:100%;   
+    }
+    ul.submenu{  
+        width:100%; 
+    }
+    ul.submenu li a{  
+        width:100%;
+    }
+    div.width-full{
+        width:100%;
+    }
+    #portal-colophon{
+        width:100%;
+    }
+    #portal-globalnav{
+        width: 100%;
+        margin-top:0;
+    }
+    #listing-info {
+        width: 40%;
+    }
+    .listing #listing-images {
+        width: 100%;
+        position:absolute;
+    }
+    select {
+        width: 48%;
+    }
+    #formfield-form-widgets-object_type .option,
+    #formfield-form-widgets-location_type .option,
+    #formfield-form-widgets-geographic_type .option,
+    #formfield-form-widgets-view_type .option,
+    #formfield-form-widgets-ownership_type .option{
+        width:33%;   
+        float: left;
+    }
+    #formfield-form-widgets-air_condition .option,
+    #formfield-form-widgets-pool .option,
+    #formfield-form-widgets-jacuzzi .option{
+        width:33%;   
+        float:left;
+    }
+    .portletAgentInformation .portletItem figure img{
+        max-width:100%;   
+    }
+    .listing-summary #search-form form span.option{
+        width:32%;
+    }
+    .listing-summary #search-form form .form-row-other .field span.option{
+        width: 28%;   
+    }
+    .portletQuickSearch #formfield-form-widgets-price_min,
+    .portletQuickSearch #formfield-form-widgets-price_max{
+        width: 48%;
+    }
+    .portletQuickSearch #form-widgets-beds-max,
+    .portletQuickSearch #form-widgets-baths-max,
+    .portletQuickSearch #form-widgets-lot_size-max,
+    .portletQuickSearch #form-widgets-interior_area-max,
+    .portletQuickSearch #formfield-form-widgets-price_max{
+        float:right; 
+    }
+    .listing-summary #search-form .form-row-location .field,
+    .listing-summary #search-form .form-row-price .field,
+    .listing-summary #search-form .form-row-beds-baths .field,
+    .listing-summary #search-form .form-row-sizes .field{
+        width:32%; 
+    }
+}
+@media (min-width: 600px) and (max-width: 767px){
+    #header .row,.footer .row,.colophonWrapper{
+        width:100%;   
+    }
+    #portal-columns{
+        width:98%;   
+    }
+    #portal-column-content{
+        left: 0;
+        margin-left: 0;
+        width: 98%; 
+        padding:0 1%;
+    }
+    #portal-column-one{
+        width:100%;
+        margin-left: 0;
+        margin-top: 20px;
+        left:0;
+    }
+    #portal-column-two{
+        left: 0;
+        margin-left: 0;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .container{
+        width:100%;   
+    }
+    #formfield-form-widgets-object_type .option,
+    #formfield-form-widgets-location_type .option,
+    #formfield-form-widgets-geographic_type .option,
+    #formfield-form-widgets-view_type .option,
+    #formfield-form-widgets-ownership_type .option{
+        width:49%;   
+        float: left;
+    }
+    ul.submenu{  
+        width:100%; 
+    }
+    ul.submenu li a{  
+        width:100%;
+    }
+    div.width-full{
+        width:100%;
+    }
+    #portal-colophon{
+        width:100%;
+    }
+    #portal-globalnav{
+        width: 100%;
+        margin-top:0;
+    }
+    #listing-info {
+        margin-top: 440px;
+        width: 100%;
+    }
+    .listing #listing-images {
+        position: absolute;
+        width: 100%;
+    }
+    select {
+        width: 48%;
+    }
+    .portletAgentInformation .portletItem figure img{
+        max-width:100%;   
+    }
+    #formfield-form-widgets-air_condition .option,
+    #formfield-form-widgets-pool .option,
+    #formfield-form-widgets-jacuzzi .option{
+        width:33%;   
+        float:left;
+    }
+    .listing-summary #search-form form span.option{
+        width:48%;
+    }
+    .listing-summary #search-form form .form-row-other .field span.option{
+        width: 40%;   
+    }
+    .portletQuickSearch #formfield-form-widgets-price_min{
+        width: 46%;
+    }
+    .portletQuickSearch #formfield-form-widgets-price_max{
+        width: 46%;
+    }
+    .portletQuickSearch #formfield-form-widgets-price_min,
+    .portletQuickSearch #formfield-form-widgets-price_max{
+        width: 48%;
+    }
+    .portletQuickSearch #form-widgets-beds-max,
+    .portletQuickSearch #form-widgets-baths-max,
+    .portletQuickSearch #form-widgets-lot_size-max,
+    .portletQuickSearch #form-widgets-interior_area-max,
+    .portletQuickSearch #formfield-form-widgets-price_max{
+        float:right; 
+    }
+    .listing-summary #search-form .form-row-location .field,
+    .listing-summary #search-form .form-row-price .field
+    {
+        width:32%; 
+    }
+    .listing-summary #search-form .form-row-beds-baths .field,
+    .listing-summary #search-form .form-row-sizes .field{
+        width:48.5%; 
+    }
+} 
+@media (min-width: 481px) and (max-width: 599px){
+    #header .row,.footer .row,.colophonWrapper{
+        width:100%;   
+    }
+    #portal-columns{
+        width:98%;  
+    }
+    #portal-column-content{
+        left: 0;
+        margin-left: 0;
+        width: 98%; 
+        padding:0 1%;
+    }
+    #portal-column-one{
+        width:100%;
+        margin-left: 0;
+        margin-top: 20px;
+        left:0;
+    }
+    #portal-column-two{
+        left: 0;
+        margin-left: 0;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .container{
+        width:100%;   
+    }
+    #formfield-form-widgets-object_type .option,
+    #formfield-form-widgets-location_type .option,
+    #formfield-form-widgets-geographic_type .option,
+    #formfield-form-widgets-view_type .option,
+    #formfield-form-widgets-ownership_type .option{
+        width:49%;   
+        float: left;
+    }
+    ul.submenu{  
+        width:100%; 
+    }
+    ul.submenu li a{  
+        width:100%;
+    }
+    div.width-full{
+        width:100%;
+    }
+    #portal-colophon{
+        width:100%;
+    }
+    #portal-globalnav{
+        width: 100%;
+        margin-top:0;
+    }
+    #listing-info {
+        margin-top: 440px;
+        width: 100%;
+    }
+    .listing #listing-images {
+        position: absolute;
+        width: 100%;
+    }
+    select {
+        width: 48%;
+    }
+    .portletAgentInformation .portletItem figure img{
+        max-width:100%;   
+    }
+    #formfield-form-widgets-air_condition .option,
+    #formfield-form-widgets-pool .option,
+    #formfield-form-widgets-jacuzzi .option{
+        width:33%;   
+        float:left;
+    }
+    .listing-summary #search-form form span.option{
+        width:48%;
+    }
+    .listing-summary #search-form form .form-row-other .field span.option{
+        width: 40%;   
+    }
+    .portletQuickSearch #formfield-form-widgets-price_min{
+        width: 46%;
+    }
+    .portletQuickSearch #formfield-form-widgets-price_max{
+        width: 46%;
+    }
+    .portletQuickSearch #formfield-form-widgets-price_min,
+    .portletQuickSearch #formfield-form-widgets-price_max{
+        width: 48%;
+    }
+    .portletQuickSearch #form-widgets-beds-max,
+    .portletQuickSearch #form-widgets-baths-max,
+    .portletQuickSearch #form-widgets-lot_size-max,
+    .portletQuickSearch #form-widgets-interior_area-max,
+    .portletQuickSearch #formfield-form-widgets-price_max{
+        float:right; 
+    }
+    .listing-summary #search-form .form-row-location .field,
+    .listing-summary #search-form .form-row-price .field
+    {
+        width:32%; 
+    }
+    .listing-summary #search-form .form-row-beds-baths .field,
+    .listing-summary #search-form .form-row-sizes .field{
+        width:48.5%; 
+    }
+}
+@media (max-width: 480px){
+    #header .row,.footer .row,.colophonWrapper{
+        width:100%;   
+    }
+    #portal-columns{
+        width:98%;   
+    }
+    #portal-column-content{
+        left: 0;
+        margin-left: 0;
+        width: 98%;
+        padding:0 1%;
+    }
+    #portal-column-one{
+        width:100%;
+        margin-left: 0;
+        margin-top: 20px;
+        left:0;
+    }
+    #portal-column-two{
+        left: 0;
+        margin-left: 0;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .container{
+        width:100%;   
+    }
+    #formfield-form-widgets-object_type .option,
+    #formfield-form-widgets-location_type .option,
+    #formfield-form-widgets-geographic_type .option,
+    #formfield-form-widgets-view_type .option,
+    #formfield-form-widgets-ownership_type .option{
+        width:49%;   
+        float: left;
+    }
+    ul.submenu{  
+        width:100%; 
+    }
+    ul.submenu li a{  
+        width:100%;
+    }
+    div.width-full{
+        width:100%;
+    }
+    #portal-colophon{
+        width:100%;
+    }
+    #portal-globalnav{
+        width: 100%;
+        margin-top:0;
+    }
+    #listing-info {
+        margin-top: 440px;
+        width: 100%;
+    }
+    .listing #listing-images {
+        position: absolute;
+        width: 100%;
+    }
+    select {
+        width: 48%;
+    }
+    .portletAgentInformation .portletItem figure img{
+        max-width:100%;   
+    }
+    #formfield-form-widgets-air_condition .option,
+    #formfield-form-widgets-pool .option,
+    #formfield-form-widgets-jacuzzi .option{
+        width:33%;   
+        float:left;
+    }
+    .listing-summary #search-form form span.option{
+        width:48%;
+    }
+    .listing-summary #search-form form .form-row-other .field span.option{
+        width: 40%;   
+    }
+    .portletQuickSearch #formfield-form-widgets-price_min{
+        width: 46%;
+    }
+    .portletQuickSearch #formfield-form-widgets-price_max{
+        width: 46%;
+    }
+    .portletQuickSearch #formfield-form-widgets-price_min,
+    .portletQuickSearch #formfield-form-widgets-price_max{
+        width: 48%;
+    }
+    .portletQuickSearch #form-widgets-beds-max,
+    .portletQuickSearch #form-widgets-baths-max,
+    .portletQuickSearch #form-widgets-lot_size-max,
+    .portletQuickSearch #form-widgets-interior_area-max,
+    .portletQuickSearch #formfield-form-widgets-price_max{
+        float:right; 
+    }
+    .listing-summary #search-form .form-row-location .field,
+    .listing-summary #search-form .form-row-price .field
+    {
+        width:32%; 
+    }
+    .listing-summary #search-form .form-row-beds-baths .field,
+    .listing-summary #search-form .form-row-sizes .field{
+        width:48.5%; 
+    }
+}

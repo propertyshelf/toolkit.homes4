@@ -1,0 +1,156 @@
+.scrollable .items .tileItem {
+    float: left;
+    width:260px;
+    position: relative;
+    margin-right: 15px
+}
+#feature-listing-above-footer div.navi{
+    display:none;   
+}
+#feature-listing-above-footer .carousel {
+    height: auto;
+    overflow: visible;
+    position: static;
+    margin: 0 auto;  
+}
+div.scrollable div.items div.itemPadding{
+    margin: 0;   
+}
+#feature-listing-above-footer div.items {
+    position: relative;
+}
+#feature-listing-above-footer div.scrollable {
+    position: relative;
+    z-index: 1;
+    height: auto;
+    padding: 1.5% 0;
+}
+#feature-listing-above-footer .carousel .prev{
+    left: 7%;  
+    background-image: url("propertyshelf/img/featured-prev-button.png");
+}
+#feature-listing-above-footer .carousel .next{
+    left: auto;
+    right: 7%;
+    background-image: url("propertyshelf/img/featured-next-button.png");
+}
+#feature-listing-above-footer .carousel .next,#feature-listing-above-footer .carousel .prev{
+    width:38px;  
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#feature-listing-above-footer{
+    margin:0 auto;
+    overflow: hidden;
+}
+#feature-listing-slider {
+    background-image: url('propertyshelf/img/featuredheaderbg.png');
+}
+#feature-listing-slider .lang.lang-en,#feature-listing-slider .lang.lang-es {
+    line-height: 43px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Istok Web', sans-serif;
+    margin:0 auto;
+}
+#feature-listing-above-footer .listing-info{
+    background-color:#b7b7b7;
+    margin-top:7px;
+    padding: 5px !important;
+}
+.mls-listing .listing-info .location a,.mls-listing .listing-info .title a,.mls-listing .listing-info .bed_bath a{
+    color:#000;
+    font-family:'Open Sans', sans-serif;
+}
+.mls-listing .location{
+    padding-bottom:5px;
+    border-bottom:1px dashed #000;
+}
+.mls-listing .title{
+    padding-bottom:2px;        
+}
+.mls-listing .bed_bath{
+    padding-top:5px;   
+}
+.mls-listing .bed_bath a{
+    font-weight:bold !important;
+}
+.mls-listing .price{
+    position: absolute;
+    background: transparent !important;
+    bottom: 0;
+    right: 0;
+    padding-bottom: 4px !important;
+    padding-right: 5px !important;
+} 
+.mls-listing .price a{
+    color:#000 !important;
+    font-weight:bold !important;    
+}
+.lot_size {
+    padding-top: 5px;
+}
+.lot_size a{
+    color:#000 !important;
+    font-weight:bold !important;  
+    letter-spacing: -1px;
+}
+#feature-listing-slider{
+    width:100%;  
+    margin-top: 20px;
+}
+#feature-listing-above-footer{
+    background-color:#dadada;  
+    width:100%;
+    position:relative;
+}
+.listing-image img {
+    max-width: none;
+    position: relative;
+    left: -10%;
+    top: -30%;
+}
+.listing-image {
+    overflow: hidden;
+    height: 140px;
+}
+.carousel.lastCarousel {
+    height: 270px !important;
+}
+#feature-listing-above-footer .carousel a.next span,#feature-listing-above-footer .carousel a.prev span {
+    border-left: 0 none transparent;
+}
+
+@media (min-width: 1200px){
+    #feature-listing-above-footer .lastCarousel,#feature-listing-slider div{
+        width:1080px;   
+    }  
+}
+@media (min-width: 980px) and (max-width:1199px){
+    #feature-listing-above-footer .lastCarousel,#feature-listing-slider div{
+        width:870px;   
+    }    
+}
+@media (min-width: 768px) and (max-width: 979px){
+    #feature-listing-above-footer .lastCarousel,#feature-listing-slider div{
+        width:750px;   
+    } 
+}
+@media (min-width: 600px) and (max-width: 767px){
+    #feature-listing-above-footer .lastCarousel,#feature-listing-slider div{
+        width:550px;   
+    } 
+}
+@media (min-width: 481px) and (max-width: 599px){
+    #feature-listing-above-footer .lastCarousel,#feature-listing-slider div{
+        width:460px;   
+    } 
+}
+@media (max-width: 480px){
+    #feature-listing-above-footer .lastCarousel,#feature-listing-slider div{
+        width:450px;   
+    } 
+}
+
