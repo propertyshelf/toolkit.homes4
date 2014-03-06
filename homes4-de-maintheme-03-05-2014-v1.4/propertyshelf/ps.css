@@ -1,4 +1,10 @@
 /*-----------------------------------login---------------------------------------*/
+#content .rightbody h3, #content .rightbody p {
+    padding-left: 0 !important;
+}
+
+
+
 #edit-bar{
     background-color:#75ad0a;   
 }
@@ -137,8 +143,15 @@ ul#portal-languageselector li img{
 #globalwrapper .lang{
     display:none;
 }
-#globalwrapper.site-homes4_de__ecuador .lang-de{
+#globalwrapper.site-homes4_de .lang-de{
     display:block;
+}
+.site-homes4_de__costarica .form-row-listing-type .field span.option,
+.site-homes4_de__usa .form-row-listing-type .field span.option,
+.site-homes4_de__panama .form-row-listing-type .field span.option,
+.site-homes4_de__ecuador .form-row-listing-type .field span.option,
+.site-homes4_de__nicaragua .form-row-listing-type .field span.option{
+    width: 100%;
 }
 
 /*-----------------------------------country-chooser---------------------------------------*/
@@ -1339,7 +1352,7 @@ dl.contact_details dt, dl.contact_details dd {
 .sociallike-network-facebook {
     float: left;
     margin-right: 5px;
-    width:110px
+    width:auto;
 }
 .sociallike-network-twitter{
     width: 95px;
@@ -1348,6 +1361,7 @@ dl.contact_details dt, dl.contact_details dd {
 #viewlet-social-like {
     margin-top: 5px;
     width: 100%;
+    height:30px;
 }
 /*----------------------------------- search mask-------------------------*/
 .frontpage-search-wrapper{
@@ -1477,11 +1491,37 @@ dl.contact_details dt, dl.contact_details dd {
 	clear:none;
 	margin-bottom: 0;
 }
+/*-------------------------------------h4-------------------------------------------------*/
+.fancy-float{
+    float:left;
+    font-size:14px;
+    display:inline-block;
+    font-weight:bold;
+}
+.fancy-float:after{
+    content: " | ";
+}
+div.listingBar {
+    padding-top: 10px;
+    border-top: 2px dotted #969696;
+}
+#content p{
+    margin-bottom:1.5em;
+}
+div.listingBar .next, div.listingBar .current, div.listingBar a{
+    padding:0 2px !important;   
+}
+/*----------------------------------- form icons--------------------------------------------------*/
+.userrole-anonymous .contenttype-folder,.userrole-anonymous .contenttype-page {
+    background-image: none !important;
+    padding-left: 0 !important;
+}
 /*-----------------------------------listing-search---------------------------------------*/
 #listing-search #formfield-form-widgets-listing_type .horizontal,
 .portletQuickSearch #formfield-form-widgets-listing_type .horizontal{
     display:none;   
 }
+/*-----------------------------------*/
 /*-----------------------------------ie9---------------------------------------*/
 .ie9 #fullbgnav{
     background-color:#dededb;

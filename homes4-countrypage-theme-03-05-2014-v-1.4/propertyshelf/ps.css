@@ -1,10 +1,4 @@
 /*-----------------------------------login---------------------------------------*/
-#content .rightbody h3, #content .rightbody p {
-    padding-left: 0 !important;
-}
-
-
-
 #edit-bar{
     background-color:#75ad0a;   
 }
@@ -12,7 +6,7 @@
     font-weight: normal;
     height: 17px;
 }
-#portal-personaltools {
+#portal-personaltools{
     height: 18px;
     float: right;
     z-index: 3;
@@ -143,10 +137,16 @@ ul#portal-languageselector li img{
 #globalwrapper .lang{
     display:none;
 }
-#globalwrapper.site-homes4_de .lang-de{
+#globalwrapper .lang-de{
     display:block;
 }
-
+.site-homes4_de__costarica .form-row-listing-type .field span.option,
+.site-homes4_de__usa .form-row-listing-type .field span.option,
+.site-homes4_de__panama .form-row-listing-type .field span.option,
+.site-homes4_de__ecuador .form-row-listing-type .field span.option,
+.site-homes4_de__nicaragua .form-row-listing-type .field span.option{
+    width: 100%;
+}
 /*-----------------------------------country-chooser---------------------------------------*/
 ul#country-chooser-list{
     display: none;
@@ -456,8 +456,10 @@ dl.portlet ul.navTree .navTreeCurrentItem {
     width:100%;   
 }
 #doormat-container {
-    margin: 0;
     background: transparent;
+    width: 1080px;
+    margin: 0 auto;
+    float:none;
 }
 /*-----------------------------------breadcrumbs---------------------------------------*/
 #portal-breadcrumbs{
@@ -1026,7 +1028,6 @@ div.listingBar a {
 }
 #content div.documentByLine {
     color: #666;
-    display: none;
 }
 #content ul.formTabs, #content-core ul.formTabs {
     border: medium none;
@@ -1081,6 +1082,21 @@ table.listing tbody tr.odd td {
     font-size:15px !important;
     color:#000 !important;
     font-weight:normal;
+    text-align:justify;
+}
+.documentDescription,#parent-fieldname-description,.description{
+    text-align:justify;
+}
+#content img.tileImage, #content div.newsImageContainer{
+    margin-top: 14px;   
+}
+.tileFooter {
+    margin-left: 22%;
+}
+.tileBody {
+    width: 80%;
+    margin-left: 155px;
+    text-align: justify;
 }
 /*----------------------------------/lasted listing---------------------------*/
 /*---------------------------------- listing search--------------------------*/
@@ -1328,20 +1344,33 @@ dl.contact_details dt, dl.contact_details dd {
 }
 /*-----------------------------------sociallike-------------------------*/
 .sociallike-network-pinterest {
-    width: 7%;
+    width: 80px;
     float: left;
+    margin-top: 1px;
 }
 .sociallike-network-linkedin {
-    width: 10%;
+    width: 70px;
     float: left;
+    margin-top: 1px;
 }
 .sociallike-network-gplus {
-    width: 9%;
+    width: 62px;
     float: left;
+    margin-top: 1px;
 }
 .sociallike-network-facebook {
     float: left;
     margin-right: 5px;
+    width:auto;
+}
+.sociallike-network-twitter{
+    width: 95px;
+    float: left;
+}
+#viewlet-social-like {
+    margin-top: 5px;
+    width: 100%;
+    height:30px;
 }
 /*----------------------------------- search mask-------------------------*/
 .frontpage-search-wrapper{
@@ -1366,18 +1395,11 @@ dl.contact_details dt, dl.contact_details dd {
 	float: left;
     padding-left: 20px;
     padding-top: 10px;
-    width: 200px
+    width: 190px;
 }
 .frontpage-search-wrapper #formfield-form-widgets-listing_type{
 	width: 200px;
     margin-bottom:0;
-}
-.frontpage-search-wrapper #formfield-form-widgets-listing_type{
-	margin-top: 9px;
-}
-.frontpage-search-wrapper label{
-    color:#fff;   
-    font-family: 'Istok Web', sans-serif;
 }
 .frontpage-search-wrapper #formfield-form-widgets-location_state .select-widget{
 	width: 170px;
@@ -1399,16 +1421,10 @@ dl.contact_details dt, dl.contact_details dd {
     border: 1px solid #E6E6E6;
     font-size: 10px;
 }
-.frontpage-search-wrapper #formfield-form-right{
-	float: left;
-    margin-top: 24px;
-    position: relative;
-    padding-right: 20px;
-}
+
 .frontpage-search-wrapper #formfield-form-widgets-beds{
 	display: inline-block;
 	margin:0;
-	padding-top: 5px;
 }
 .frontpage-search-wrapper #form-widgets-beds-min, .frontpage-search-wrapper #form-widgets-beds-max{
 	width: 48px;
@@ -1423,15 +1439,9 @@ dl.contact_details dt, dl.contact_details dd {
     font-size: 10px;
     padding:0;
 }
-.frontpage-search-wrapper #form-widgets-beds-min{
-	margin-right: 10px;
-}
+
 .frontpage-search-wrapper .horizontal-price{
     margin-right: 69px;
-	float: left;
-}
-.frontpage-search-wrapper .horizontal-bedrooms{
- 	margin-right: 40px;
 	float: left;
 }
 .frontpage-search-wrapper #form-widgets-price-min, .frontpage-search-wrapper #form-widgets-price-max{
@@ -1471,10 +1481,113 @@ dl.contact_details dt, dl.contact_details dd {
 	clear:none;
 	margin-bottom: 0;
 }
+/*-------------------------------------h4-------------------------------------------------*/
+.fancy-float{
+    float:left;
+    font-size:14px;
+    display:inline-block;
+    font-weight:bold;
+    margin-right: 5px;
+}
+.fancy-float:after{
+    content: "  |";
+    margin-left:3px;
+}
+div.listingBar {
+    padding-top: 10px;
+    border-top: 2px dotted #969696;
+}
+#content p{
+    margin-bottom:1.5em;
+}
+div.listingBar .next, div.listingBar .current, div.listingBar a{
+    padding:0 !important;   
+}
+/*----------------------------------- form icons--------------------------------------------------*/
+.userrole-anonymous .contenttype-folder,.userrole-anonymous .contenttype-page {
+    background-image: none !important;
+    padding-left: 0 !important;
+}
 /*-----------------------------------listing-search---------------------------------------*/
 #listing-search #formfield-form-widgets-listing_type .horizontal,
 .portletQuickSearch #formfield-form-widgets-listing_type .horizontal{
     display:none;   
+}
+/*----------------------------------s.mask-----------------------------------*/
+.frontpage-search-wrapper #form-buttons-search {
+    position: absolute;
+    background-image: url('countrypage/img/button.png');
+    width: 107px;
+    height: 27px;
+    border: 0;
+    color: #FFFFFF;
+    font-style: oblique;
+    font-weight: bold;
+    border-radius: 6px;
+    left: 80px;
+    top: 85px;
+    margin-top: 0;
+}
+.frontpage-search-wrapper #formfield-form-widgets-location_state .select-widget {
+    width: 190px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    padding-left: 4%;
+    background-color: #E6E6E6;
+    color: #6E6E6E;
+    border: 1px solid #E6E6E6;
+    font-size: 10px;
+}
+.frontpage-search-wrapper #formfield-form-widgets-listing_type .select-widget {
+    width: 190px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    padding-left: 4%;
+    background-color: #E6E6E6;
+    color: #6E6E6E;
+    border: 1px solid #E6E6E6;
+    font-size: 10px;
+}
+
+.frontpage-search-wrapper .horizontal-price {
+margin-right: 55px;
+float: left;
+}
+
+#formfield-form-widgets-listing_type .horizontal {
+display: block;
+width: 50%;
+margin-bottom: 0 !important;
+}
+
+.frontpage-search-wrapper{
+overflow: auto;
+background-color: transparent;
+padding-bottom: 15px !important;
+height: 120px !important;
+width: 440px !important;
+}
+
+.frontpage-search-wrapper #formfield-form-right{
+    float: left;
+    margin-top: 11.8px;
+    position: relative;
+    margin-left: 13px;
+}
+
+.frontpage-search-wrapper #form-widgets-beds-min{
+    margin-right: 7px;
+    margin-left: 47px;
+}
+.frontpage-search-wrapper .horizontal-bedrooms{
+    margin-right: 20px !important;
+	float: left;
+    width: 10%;
+}
+.frontpage-search-wrapper label {
+    color: #fff;
+    font-family: 'Istok Web', sans-serif;
+    line-height: 20px;
 }
 /*-----------------------------------ie9---------------------------------------*/
 .ie9 #fullbgnav{
