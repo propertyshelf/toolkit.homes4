@@ -10,9 +10,11 @@ $(document).ready(function () {
  if($('.nav-over-carousel').exists()){
     if($("#ps-slider .carousel").exists()){
         $('.nav-over-carousel').addClass("carousel_active");
+        $('.full-nav-over-carousel').addClass("carousel_active");
     }
     else{
         $('.nav-over-carousel').addClass("carousel_inactive");
+        $('.full-nav-over-carousel').addClass("carousel_inactive");
     }
      
  }

@@ -21,6 +21,8 @@
 }
 .nav-over-carousel {
     margin:0 auto;
+    text-align: right;
+    display:block;
 }
 #portal-globalnav li, #portal-globalnav li.plain a, #portal-globalnav li.selected a {
     background: none;
@@ -35,11 +37,13 @@
     background: none;
     z-index: 410;
     width: auto;
-    float: right;
+    float: none;
+    display: inline-block;
 }
 #portal-globalnav li,#portal-globalnav li.plain a,#portal-globalnav li.selected a{
     color:#fff;
     min-height: 42px;
+    float: none !important;
 }
 #portal-globalnav li.plain a{
     color:#fff;
@@ -68,7 +72,8 @@
     font-weight: normal;
     border-bottom: 2px dotted #c4c4c4;
 }
+.full-nav-over-carousel.carousel_inactive,
 .nav-over-carousel.carousel_inactive {
-position: relative;
-top: 0;
+    position: relative;
+    top: 0;
 }

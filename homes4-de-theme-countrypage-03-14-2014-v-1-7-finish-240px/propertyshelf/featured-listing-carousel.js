@@ -85,8 +85,7 @@ foo = $('#feature-listing-above-footer div.scrollable').scrollable({
     clickable: true,
     loop: true,
     circular: true,
-    speed: 1600,
-    easing: 'custom'
+    speed: 1600
 });
 
 if(get_autoscroll(foo)){

@@ -464,10 +464,10 @@ div.width-full{
         width:100%;   
     }
     div.position-3\:4{
-        margin-left:-34%;   
+        margin-left: -25%;  
     }
     #portal-column-content.width-3\:4.position-0{
-        width:65%;
+        width: 72%;
         margin-left: -100%;
     }   
     #portal-column-content.width-3\:4.position-1\:4{
@@ -493,7 +493,7 @@ div.width-full{
         width:100%;
     }
     div#portal-column-two.width-1\:4{
-        width:35%;
+        width: 25%;
     }
     select {
         width: 49%;
@@ -573,17 +573,17 @@ div.width-full{
         padding: 0 7%;   
     }
     #portal-column-content.width-3\:4.position-0{
-        width:65%;
+        width: 67%;
         margin-left:-100%;
     }   
     #portal-column-content.width-3\:4.position-1\:4{
         width:72%;   
     }
     div#portal-column-two.width-1\:4{
-        width:35%;
+        width: 29%;
     }
     div.position-3\:4 {
-    margin-left: -34%;
+        margin-left: -29%;
     }
     ul.submenu{  
         width:100%; 
