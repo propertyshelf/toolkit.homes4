@@ -7,36 +7,32 @@
     >
     
     <append 
-        css:content-children="#viewlet-above-content > .carouselWrapper"
+        css:content="#main .carouselWrapper"
         css:theme="#feature-listing-above-footer"
         method="raw"
     />
     
     <drop
-        css:content=".carouselWrapper"
+        css:content="#main .carouselWrapper"
     />
     
     <drop
-        css:theme="#feature-listing-slider"
-        css:if-not-content=".carouselWrapper"
+        css:content="#portal-header .toolkit.viewlet"
+    />
+    
+    <append css:content="#portal-header .toolkit.plugin"
+        css:theme="#ps-slider"
+        method="raw"
     />
     
     <drop
-        css:content="#viewlet-above-content > .carousel"
-    />
-    
-    <drop
-        css:content="#viewlet-above-content > .carouselWrapper"
+        css:content="#portal-globalnav"
     />
     
     <replace
-        css:theme-children="#ps-slider"
-        css:content="#viewlet-above-content > .carousel"
+        css:theme-children=".nav-over-carousel"
+        css:content="#portal-globalnav"
         method="raw"
-    />    
-    
-    <drop 
-        css:content=".featurenavi" 
     />
     
     <replace 
@@ -54,9 +50,7 @@
         css:content="#portal-languageselector"
         method="raw"
     />
-    
-  
-    
+
     <drop 
         css:content="#portal-personaltools-wrapper" 
     />
@@ -80,6 +74,5 @@
         css:content=".carousel" 
         method="raw"
     />
-
      
 </rules>

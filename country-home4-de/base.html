@@ -32,14 +32,10 @@
       <link rel="stylesheet" href="css/theme.css"/>
       <link rel="stylesheet" href="css/base.css"/>
       <link rel="stylesheet" href="css/carousel.css"/>
-      <link rel="stylesheet" href="propertyshelf/featured-listing.css"/>
+      <link rel="stylesheet" href="css/featured-listing.css"/>
       <link rel="stylesheet" href="propertyshelf/ps.css"/>
-      <link href="http://fonts.googleapis.com/css?family=Istok+Web|Sanchez|Open+Sans:400,700" rel="stylesheet" type="text/css">
-      
+      <link rel="stylesheet" href="countrypage/cp.css"/>
       <script type="text/javascript" src="js/application.js" ></script>
-      <script type="text/javascript" src="propertyshelf/ps.js" ></script>
-      <script type="text/javascript" src="propertyshelf/featured-listing-carousel.js" ></script>
-      
       <!-- end CSS-->
 
       <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
@@ -55,36 +51,15 @@
       <div id="globalwrapper">
          <div id="container" class="container">
          <div id="box">
-            <div id="header">
-               <div id="header-chooser">
-                    <div class="login-box"></div>
-                    
-                    <div class="country-chooser">
-                        <span class="lang lang-en"> Choose your Country</span>
-                        <span class="lang lang-es"> Selecciona tu Pais</span>
-                        <span class="lang lang-de"> Wählen Sie Ihr Land</span>
-                        <span class="lang lang-fr"> Choisissez votre pays</span>
-                        <span class="lang lang-zh"> 選擇您的國家</span>
-                        <span class="lang lang-it"> Scegli il tuo paese</span>
-                        <span class="lang lang-ja"> あなたの国を選択してください</span>
-                        <span class="lang lang-ru"> Выберите вашу страну</span>
-                        <ul id="country-chooser-list">
-                            <li><a href="http://costarica.homes4.de" class="country-costarica">Costa Rica</a></li>
-                            <li><a href="http://panama.homes4.de" class="country-panama">Panama</a></li>
-                            <li><a href="http://nicaragua.homes4.de" class="country-nicaragua">Nicaragua</a></li>
-                            <li><a href="http://ecuador.homes4.de" class="country-ecuador">Ecuador</a></li>
-                            <li><a href="http://usa.homes4.de" class="country-usa">USA</a></li>
-                        </ul>
-                    </div>
-                </div> 
+            <div id="header"> 
                 <span class="header-content"></span>
             </div>
             <div id="fullbgnav"></div>
          </div> 
          
-            <div id="ps-slider"></div>
+            <div id="fullscreen-slider"></div>
          
-            <div id="main" role="main" class="icons-on">
+            <div id="main" role="main" >
                <div>
                   <ul class="breadcrumb">
                      <li><a href="#">Home</a><span class="divider">/</span></li>
@@ -132,12 +107,7 @@
                </div>
                 <div style="clear:both">&nbsp;</div>
             </div>
-            <div id="feature-listing-slider">
-                <div class="lang lang-en">Featured Listings</div>
-                <div class="lang lang-es">Listados Especial</div>
-                <div class="lang lang-de">Immobilien Angebote</div>
-            </div>
-            <div id="feature-listing-above-footer"></div>
+        
             <div id="footer-wrapper" class="footer container">
                <span>Footer</span>
             </div>
@@ -159,7 +129,9 @@
                });
             </script>
             <script defer src="js/plugins.js"></script>
-           
+            <script defer src="openid-selector/js/openid-jquery.js"></script>
+            <script defer src="js/openid-providers.js"></script>
+            <script defer src="js/openid-wrapper.js"></script>
             <script defer src="js/script.js"></script>
             <div id="site-scripts"></div>
 
