@@ -23,7 +23,7 @@ div.scrollable div.items div.itemPadding{
     position: relative;
     z-index: 1;
     height: auto;
-    padding: 0.6% 0;
+    padding: 0.9% 0;
 }
 #feature-listing-above-footer .carousel .prev{
     left: -40px; 
@@ -46,7 +46,7 @@ div.scrollable div.items div.itemPadding{
 #feature-listing-slider {
     background-image: url('propertyshelf/img/featuredheaderbg.png');
 }
-#feature-listing-slider .lang.lang-en,#feature-listing-slider .lang.lang-es,#feature-listing-slider .lang.lang-de,#feature-listing-slider .lang.lang-fr,#feature-listing-slider .lang.lang-ru,#feature-listing-slider .lang.lang-po {
+#feature-listing-slider .lang.lang-en,#feature-listing-slider .lang.lang-es,#feature-listing-slider .lang.lang-de {
     line-height: 43px;
     font-size: 18px;
     color: #fff;

@@ -1,35 +1,3 @@
-body #content  .tile-edge .tile-content p a {
-    border-bottom:1px solid #ff0000;   
-}
-.carousel-body {
-    margin-top: 20px;
-}
-.listing #listing-info dl.price dt, .listing #listing-info dl.price dd {
-    color: #fff !important;
-}
-#content .listing.detail{
-    background:#E6E6E6;   
-}
-#portal-globalnav li, #portal-globalnav li.plain a, #portal-globalnav li.selected a {
-    padding-bottom:0;
-}
-#portal-globalnav li {
-    display: inline-block;
-    float: left;
-    padding-top: 8px;
-}
-.lot_size a {
-    position: absolute;
-    bottom: 0;
-    font-size: 11px;
-    margin-bottom: 5px;
-    padding-top: 9px;
-    border-top: 2px dotted #000;
-    padding-right: 50%;
-}
-#feature-listing-above-footer .listing-info {
-    min-height: 93px;
-}
 /*-----------------------------------login---------------------------------------*/
 #edit-bar{
     background-color:#75ad0a;   
@@ -41,7 +9,7 @@ body #content  .tile-edge .tile-content p a {
 #portal-personaltools{
     height: 18px;
     float: right;
-    z-index: 5;
+    z-index: 3;
     padding: 3px 0 5px 0;
     border-bottom-right-radius: 0.5em;
     border-bottom-left-radius: 0.5em;
@@ -49,6 +17,7 @@ body #content  .tile-edge .tile-content p a {
     -webkit-border-bottom-left-radius: 0.5em;
     -moz-border-radius-bottomleft: 0.5em;
     -moz-border-radius-bottomright: 0.5em;
+    z-index:88999;
     background-color: #597a94;
     font-style: italic;
     border-radius:0;
@@ -79,13 +48,10 @@ body #content  .tile-edge .tile-content p a {
     margin-top:5px;
 }
 /*-----------------------------------languageselector ---------------------------------------*/
-.toolkit .language-chooser{
-    display:none;   
-}
 ul#portal-languageselector {
     position: absolute;
     text-align: center;
-    width: 100%;
+    width: 183px;
     top: 26px;
     background-image: linear-gradient(#e1e0de,#dededb, #959593);
     padding-top: 5px;
@@ -94,15 +60,13 @@ ul#portal-languageselector li a{
     color:#000;
     font-size: 11px;
     float: left;
-    width:150px;
-    margin-bottom:2px;
+    width:100px;
 }
 ul#portal-languageselector li a:hover{
     color:#fff;
     font-size: 11px;
     float: left;
     width:100px;
-    margin-bottom:2px;
 }
 ul#portal-languageselector li.language-en a:hover,
 ul#portal-languageselector li.language-es a:hover,
@@ -111,33 +75,32 @@ ul#portal-languageselector li.language-fr a:hover,
 ul#portal-languageselector li.language-zh a:hover,
 ul#portal-languageselector li.language-it a:hover,
 ul#portal-languageselector li.language-ja a:hover,
-ul#portal-languageselector li.language-ru a:hover,
-ul#portal-languageselector li.language-po a:hover{
-    color:#fff;
+ul#portal-languageselector li.language-ru a:hover{
+    color:#000;
     font-size: 11px;
     float: left;
     width:140px;
 }
 ul#portal-languageselector li.language-en a{
-    background: 0 url("img/USA+UK-mix.png") no-repeat;
+    background: 0 url("img/Estados.png") no-repeat;
     width: 140px;
     height: 20px;
     background-position:right;
 }
 ul#portal-languageselector li.language-es a{
-    background: 0 url("img/Spain.png") no-repeat;
+    background: 0 url("img/Espana.png") no-repeat;
     width: 140px;
     height: 20px;
     background-position:right;
 }
 ul#portal-languageselector li.language-de a{
-    background: 0 url("img/Germany.png") no-repeat;
+    background: 0 url("img/Alemania.png") no-repeat;
     width: 140px;
     height: 20px;
     background-position:right;
 }
 ul#portal-languageselector li.language-fr a{
-    background: 0 url("img/France+Canada-Mix.png") no-repeat;
+    background: 0 url("img/Francia.png") no-repeat;
     width: 140px;
     height: 20px;
     background-position:right;
@@ -149,25 +112,19 @@ ul#portal-languageselector li.language-zh a{
     background-position:right;
 }
 ul#portal-languageselector li.language-it a{
-    background: 0 url("img/Italy.png") no-repeat;
+    background: 0 url("img/Italia.png") no-repeat;
     width: 140px;
     height: 20px;
     background-position:right;
 }
 ul#portal-languageselector li.language-ja a{
-    background: 0 url("img/Japan.png") no-repeat;
+    background: 0 url("img/Japon.png") no-repeat;
     width: 140px;
     height: 20px;
     background-position:right;
 }
 ul#portal-languageselector li.language-ru a{
-    background: 0 url("img/Russian Federation.png") no-repeat;
-    width: 140px;
-    height: 20px;
-    background-position:right;
-}
-ul#portal-languageselector li.language-po a{
-    background: 0 url("img/Brazil-Portugal-Mix.png") no-repeat;
+    background: 0 url("img/Rusia.png") no-repeat;
     width: 140px;
     height: 20px;
     background-position:right;
@@ -180,7 +137,7 @@ ul#portal-languageselector li img{
 #globalwrapper .lang{
     display:none;
 }
-#globalwrapper .lang-po{
+#globalwrapper .lang-de{
     display:block;
 }
 .site-homes4_de__costarica .form-row-listing-type .field span.option,
@@ -214,7 +171,7 @@ ul#country-chooser-list a{
     font-size:13px;
 }
 ul#country-chooser-list a:hover{
-    color:#fff;
+    color:#000;
 }
 .country-chooser:hover ul#country-chooser-list{
     display:block;
@@ -240,12 +197,11 @@ ul#portal-languageselector{
 .language-chooser span{
     background-color: #597a94;
     color: #fff;
-    padding: 3px 15px 5px;
+    padding-right: 10px;
+    padding-left: 20px;
+    padding-top: 3px;
+    padding-bottom: 5px;
     font-style: italic;
-}
-.country-chooser span{
-    text-align: center;
-    width: 100%;   
 }
 #portal-personaltools-wrapper{
     position: absolute;
@@ -254,11 +210,11 @@ ul#portal-languageselector{
     background-color: #597A94;
     color: #FFFFFF;
     font-style: italic;
-    padding: 3px 0 5px;
+    padding: 3px 10px 5px 20px;
     position: absolute;
     right: 0;
     top: 0;
-    width: 183px;
+    width: 135px;
     z-index: 5;
 }
 ul.country-chooser-list li a{
@@ -272,18 +228,17 @@ ul.country-chooser-list li a{
     margin: 0 auto;
 }
 ul#country-chooser-list a{
-    width: 145px;
+    width: 140px;
     height: 20px;
     float:left;
-    font-size:11px;
-    margin-bottom:2px;
+    font-size:11px
 }
 ul#country-chooser-list a.country-costarica{
-    background: 0 url("img/Costa-Rica.png") no-repeat;  
+    background: 0 url("img/Costa rica.png") no-repeat;  
     background-position:right;
 }
 ul#country-chooser-list a.country-panama{
-    background: 0 url("img/Panama.png") no-repeat;
+    background: 0 url("img/panama.png") no-repeat;
     background-position:right;
 }
 ul#country-chooser-list a.country-nicaragua{
@@ -295,18 +250,12 @@ ul#country-chooser-list a.country-ecuador{
     background-position:right;
 }
 ul#country-chooser-list a.country-usa{
-    background: 0 url("img/United States of America (USA).png") no-repeat;
+    background: 0 url("img/Estados.png") no-repeat;
     background-position:right;
 }
 /*-----------------------------------Feature Navigation---------------------------------------*/
 .featurenavi-viewlet{   
-    background: -moz-linear-gradient(top,  rgba(89,122,148,0.3) 0%, rgba(89,122,148,0.3) 36%, rgba(89,122,148,0.57) 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(89,122,148,0.3)), color-stop(36%,rgba(89,122,148,0.3)), color-stop(100%,rgba(89,122,148,0.57))); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,  rgba(89,122,148,0.3) 0%,rgba(89,122,148,0.3) 36%,rgba(89,122,148,0.57) 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top,  rgba(89,122,148,0.3) 0%,rgba(89,122,148,0.3) 36%,rgba(89,122,148,0.57) 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top,  rgba(89,122,148,0.3) 0%,rgba(89,122,148,0.3) 36%,rgba(89,122,148,0.57) 100%); /* IE10+ */
-    background: linear-gradient(to bottom,  rgba(89,122,148,0.3) 0%,rgba(89,122,148,0.3) 36%,rgba(89,122,148,0.57) 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d597a94', endColorstr='#91597a94',GradientType=0 ); /* IE6-9 */
+    background-image: linear-gradient(#E1E0DE, #DEDEDB, #959593);
     margin-bottom: 1em;
     width: 100%;
 }
@@ -322,6 +271,7 @@ ul#country-chooser-list a.country-usa{
     position: relative;
 }
 #featurenavi .text{
+    padding-top:8px;
     font-size:16px;
     color:#000;
     width:100%;
@@ -329,13 +279,13 @@ ul#country-chooser-list a.country-usa{
 #featurenavi .text a{
     padding-top:8px;
     font-size:16px;
-    color:#597A94 !important;
+    color:#000 !important;
 }
 #featurenavi .navi-item {
     border-left: 2px solid #CCCCCC;
     border-right: 2px solid #999999;
     display: table-cell;
-    height: 86px;
+    height: 120px;
     vertical-align: middle;
     width:16.666%;
 }
@@ -349,7 +299,6 @@ ul#country-chooser-list a.country-usa{
 /*-----------------------------------Navigation portlets---------------------------------------*/
 #portal-column-two .portletWrapper {
     padding:0;
-    margin:0;
 }
 .portletNavigationTree dt.portletHeader {
     line-height: 36px;
@@ -441,7 +390,7 @@ dl.portlet ul.navTree .navTreeCurrentItem {
 }
 #portal-colophon h2{
     font-weight: normal;   
-    font-size:14px !important;
+    font-size:14px;
     letter-spacing: 0.3px;
     padding-top: 10px;
 }
@@ -472,7 +421,7 @@ dl.portlet ul.navTree .navTreeCurrentItem {
 }
 
 #portal-colophon{   
-    background:#597A94;  
+    background:#597992;  
     overflow:auto;
 }
 
@@ -488,7 +437,7 @@ dl.portlet ul.navTree .navTreeCurrentItem {
     margin-top: 2%;
 }
 #doormat-container h3{
-    color:#597A94;   
+    color:#597992;   
 }
 #doormat-container a{
     color:#000000;   
@@ -510,10 +459,6 @@ dl.portlet ul.navTree .navTreeCurrentItem {
     background: transparent;
     margin: 0 auto;
     float:none;
-    margin-left: 55px;
-}
-#globalwrapper{
-    overflow:hidden;   
 }
 /*-----------------------------------breadcrumbs---------------------------------------*/
 #portal-breadcrumbs{
@@ -580,7 +525,6 @@ dl.portlet ul.navTree .navTreeCurrentItem {
 .image-left {
     float: left;
     margin: 0.3em 0.5em 0.5em 0;
-    margin-right: 12px;
 }
 #content{
     margin:2% 0 0 0;   
@@ -595,6 +539,9 @@ dl.portlet ul.navTree .navTreeCurrentItem {
     font-style: italic;
     line-height: 27px;
     margin-bottom: 18px;
+}
+#content .row .cell{
+    display:table;   
 }
 textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
 background: none white;
@@ -735,7 +682,7 @@ background: none white;
 /*-----------------------------------table in page developer tools---------------------------------------*/
 #content p{
     font-family: 'Open Sans', sans-serif;
-    font-size:12.7px;
+    font-size:12px;
 }
 
 #content h2, #content h2 a {
@@ -922,7 +869,6 @@ dl.portletNews p{
 #ps-slider .carousel{
     overflow:hidden;
     margin-bottom:0;
-    margin-top:3px;
 }
 .carousel-pager-item-active {
     background-color:red;
@@ -991,7 +937,7 @@ dl.portletNews p{
     width:49%;
 }
 .contact_details{
-    margin-left:0;
+    margin-left:9%;
     width:100%; 
     padding-bottom: 7px;
     padding-top:5px;
@@ -1132,25 +1078,20 @@ table.listing tbody tr.odd td {
 }
 #content img.tileImage, #content div.newsImageContainer{
     margin-top: 14px;   
-    border: 1px solid #597A94;
-    margin-left: 0;
 }
 .tileFooter {
-    margin-left: 20%;
+    margin-left: 22%;
 }
 .tileBody {
     width: 80%;
     margin-left: 155px;
     text-align: justify;
 }
-div.formControls {
-    margin: 0 !important;
-}
 /*----------------------------------/lasted listing---------------------------*/
 /*---------------------------------- listing search--------------------------*/
 .label, .badge {
     line-height: 1px !important;
-    color:#597A94;
+    color:#6a8598;
     white-space: nowrap;
     vertical-align: baseline;
     background-color:transparent !important;
@@ -1186,7 +1127,7 @@ input[type="submit"] {
     text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
     font-size: 13px;
     font-style:italic;
-    color:#597A94;
+    color:#6a8598;
     line-height: normal;
     border: 1px solid #ccc;
     border-bottom-color: #bbb;
@@ -1213,7 +1154,7 @@ dl.portlet dt.portletHeader {
     height: auto;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
-    background-color:#597A94;
+    background-color:#6a8598;
     color:#fff;
     font-weight:normal;
     margin:0;
@@ -1340,7 +1281,7 @@ input[type="submit"]{
     font-weight: normal;
 }
 .portletAgentInformation .portletItem .contact_details dt, .portletAgentInformation .portletItem .contact_details dd {
-    width: 57%;
+    width: 45%;
     margin: 0;
     background: #c4c4c4;
     padding-left: 5px;
@@ -1350,7 +1291,7 @@ dl.contact_details dt, dl.contact_details dd {
 }
 .portletAgentInformation .portletItem .contact_details dd {
     float: left;
-    padding: 2.6px 0;
+    padding: 2.1px 0;
     padding-left: 5px;
 }
 .portletAgentInformation .portletItem .contact_details dt {
@@ -1373,12 +1314,12 @@ dl.contact_details dt, dl.contact_details dd {
     background:#e6e6e6;
 }
 .template-listing-detail #portal-column-content #listing-info dt{
-    font-size: 12px;
+    font-size:15px;
     color:#6b6b6b;
     font-weight:normal;
 }
 .template-listing-detail #portal-column-content #listing-info dd{
-    font-size: 12px;
+    font-size:15px;
     color:#6b6b6b;
     font-weight:normal;
 }
@@ -1423,11 +1364,10 @@ dl.contact_details dt, dl.contact_details dd {
     width: 100%;
     height:30px;
 }
-
 /*----------------------------------- search mask-------------------------*/
 .frontpage-search-wrapper{
     background-color: rgba(3, 3, 3, 0.5);
-    opacity: 0.9;
+	opacity: 0.9;
     clear: none;
     position:relative;
     margin:0 auto;
@@ -1542,32 +1482,30 @@ dl.contact_details dt, dl.contact_details dd {
 }
 /*-------------------------------------h4-------------------------------------------------*/
 .fancy-float{
+    float:left;
     font-size:14px;
     display:inline-block;
     font-weight:bold;
-    color:#597a94;
+    margin-right: 5px;
+}
+.fancy-float:after{
+    content: "  |";
+    margin-left:3px;
 }
 div.listingBar {
     padding-top: 10px;
     border-top: 2px dotted #969696;
 }
 #content p{
-    margin-bottom: 1.5em;
-}
-#content p.inlineh4{
-    margin-bottom: 1.5em;
-}
-#content p.brblock{
-    margin-bottom:0;
-    display:none;
+    margin-bottom:1.5em;
 }
 div.listingBar .next, div.listingBar .current, div.listingBar a{
     padding:0 !important;   
 }
 /*----------------------------------- form icons--------------------------------------------------*/
-.userrole-anonymous .contenttype-folder,.userrole-anonymous .contenttype-page,.userrole-anonymous .contenttype-document {
+.userrole-anonymous .contenttype-folder,.userrole-anonymous .contenttype-page {
     background-image: none !important;
-    padding-left: 11px !important;
+    padding-left: 0 !important;
 }
 /*-----------------------------------listing-search---------------------------------------*/
 #listing-search #formfield-form-widgets-listing_type .horizontal,
@@ -1659,11 +1597,7 @@ div.listingBar .next, div.listingBar .current, div.listingBar a{
 }
 /*-----------------------------------property by type -------------------------*/
 .tileItem p.tileBody {
-    width: 80%;
-}
-/*------------------------------------ final tweak------------------------------*/
-img.image-left, img.image-right, .captioned img {
-    border: 1px solid #597A94;
+    width: 71%;
 }
 /*-----------------------------------ie9---------------------------------------*/
 .ie9 #fullbgnav{
@@ -1724,40 +1658,13 @@ img.image-left, img.image-right, .captioned img {
     display: block;
     margin: 0 auto;   
 }
-.listing #listing-info dt {
-    clear: both;
-    display: inline;
-    float: left;
-    width: 50%;
-    font-size: 13px;
-    font-weight: normal;
-    color: #6b6b6b;
-}
-.listing #listing-info dd {
-    display: inline;
-    float: left;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    width: 45%;
-    color: #6b6b6b;
-}
-#doormat-container{
-    margin:0 auto;   
-}
 /*-----------------------------------@media---------------------------------------*/
 @media (min-width: 1200px){
-    div.width-3 {
-        width: 19.5%;
-    }
     .carousel-text {
         float: none;
-        height: 0;
-        left: 0;
-        padding: 0 !important;
-        right: 0;
-        top: 50px;
-        width: auto !important;
+        padding-left: 0;
+        top: 40px;
+        width: 100% !important;
     }
     #footer-wrapper #doormat-container .doormatColumn{
         width:20%;   
@@ -1765,7 +1672,7 @@ img.image-left, img.image-right, .captioned img {
     #portal-columns .row,div.row{
         width:auto;   
     }
-    .colophonWrapper,#doormat-container,.carousel-body a,#header-chooser,.carousel-pager,#header .row, .footer .row,#portal-columns,#featurenavi,.nav-over-carousel,.carousel-text .carousel-title{
+    .colophonWrapper,#header-chooser,.carousel-pager,#header .row, .footer .row,#portal-columns,#featurenavi,.nav-over-carousel,.carousel-text .carousel-title{
         width: 1080px;
     }
     .portaltype-collective-cover-content #portal-column-content div.position-0 {
@@ -1784,7 +1691,7 @@ img.image-left, img.image-right, .captioned img {
         margin-left: -16.5%;
     }
     div#portal-column-two.width-1\:4{
-        margin-top: 42px; 
+        margin-top:3%;   
     }
     .move-head select{
         width:70%;   
@@ -1812,7 +1719,7 @@ img.image-left, img.image-right, .captioned img {
         left: 70%;
     }
     .language-chooser{
-        left:66%;
+        left:67.6%;
     }
     .country-chooser{
         position: absolute;
@@ -1820,7 +1727,7 @@ img.image-left, img.image-right, .captioned img {
         top: 0px;
     }
     #portal-personaltools-wrapper{
-        left: 59.1%;
+        left: 60.75%;;
     }
     #portal-column-two .collapse .option {
         width: 50%;
@@ -1876,15 +1783,14 @@ img.image-left, img.image-right, .captioned img {
         position: relative;   
     }
     #content .listing-summary dd {
-        width: 45%;
+        width: 21%;
     }
     #content .listing-summary dt {
         float: left;
         margin: 0 3% 0 0%;
-        width: 28%;
+        width: 21%;
         margin-right: 30px;
-        font-size: 14px;
-}
+    }
     #content .listing-summary dd.full {
         float: left;
         margin: 0;
@@ -1898,32 +1804,16 @@ img.image-left, img.image-right, .captioned img {
     }
 }
 @media (min-width: 980px) and (max-width:1199px){
-    #featurenavi .navi-item {
-        height: 105px;
-        padding-top: 8px;
-    }
-    div.width-3 {
-        width: 19.5%;
-    }
-    .tileFooter {
-        margin-left: 27% !important;
-    }
     .carousel-text {
         float: none;
-        height: 0;
-        left: 0;
-        padding: 0 !important;
-        right: 0;
-        top: 50px;
-        width: auto !important;
+        padding-left: 0;
+        top: 40px;
+        width: 100% !important;
     }
     .listing #listing-images {
         width: 96%;
     }
-    .tileItem p.tileBody {
-        width: 70% !important;
-    }
-    .colophonWrapper,#doormat-container,.carousel-body a,#header-chooser,.carousel-pager,#header .row, .footer .row,#portal-columns,#featurenavi,.nav-over-carousel,.carousel-text .carousel-title{
+    .colophonWrapper,#header-chooser,.carousel-pager,#header .row, .footer .row,#portal-columns,#featurenavi,.nav-over-carousel,.carousel-text .carousel-title{
         width: 870px;
     }
     .portaltype-collective-cover-content #portal-column-content div.position-0 {
@@ -1970,14 +1860,14 @@ img.image-left, img.image-right, .captioned img {
         left: 70%;
     }
     .language-chooser{
-        left: 57.7%;
+        left: 59.8%;
     }
     .country-chooser{
         right: 0;
         top: 0px;
     }
     #portal-personaltools-wrapper{
-        left: 49.2%;
+        left: 51.2%;
     }
     #portal-column-two .collapse .option {
         width: 70%;
@@ -2050,21 +1940,8 @@ img.image-left, img.image-right, .captioned img {
     }
 }
 @media (min-width: 768px) and (max-width: 979px){
-    #featurenavi .navi-item {
-        height: 86px;
-        padding: 9px;
-    }
-    div.width-3 {
-        width: 19.5%;
-    }
-    .tileFooter {
-        margin-left: 17% !important;
-    }
     .nav-over-carousel {
         margin-left:0 !important;   
-    }
-    #doormat-container {
-        margin-left: 15px!important;
     }
     #portal-column-two #form-widgets-price_max {
         width: 97% !important;
@@ -2134,16 +2011,14 @@ img.image-left, img.image-right, .captioned img {
         left: 70%;
     }
     .language-chooser{
-        margin-right: 185px;
-        right:0;
+        left: 53.3%;
     }
     .country-chooser{
         right: 0;
         top: 0px;
     }
     #portal-personaltools-wrapper{
-        margin-right: 370px;
-        right: 0;
+        left: 43.4%;
     }
     #portal-column-two .collapse .option {
         width: 50%;
@@ -2242,19 +2117,6 @@ img.image-left, img.image-right, .captioned img {
     }
 }
 @media (min-width: 600px) and (max-width: 767px){
-    #featurenavi .navi-item {
-        height: 105px;
-        padding: 9px;
-}
-    div.width-3 {
-        width: 19.5%;
-    }
-    .tileItem p.tileBody {
-        width: 60% !important;
-    }
-    .tileFooter {
-        margin-left: 156px !important;
-    }
     .carousel-text {
         top: 95px;
     }
@@ -2293,21 +2155,6 @@ img.image-left, img.image-right, .captioned img {
     }
     div.width-3{
         width:30%;   
-    }
-    .portaltype-collective-cover-content #portal-column-content div.position-0.width-5{
-        margin: 0;
-        position: static;
-        width: 49%;   
-    }
-    .portaltype-collective-cover-content #portal-column-content div.position-5.width-5{
-        margin: 0;
-        position: static;
-        width: 49%;   
-    }
-    .portaltype-collective-cover-content #portal-column-content div.position-10.width-5{
-        margin: 0;
-        position: static;
-        width: 49%;   
     }
     .portaltype-collective-cover-content #portal-column-content div.position-0 {
         margin-left: -100%;
@@ -2371,16 +2218,14 @@ img.image-left, img.image-right, .captioned img {
         left: 70%;
     }
     .language-chooser{
-        margin-right: 185px;
-        right:0;
+        left: 36.5%;
     }
     .country-chooser{
         right: 0;
         top: 0px;
     }
     #portal-personaltools-wrapper{
-        margin-right: 370px;
-        right: 0;
+        left: 23%;
     }
     #portal-column-two #form-widgets-lot_size-max {
         width: 37%;
@@ -2470,9 +2315,6 @@ img.image-left, img.image-right, .captioned img {
     .full-nav-over-carousel {
         top: 33px !important;
     }
-    .full-nav-over-carousel.carousel_inactive{
-        top:-62px !important;   
-    }
     #portal-column-content {
         left: 0;
         margin-left: 0;
@@ -2482,38 +2324,11 @@ img.image-left, img.image-right, .captioned img {
     }
 }
 @media (min-width: 481px) and (max-width: 599px){
-    .portaltype-collective-cover-content #portal-column-content div.position-0.width-5{
-        margin: 0;
-        position: static;
-        width: 100%;   
-    }
-    .portaltype-collective-cover-content #portal-column-content div.position-5.width-5{
-        margin: 0;
-        position: static;
-        width: 100%;   
-    }
-    .portaltype-collective-cover-content #portal-column-content div.position-10.width-5{
-        margin: 0;
-        position: static;
-        width: 100%;   
-    }
-    div.width-3 {
-        width: 19.5%;
-    }
-    .tileItem p.tileBody {
-        width: 60% !important;
-    }
-    .tileFooter {
-        margin-left: 156px important;
-    }
     #ps-slider {
         bottom:55px !important;
     }
     .full-nav-over-carousel {
         top: 33px !important;
-    }
-    .full-nav-over-carousel.carousel_inactive{
-        top:-62px !important;   
     }
     #portal-column-content {
         left: 0;
@@ -2623,16 +2438,14 @@ img.image-left, img.image-right, .captioned img {
         margin:0;   
     }
     .language-chooser{
-        margin-right: 185px;
-        right:0;
+        left: 24%;
     }
     .country-chooser{
         right: 0;
         top: 0px;
     }
     #portal-personaltools-wrapper{
-        margin-right: 370px;
-        right: 0;
+        left: 9%;
     }
     #portal-logo {
         display: none;
@@ -2728,33 +2541,6 @@ img.image-left, img.image-right, .captioned img {
     }
 }
 @media (min-width: 401px) and (max-width: 480px){
-    .portaltype-collective-cover-content #portal-column-content div.position-0.width-5{
-        margin: 0;
-        position: static;
-        width: 100%;   
-    }
-    .portaltype-collective-cover-content #portal-column-content div.position-5.width-5{
-        margin: 0;
-        position: static;
-        width: 100%;   
-    }
-    .portaltype-collective-cover-content #portal-column-content div.position-10.width-5{
-        margin: 0;
-        position: static;
-        width: 100%;   
-    }
-    div.width-3 {
-        width: 49%;
-    }
-    .template-folder_leadimage_view #content .tileItem h2.tileHeadline a{
-        font-size:16px !important;   
-    }
-    .tileItem p.tileBody {
-        width: 60% !important;
-    }
-    .tileFooter {
-        margin-left: 156px important;
-    }
     #portal-column-two #formfield-form-widgets-object_type .collapse .option {
         width: 80% !important;
         float: left;
@@ -2804,6 +2590,9 @@ img.image-left, img.image-right, .captioned img {
     }
     #portal-globalnav li{
         float:right !important;   
+    }
+    div.width-3{
+        width:30%;   
     }
     #portal-column-content div.position-0 {
         margin-left: -100%;
@@ -2867,20 +2656,14 @@ img.image-left, img.image-right, .captioned img {
         text-align:center;        
     }
     .language-chooser{
-        left:0;
-        width: 47%;
+        left:23.5%;
     }
     .country-chooser{
-        width: 47%;
         right: 0;
         top: 0px;
     }
-    ul#country-chooser-list a {
-        width: 185px;
-    }
     #portal-personaltools-wrapper{
         left: 7%;
-        top: 27px;
     }
     #portal-logo {
         display: none;
@@ -2977,25 +2760,6 @@ img.image-left, img.image-right, .captioned img {
         position: absolute;
         left: 0;
     }
-    #portal-column-content #content .row .width-3.position-0{
-        left: 100%;
-        margin-left: -100%;
-        width: 49%;
-    }
-    #portal-column-content #content .row .width-3.position-3{
-        margin-left: -49%   
-    }
-    #portal-column-content #content .row .width-3.position-6{
-        margin-left: -100%;
-        margin-top: 140px; 
-    }
-    #portal-column-content #content .row .width-3.position-9{
-        margin-left: -49%;  
-    }
-    #portal-column-content #content .row .width-3.position-12{
-        margin-left: -100%;
-        margin-top: 280px;  
-    }
     .frontpage-search-wrapper{
         overflow: auto;
         background-color: transparent;
@@ -3030,35 +2794,6 @@ img.image-left, img.image-right, .captioned img {
     }
 }
 @media (min-width: 321px) and (max-width: 400px){
-    .portaltype-collective-cover-content #portal-column-content div.position-0.width-5{
-        margin: 0;
-        position: static;
-        width: 100%;   
-    }
-    .portaltype-collective-cover-content #portal-column-content div.position-5.width-5{
-        margin: 0;
-        position: static;
-        width: 100%;   
-    }
-    .portaltype-collective-cover-content #portal-column-content div.position-10.width-5{
-        margin: 0;
-        position: static;
-        width: 100%;   
-    }
-    #content img.tileImage{
-       margin-left: 80px !important; 
-    }
-    .template-folder_leadimage_view #content .tileItem h2.tileHeadline a{
-        font-size:16px !important;
-        margin-left: 57px;
-    }
-    .tileFooter {
-        margin-left: 156px important;
-    }
-    .tileItem p.tileBody {
-        width: 50% !important;
-        margin-left: 59px;
-    }
     #portal-column-two #formfield-form-widgets-object_type .collapse .option {
         width: 100% !important;
         float: left;
@@ -3079,7 +2814,7 @@ img.image-left, img.image-right, .captioned img {
         display:none   
     }
     #box{
-        padding-bottom: 92px;
+        padding-bottom: 75px;
     }
     #footer-wrapper #doormat-container .doormatColumn{
         width:44%;  
@@ -3169,45 +2904,14 @@ img.image-left, img.image-right, .captioned img {
         text-align:center;        
     }
     .language-chooser{
-        left:0;
-        width: 58%;
-        line-height: 36px;
+        left:23.5%;
     }
     .country-chooser{
         right: 0;
-        top: 0;
-        width: 39%;
-        line-height: 36px;
-    }
-    ul#portal-languageselector,ul#country-chooser-list{
-        top:44px;   
-    }
-    ul#country-chooser-list a{
-        width: 130px !important;   
+        top: 0px;
     }
     #portal-personaltools-wrapper{
         left: 7%;
-        top: 44px;
-    }
-    #portal-column-content #content .row .width-3.position-3{
-        margin-left: -200%;
-        margin-top: 140px;
-        width: 100%;  
-    }
-    #portal-column-content #content .row .width-3.position-6{
-        margin-left: -200%;
-        margin-top: 280px;
-        width: 100%; 
-    }
-    #portal-column-content #content .row .width-3.position-9{
-        margin-left: -200%;
-        margin-top: 420px;
-        width: 100%;  
-    }
-    #portal-column-content #content .row .width-3.position-12{
-        margin-left: -200%;
-        margin-top: 560px;
-        width: 100%;  
     }
     #portal-logo {
         display: none;
@@ -3326,55 +3030,6 @@ img.image-left, img.image-right, .captioned img {
     }
 }
 @media (max-width: 320px){
-    .portaltype-collective-cover-content #portal-column-content div.position-0.width-5{
-        margin: 0;
-        position: static;
-        width: 100%;   
-    }
-    .portaltype-collective-cover-content #portal-column-content div.position-5.width-5{
-        margin: 0;
-        position: static;
-        width: 100%;   
-    }
-    .portaltype-collective-cover-content #portal-column-content div.position-10.width-5{
-        margin: 0;
-        position: static;
-        width: 100%;   
-    }
-    #portal-column-content #content .row .width-3.position-3{
-        margin-left: -200%;
-        margin-top: 140px;
-        width: 100%;  
-    }
-    #portal-column-content #content .row .width-3.position-6{
-        margin-left: -200%;
-        margin-top: 280px;
-        width: 100%; 
-    }
-    #portal-column-content #content .row .width-3.position-9{
-        margin-left: -200%;
-        margin-top: 420px;
-        width: 100%;  
-    }
-    #portal-column-content #content .row .width-3.position-12{
-        margin-left: -200%;
-        margin-top: 560px;
-        width: 100%;  
-    }
-    .tileFooter {
-        margin-left: 156px;
-    }
-    .tileItem p.tileBody {
-        width: 50%;
-        margin-left: 59px;
-    }
-    #content img.tileImage{
-       margin-left: 60px !important; 
-    }
-    .template-folder_leadimage_view #content .tileItem h2.tileHeadline a {
-        font-size: 16px;
-        margin-left: 25px !important;
-    }
     #portal-column-two #formfield-form-widgets-object_type .collapse .option {
         width: 100% !important;
         float: left;
@@ -3387,7 +3042,7 @@ img.image-left, img.image-right, .captioned img {
         display:none   
     }
     #box{
-        padding-bottom: 32px;
+        padding-bottom: 75px;
     }
     #footer-wrapper #doormat-container .doormatColumn{
         width:44%;  
@@ -3477,19 +3132,14 @@ img.image-left, img.image-right, .captioned img {
         text-align:center;        
     }
     .language-chooser{
-        left: 0;
-        width: 52%;
+        left:23.5%;
     }
     .country-chooser{
-        right: 0;
-        width: 38%;
-    }
-    ul#country-chooser-list,ul#portal-languageselector{
-        top: 44px !important;
+        left: 9%;
+        top: 32px;
     }
     #portal-personaltools-wrapper{
         left: 7%;
-        top: 45px;
     }
     #portal-logo {
         display: none;
@@ -3587,64 +3237,5 @@ img.image-left, img.image-right, .captioned img {
         float: left;
         margin: 0;
         width: 55%;
-    }   
-    ul#portal-languageselector li a,ul#portal-languageselector li a.hover{
-        width: 100px !important;   
-    }
-}
-body .portaltype-collective-cover-content #content h3{
-  font-size:16px;
-}
-
-body #content{
-  font-size:14.5px;
-}
-
-body .tile-edge {
-    border: 1px solid #597A94;
-    border-radius: 5px;
-
-  -moz-box-shadow:    10px 6px 15px -10px #597A94;
-  -webkit-box-shadow: 10px 6px 15px -10px #597A94;
-  box-shadow:         10px 6px 15px -10px #597A94;
-}
-body #content a:link, body dl.portlet a:link {
-    border-bottom: 0.1em solid #98b8d1;
-    border:none !important;
-}
-.carousel-body p {
-    font-size:35px !important;
-    position:relative;
-    height:35px;
-}
-.carousel-body a {
-    color: #FFFFFF;
-    left: 0;
-    margin: 0 auto;
-    position: absolute;
-    right: 0;
-}
-.formQuestion {
-    font-size: 13px !important;
-}
-.blurrable {
-    margin-right: 8px ! important;
-}
-#content .tileHeadline a {
-    display: inline;
-}
-h1,h2{
-    font-size:20px !important;   
-}
-h4{
-    font-size:15px !important;   
-}
-body p{
-    font-size:13px !important;
-}
-body p.tilebody .description{
-    font-size:14px !important;
-}
-body p.tileFooter a{
-    color:#597A94;
+    }    
 }
