@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules
+    xmlns="http://namespaces.plone.org/diazo"
+    xmlns:css="http://namespaces.plone.org/diazo/css"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    >
+    
+    <append 
+        css:content="#main .carouselWrapper"
+        css:theme="#feature-listing-above-footer"
+        method="raw"
+    />
+    
+    <drop 
+        css:content=".newsImageContainer" 
+    />
+    
+    <drop
+        css:content="#main .carouselWrapper"
+    />
+    
+    <drop
+        css:content="#portal-header .toolkit.viewlet"
+    />
+    
+    <append css:content="#portal-header .toolkit.plugin"
+        css:theme="#ps-slider"
+        method="raw"
+    />
+    
+    <drop
+        css:content="#portal-globalnav"
+    />
+    
+    <replace
+        css:theme-children=".nav-over-carousel"
+        css:content="#portal-globalnav"
+        method="raw"
+    />
+    
+    <replace 
+        css:theme="#fullbgnav"
+        css:content=".featurenavi"
+        method="raw"
+    />
+    
+    <drop 
+        css:content="#portal-languageselector" 
+    />
+    
+    <replace 
+        css:theme=".language-chooser-list"
+        css:content="#portal-languageselector"
+        method="raw"
+    />
+
+    <drop 
+        css:content="#portal-personaltools-wrapper" 
+    />
+    
+    <replace 
+        css:theme=".login-box"
+        css:content="#portal-personaltools-wrapper"
+        method="raw" 
+    />
+
+    <drop
+        css:content=".toolkit-slider"
+    />
+    
+    <drop
+        css:content=".carousel" 
+    />
+    
+    <replace 
+        css:theme-children="#ps-slider"
+        css:content=".carousel" 
+        method="raw"
+    />
+     
+</rules>

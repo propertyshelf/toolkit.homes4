@@ -1,0 +1,79 @@
+.carousel{
+    overflow:hidden;
+}
+#ps-slider {
+    position: relative;
+}
+.toolkit.plugin {
+    position: absolute;
+    bottom: 210px;
+    right: 20%;
+}
+.full-nav-over-carousel {
+    background-color: rgba(120, 120, 120, 0.6);
+    display: inline-block;
+    min-height: 40px;
+    position: absolute;
+    top: 88px;
+    width: 100%;
+    z-index: 1;
+    margin-top: 20px;
+}
+.nav-over-carousel {
+    margin:0 auto;
+    text-align: right;
+    display:block;
+}
+#portal-globalnav li, #portal-globalnav li.plain a, #portal-globalnav li.selected a {
+    background: none;
+    color:#fff;
+    font-size: 14px;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+}
+#portal-globalnav {
+    position: static;
+    background: none;
+    z-index: 410;
+    width: auto;
+    float: none;
+    display: inline-block;
+}
+#portal-globalnav li,#portal-globalnav li.plain a,#portal-globalnav li.selected a{
+    color:#fff;
+    min-height: 42px;
+    float: none !important;
+}
+#portal-globalnav li.plain a{
+    color:#fff;
+}
+#portal-globalnav li a {
+    min-width:0;
+}
+#portal-globalnav .selected a:hover {
+    background: none;
+    color: #fff;
+    font-size:14px;
+}
+#portal-header {
+    min-height: 20px;
+}
+.template-listing-detail dl.portlet dt.portletHeader {
+    line-height: 36px;
+    font-size: 20px;
+    padding: 0.42em 1em;
+    width: auto;
+    height: auto;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background-color: #e6e6e6;
+    color: #597a94;
+    font-weight: normal;
+    border-bottom: 2px dotted #c4c4c4;
+}
+.full-nav-over-carousel.carousel_inactive,
+.nav-over-carousel.carousel_inactive {
+    position: relative;
+    top: 0;
+}

@@ -1,0 +1,97 @@
+.carousel-text {
+    font-family: 'Sanchez', serif;
+    background-color: transparent;
+    bottom: 0;
+    left: 0;
+    padding: 2%;
+    position: absolute;
+    width: 55%;
+    top: 40px;
+    padding-left: 50px;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 5px 1px black, 2px 2px black, 2px 2px black, 1px 1px black;
+    padding-left: 10%;
+}
+.carousel{
+    overflow:hidden;
+    height: auto;;
+    margin-bottom:2em;
+}
+.carousel-pager {
+    margin: 0.75em 0;
+    text-align: center;
+    position: relative;
+    height:20px;
+    background:none transparent;
+    bottom:20px;
+    margin:0 auto;
+}
+.carousel-pager-item {
+    width: 1px;
+    height: 7px;
+    display: inline-block;
+    color: transparent !important;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+.carousel-pager-item-active:link {
+    color: transparent;
+    width: 1px;
+    height: 7px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+.carousel-pager-button-prev {
+    float: left;
+    width: 10px;
+    padding: 0;
+    height: 30px;
+    color: transparent;
+    font-size: 0;
+    margin-left: 2px;
+    margin-top: 5px;
+}
+.carousel-pager-button-next {
+    float: right;
+    width: 10px;
+    padding: 0;
+    height: 30px;
+    color: transparent;
+    font-size: 0;
+    margin-right: 2px;
+    margin-top: 5px;
+}
+@media (min-width: 1200px){
+    .carousel-banners,.carousel-banner,.carousel-banner img{
+        width:100% !important;   
+    }
+}
+@media (min-width: 980px) and (max-width:1199px){
+    .carousel-banners,.carousel-banner,.carousel-banner img{
+        width:1199px !important;   
+    }
+}
+@media (min-width: 768px) and (max-width: 979px){
+    .carousel-banners,.carousel-banner,.carousel-banner img{
+        width:1199px !important;   
+    }
+}
+@media (min-width: 600px) and (max-width: 767px){
+.carousel-banners,.carousel-banner,.carousel-banner img{
+        width:1199px !important;   
+    }
+}
+@media (min-width: 481px) and (max-width: 599px){
+    .carousel-banners,.carousel-banner,.carousel-banner img{
+        width:1199px !important;   
+    } 
+}
+@media (max-width: 480px){
+    .carousel-banners,.carousel-banner,.carousel-banner img{
+        width:1199px !important;   
+    }
+}
