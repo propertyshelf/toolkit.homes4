@@ -31,8 +31,8 @@
     
     <!-- Set bootstrap classes -->
     <before css:theme-children="#center-column"
-        if-content='not(//*[@id="portal-column-two"]) or
-                    not(//*[@id="portal-column-one"])' >
+        if-content='(//*[@id="portal-column-two"]) or
+                    (//*[@id="portal-column-one"])' >
             <xsl:attribute name="class">span9</xsl:attribute>
     </before>
     	
