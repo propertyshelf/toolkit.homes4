@@ -12,10 +12,6 @@
         method="raw"
     />
     
-    <drop 
-        css:content=".newsImageContainer" 
-    />
-    
     <drop
         css:content=".toolkit .language-chooser"
     />

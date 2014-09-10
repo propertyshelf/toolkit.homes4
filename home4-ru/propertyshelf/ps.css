@@ -2,7 +2,6 @@ body #content  .tile-edge .tile-content p a {
     border-bottom:1px solid #ff0000;   
 }
 .carousel-body {
-    margin: 0 auto;
     position: relative;
 }
 .listing #listing-info dl.price dt, .listing #listing-info dl.price dd {
@@ -86,7 +85,7 @@ body #content  .tile-edge .tile-content p a {
 ul#portal-languageselector {
     position: absolute;
     text-align: center;
-    width: 183px;
+    width: 100%;
     top: 26px;
     background-image: linear-gradient(#e1e0de,#dededb, #959593);
     padding-top: 5px;
@@ -112,8 +111,8 @@ ul#portal-languageselector li.language-fr a:hover,
 ul#portal-languageselector li.language-zh a:hover,
 ul#portal-languageselector li.language-it a:hover,
 ul#portal-languageselector li.language-ja a:hover,
-ul#portal-languageselector li.language-po a:hover,
-ul#portal-languageselector li.language-ru a:hover{
+ul#portal-languageselector li.language-ru a:hover,
+ul#portal-languageselector li.language-po a:hover{
     color:#fff;
     font-size: 11px;
     float: left;
@@ -301,7 +300,13 @@ ul#country-chooser-list a.country-usa{
 }
 /*-----------------------------------Feature Navigation---------------------------------------*/
 .featurenavi-viewlet{   
-    background-image: linear-gradient(#E1E0DE, #DEDEDB, #959593);
+    background: -moz-linear-gradient(top,  rgba(89,122,148,0.3) 0%, rgba(89,122,148,0.3) 36%, rgba(89,122,148,0.57) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(89,122,148,0.3)), color-stop(36%,rgba(89,122,148,0.3)), color-stop(100%,rgba(89,122,148,0.57))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(89,122,148,0.3) 0%,rgba(89,122,148,0.3) 36%,rgba(89,122,148,0.57) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(89,122,148,0.3) 0%,rgba(89,122,148,0.3) 36%,rgba(89,122,148,0.57) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(89,122,148,0.3) 0%,rgba(89,122,148,0.3) 36%,rgba(89,122,148,0.57) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(89,122,148,0.3) 0%,rgba(89,122,148,0.3) 36%,rgba(89,122,148,0.57) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d597a94', endColorstr='#91597a94',GradientType=0 ); /* IE6-9 */
     margin-bottom: 1em;
     width: 100%;
 }
@@ -317,7 +322,6 @@ ul#country-chooser-list a.country-usa{
     position: relative;
 }
 #featurenavi .text{
-    padding-top:8px;
     font-size:16px;
     color:#000;
     width:100%;
@@ -325,13 +329,13 @@ ul#country-chooser-list a.country-usa{
 #featurenavi .text a{
     padding-top:8px;
     font-size:16px;
-    color:#000 !important;
+    color:#597A94 !important;
 }
 #featurenavi .navi-item {
     border-left: 2px solid #CCCCCC;
     border-right: 2px solid #999999;
     display: table-cell;
-    height: 120px;
+    height: 86px;
     vertical-align: middle;
     width:16.666%;
 }
@@ -343,7 +347,7 @@ ul#country-chooser-list a.country-usa{
     padding-left:0 !important;
 }
 /*-----------------------------------Navigation portlets---------------------------------------*/
-#portal-column-two .portletWrapper {
+#right-column .portletWrapper {
     padding:0;
     margin:0;
 }
@@ -410,7 +414,7 @@ dl.portlet ul.navTree .navTreeCurrentItem {
 .navTreeCurrentNode ul.navTree span{
     padding-left: 16%;
 }
-#portal-columns dt.portletHeader a {
+#content-columns dt.portletHeader a {
     font-size: 16px;
     color: #fff;
     line-height: 45px;
@@ -731,7 +735,7 @@ background: none white;
 /*-----------------------------------table in page developer tools---------------------------------------*/
 #content p{
     font-family: 'Open Sans', sans-serif;
-    font-size:12px;
+    font-size:12.7px;
 }
 
 #content h2, #content h2 a {
@@ -871,7 +875,7 @@ dl.portletNews{
     border:1px solid #8c8c8c; 
     padding-bottom: 5%;
 }
-#portal-columns dl.portletNews dt.portletHeader a,#portal-columns dl.portletNews dt.portletHeader a:hover{
+#content-columns dl.portletNews dt.portletHeader a,#content-columns dl.portletNews dt.portletHeader a:hover{
     font-family: 'Sanchez', serif;
     font-size:16px;
     color:#ffffff;
@@ -1002,11 +1006,11 @@ dl.portletNews p{
     background:#E6E6E6;
     border:1px solid #b3b2b2;
 }
-#portal-column-content #content{
+#center-column #content{
     margin:0; 
     padding:0;
 }
-#portal-column-content #content .detail{ 
+#center-column #content .detail{ 
     padding:0 2%;
 }
 .portletAgentContact div.formControls{
@@ -1222,78 +1226,78 @@ dl.portlet dt.portletHeader {
 input[type="submit"]{
     margin-top:2em;   
 }
-#portal-column-two  #formfield-form-widgets-listing_type{
+#right-column  #formfield-form-widgets-listing_type{
     overflow:auto;   
 }
-#portal-column-two #formfield-form-widgets-beds{
+#right-column #formfield-form-widgets-beds{
     width: 100%;
 }
-#portal-column-two #form-widgets-beds-min {
+#right-column #form-widgets-beds-min {
     width: 46%;
     float: left;
 }
-#portal-column-two .separator{
+#right-column .separator{
     display:none;   
 }
-#portal-column-two #formfield-form-widgets-baths{
+#right-column #formfield-form-widgets-baths{
     width:100%;
 }
-#portal-column-two #form-widgets-baths-min {
+#right-column #form-widgets-baths-min {
     width: 46%;
     float:left;
 }
-#portal-column-two .form-row-price {
+#right-column .form-row-price {
     width: 100%;
 }
-#portal-column-two #formfield-form-widgets-price_min {
+#right-column #formfield-form-widgets-price_min {
     width: 37%;
     float: left;
     clear: none;
 }
-#portal-column-two #form-widgets-price_min {
+#right-column #form-widgets-price_min {
     width: 114% !important;
 }
-#portal-column-two #form-widgets-price_max {
+#right-column #form-widgets-price_max {
     width: 92% !important;
 }
-#portal-column-two #formfield-form-widgets-lot_size {
+#right-column #formfield-form-widgets-lot_size {
     width: 100%;
 }
-#portal-column-two #form-widgets-lot_size-min {
+#right-column #form-widgets-lot_size-min {
     width: 46%;
     float: left;
     clear: none;
     height: 25px;
 }
-#portal-column-two #formfield-form-widgets-interior_area {
+#right-column #formfield-form-widgets-interior_area {
     width: 100%;
 }
-#portal-column-two #form-widgets-interior_area-min {
+#right-column #form-widgets-interior_area-min {
     width: 46%;
     float: left;
     clear: none;
     height: 25px;
 }
-#portal-column-two  .portletItem label{
+#right-column  .portletItem label{
     font-weight: normal;
     font-size: 11px;
 }
-#portal-column-two .portletItem select,
-#portal-column-two textarea, 
-#portal-column-two input[type="text"], 
-#portal-column-two input[type="password"], 
-#portal-column-two input[type="datetime"], 
-#portal-column-two input[type="datetime-local"],
-#portal-column-two input[type="date"],
-#portal-column-two input[type="month"], 
-#portal-column-two input[type="time"], 
-#portal-column-two input[type="week"],
-#portal-column-two input[type="number"],
-#portal-column-two input[type="email"],
-#portal-column-two input[type="url"], 
-#portal-column-two input[type="search"],
-#portal-column-two input[type="tel"],
-#portal-column-two input[type="color"],
+#right-column .portletItem select,
+#right-column textarea, 
+#right-column input[type="text"], 
+#right-column input[type="password"], 
+#right-column input[type="datetime"], 
+#right-column input[type="datetime-local"],
+#right-column input[type="date"],
+#right-column input[type="month"], 
+#right-column input[type="time"], 
+#right-column input[type="week"],
+#right-column input[type="number"],
+#right-column input[type="email"],
+#right-column input[type="url"], 
+#right-column input[type="search"],
+#right-column input[type="tel"],
+#right-column input[type="color"],
 .uneditable-input {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -1306,22 +1310,22 @@ input[type="submit"]{
     box-shadow: 0 0 1em #888888;
     font-size: 11px;
 }
-#portal-column-two #formfield-form-widgets-air_condition .collapse .option {
+#right-column #formfield-form-widgets-air_condition .collapse .option {
     width: 20% !important; 
     float: left;
     clear: none;
 }
-#portal-column-two #formfield-form-widgets-jacuzzi .collapse .option {
+#right-column #formfield-form-widgets-jacuzzi .collapse .option {
     width: 20% !important; 
     float: left;
     clear: none;
 }
-#portal-column-two #formfield-form-widgets-pool .collapse .option {
+#right-column #formfield-form-widgets-pool .collapse .option {
     width: 20% !important; 
     float: left;
     clear: none;
 }
-#portal-column-two #form-widgets-location_state {
+#right-column #form-widgets-location_state {
     height: 27px;
 }
 /*----------------------------------- agent portlets---------------------------*/
@@ -1329,8 +1333,8 @@ input[type="submit"]{
     float: left;
     width: 40%;
 }
-.template-listing-detail #portal-column-content #listing-info .price dt,
-.template-listing-detail #portal-column-content #listing-info .price dd{
+.template-listing-detail #center-column #listing-info .price dt,
+.template-listing-detail #center-column #listing-info .price dd{
     font-size: 12px;
     color: #fff;
     font-weight: normal;
@@ -1365,15 +1369,15 @@ dl.contact_details dt, dl.contact_details dd {
     display:none;
 }
 /*----------------------------------- listing details-------------------------*/
-.template-listing-detail #portal-column-content #content{
+.template-listing-detail #center-column #content{
     background:#e6e6e6;
 }
-.template-listing-detail #portal-column-content #listing-info dt{
+.template-listing-detail #center-column #listing-info dt{
     font-size: 12px;
     color:#6b6b6b;
     font-weight:normal;
 }
-.template-listing-detail #portal-column-content #listing-info dd{
+.template-listing-detail #center-column #listing-info dd{
     font-size: 12px;
     color:#6b6b6b;
     font-weight:normal;
@@ -1423,7 +1427,7 @@ dl.contact_details dt, dl.contact_details dd {
 /*----------------------------------- search mask-------------------------*/
 .frontpage-search-wrapper{
     background-color: rgba(3, 3, 3, 0.5);
-	opacity: 0.9;
+    opacity: 0.9;
     clear: none;
     position:relative;
     margin:0 auto;
@@ -1712,7 +1716,7 @@ img.image-left, img.image-right, .captioned img {
     font-size: 35px;
     font-style: italic;
     font-weight: bold;
-    text-shadow: 5px 1px black, 2px 2px black, 2px 2px black, 1px 1px black;
+    text-shadow: -2px 0 0 rgba(0,0,0, 0.9), 1px -1px 0 rgba(0,0,0, 0.9), -1px 1px 0 rgba(0,0,0, 0.9), 1px 1px 0 rgba(0,0,0, 0.9);
     display: inline;
 }
 .carousel-title{
@@ -1743,8 +1747,11 @@ img.image-left, img.image-right, .captioned img {
 }
 /*-----------------------------------@media---------------------------------------*/
 @media (min-width: 1200px){
+    .carousel-body {
+        margin: 0 auto 20px;
+    }
     .carousel-body p {
-        font-size:35px !important;
+        font-size:26px !important;
         line-height:35px;
     }
     div.width-3 {
@@ -1762,28 +1769,28 @@ img.image-left, img.image-right, .captioned img {
     #footer-wrapper #doormat-container .doormatColumn{
         width:20%;   
     } 
-    #portal-columns .row,div.row{
+    #content-columns .row,div.row{
         width:auto;   
     }
-    .colophonWrapper,#doormat-container,.carousel-body a,#header-chooser,.carousel-pager,#header .row, .footer .row,#portal-columns,#featurenavi,.nav-over-carousel,.carousel-text .carousel-title,.carousel-body{
+    .colophonWrapper,#doormat-container,.carousel-body a,#header-chooser,.carousel-pager,#header .row, .footer .row,#content-columns,#featurenavi,.nav-over-carousel,.carousel-text .carousel-title,.carousel-body{
         width: 1080px;
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-0 {
+    .portaltype-collective-cover-content #center-column div.position-0 {
         margin-left: -100%;
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-3 {
+    .portaltype-collective-cover-content #center-column div.position-3 {
         margin-left: -79%;
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-6 {
+    .portaltype-collective-cover-content #center-column div.position-6 {
         margin-left: -58%;
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-9 {
+    .portaltype-collective-cover-content #center-column div.position-9 {
         margin-left: -37%;
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-12 {
+    .portaltype-collective-cover-content #center-column div.position-12 {
         margin-left: -16.5%;
     }
-    div#portal-column-two.width-1\:4{
+    div#right-column.width-1\:4{
         margin-top: 42px; 
     }
     .move-head select{
@@ -1822,23 +1829,23 @@ img.image-left, img.image-right, .captioned img {
     #portal-personaltools-wrapper{
         left: 59.1%;
     }
-    #portal-column-two .collapse .option {
+    #right-column .collapse .option {
         width: 50%;
         float: left;
         clear: none;
     }
-    #portal-column-two #formfield-form-widgets-object_type .collapse .option {
+    #right-column #formfield-form-widgets-object_type .collapse .option {
         width: 80% !important; 
         float: left;
         clear: none;
     }
-    #portal-column-two #form-widgets-lot_size-max {
+    #right-column #form-widgets-lot_size-max {
         width: 46%;
         float: right;
         clear: none;
         height: 25px;
     }
-    #portal-column-two #form-widgets-interior_area-max {
+    #right-column #form-widgets-interior_area-max {
         width: 46%;
         float: right;
         clear: none;
@@ -1854,11 +1861,11 @@ img.image-left, img.image-right, .captioned img {
         width: 46%;
         float: right;
     }
-    #portal-column-two #form-widgets-beds-max {
+    #right-column #form-widgets-beds-max {
         width: 46%;
         float:right;
     }
-    #portal-column-two #form-widgets-baths-max {
+    #right-column #form-widgets-baths-max {
         width: 46%;
         float:right;
     }
@@ -1898,8 +1905,11 @@ img.image-left, img.image-right, .captioned img {
     }
 }
 @media (min-width: 980px) and (max-width:1199px){
+    .carousel-body {
+        margin: 0 auto 20px;
+    }
     .carousel-body p {
-        font-size:35px !important;
+        font-size:26px !important;
         line-height:35px;
     }
     #featurenavi .navi-item {
@@ -1927,22 +1937,22 @@ img.image-left, img.image-right, .captioned img {
     .tileItem p.tileBody {
         width: 70% !important;
     }
-    .colophonWrapper,#doormat-container,.carousel-body,.carousel-body a,#header-chooser,.carousel-pager,#header .row, .footer .row,#portal-columns,#featurenavi,.nav-over-carousel,.carousel-text .carousel-title{
+    .colophonWrapper,#doormat-container,.carousel-body,.carousel-body a,#header-chooser,.carousel-pager,#header .row, .footer .row,#content-columns,#featurenavi,.nav-over-carousel,.carousel-text .carousel-title{
         width: 870px;
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-0 {
+    .portaltype-collective-cover-content #center-column div.position-0 {
         margin-left: -100%;
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-3 {
+    .portaltype-collective-cover-content #center-column div.position-3 {
         margin-left: -79%;
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-6 {
+    .portaltype-collective-cover-content #center-column div.position-6 {
         margin-left: -58%;
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-9 {
+    .portaltype-collective-cover-content #center-column div.position-9 {
         margin-left: -37%;
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-12 {
+    .portaltype-collective-cover-content #center-column div.position-12 {
         margin-left: -16.5%;
     }
     .blue-box, .orange-box, .green-box, .purple-box, .yellow-box{
@@ -1983,47 +1993,47 @@ img.image-left, img.image-right, .captioned img {
     #portal-personaltools-wrapper{
         left: 49.2%;
     }
-    #portal-column-two .collapse .option {
+    #right-column .collapse .option {
         width: 70%;
         float: left;
         clear: none;
     }
-    #portal-column-two #formfield-form-widgets-object_type .collapse .option {
+    #right-column #formfield-form-widgets-object_type .collapse .option {
         width: 90% !important; 
         float: left;
         clear: none;
     }
-    #portal-column-two #form-widgets-lot_size-max {
+    #right-column #form-widgets-lot_size-max {
         width: 46% !important;
         float: right;
         clear: none;
         height: 25px;
     }
-    #portal-column-two #form-widgets-interior_area-max {
+    #right-column #form-widgets-interior_area-max {
         width: 46% !important;
         float: right;
         clear: none;
         height: 25px;
     }
-    #portal-column-two #formfield-form-widgets-price_max {
+    #right-column #formfield-form-widgets-price_max {
         width: 46% !important;
         float:right;
     }
-    #portal-column-two #form-widgets-beds-max {
+    #right-column #form-widgets-beds-max {
         width: 46% !important;
         float:right;
     }
-    #portal-column-two #form-widgets-baths-max {
+    #right-column #form-widgets-baths-max {
         width: 46% !important;
         float:right;
     }
-    #portal-column-two #form-widgets-location_city {
+    #right-column #form-widgets-location_city {
         width: 98%;
     }
     .form-row-listing-type .field span.option {
         width: 50%;
     }
-    #portal-column-two{
+    #right-column{
         padding-top:35px;   
     }
     #doormat-container.column-5{
@@ -2054,9 +2064,12 @@ img.image-left, img.image-right, .captioned img {
     }
 }
 @media (min-width: 768px) and (max-width: 979px){
+    .carousel-body {
+        margin: 0 auto -1px;
+    }
     .carousel-body p {
-        font-size:30px !important;
-        line-height:30px;
+        font-size:22px !important;
+        line-height:35px;
         padding-left: 1%;
     }
     #featurenavi .navi-item {
@@ -2075,10 +2088,10 @@ img.image-left, img.image-right, .captioned img {
     #doormat-container {
         margin-left: 15px!important;
     }
-    #portal-column-two #form-widgets-price_max {
+    #right-column #form-widgets-price_max {
         width: 97% !important;
     }
-    #portal-column-two #form-widgets-price_min {
+    #right-column #form-widgets-price_min {
         width: 122% !important;
     }
     .carousel-text {
@@ -2105,26 +2118,26 @@ img.image-left, img.image-right, .captioned img {
     #portal-globalnav li{
         float:left !important   
     }
-    .carousel-pager,#header .row, .footer .row,#portal-columns,.icons-on .row,#featurenavi,.nav-over-carousel,.carousel-text .carousel-title,.carousel-body{
+    .carousel-pager,#header .row, .footer .row,#content-columns,.icons-on .row,#featurenavi,.nav-over-carousel,.carousel-text .carousel-title,.carousel-body{
         width: 100%;
     }
     .colophonWrapper{
         width:98%;
         padding: 0 1%;
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-0 {
+    .portaltype-collective-cover-content #center-column div.position-0 {
         margin-left: -100%;
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-3 {
+    .portaltype-collective-cover-content #center-column div.position-3 {
         margin-left: -79%;
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-6 {
+    .portaltype-collective-cover-content #center-column div.position-6 {
         margin-left: -58%;
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-9 {
+    .portaltype-collective-cover-content #center-column div.position-9 {
         margin-left: -37%;
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-12 {
+    .portaltype-collective-cover-content #center-column div.position-12 {
         margin-left: -16.4%;
     }
     .blue-box, .orange-box, .green-box, .purple-box, .yellow-box{
@@ -2160,35 +2173,35 @@ img.image-left, img.image-right, .captioned img {
         margin-right: 370px;
         right: 0;
     }
-    #portal-column-two .collapse .option {
+    #right-column .collapse .option {
         width: 50%;
         float: left;
         clear: none;
     }
-    #portal-column-two #formfield-form-widgets-object_type .collapse .option {
+    #right-column #formfield-form-widgets-object_type .collapse .option {
         width: 31% !important;
         float: left;
         clear: none;
     }
-    #portal-column-two #form-widgets-lot_size-max {
+    #right-column #form-widgets-lot_size-max {
         width: 37%;
         float: right;
         clear: none;
         height: 25px;
     }
-    #portal-column-two #form-widgets-interior_area-max {
+    #right-column #form-widgets-interior_area-max {
         width: 37%;
         float: right;
         clear: none;
         height: 25px;
         margin-left: 15%;
     }
-    #portal-column-two #form-widgets-beds-max {
+    #right-column #form-widgets-beds-max {
         width: 37%;
         float:right;
         margin-left: 15%;
     }
-    #portal-column-two #form-widgets-baths-max {
+    #right-column #form-widgets-baths-max {
         width: 37%;
         margin-left: 15%;
         float:right;
@@ -2198,17 +2211,17 @@ img.image-left, img.image-right, .captioned img {
         float:right;
         width:37%;
     }
-    #portal-column-two #form-widgets-price_max {
+    #right-column #form-widgets-price_max {
         float: left;
         width: 97%;
     }
-    #portal-column-two #form-widgets-location_city {
+    #right-column #form-widgets-location_city {
         width: 98%;
     }
     .form-row-listing-type .field span.option {
         width: 20%;
     }
-    #portal-column-two .portletWrapper{
+    #right-column .portletWrapper{
         padding: 0;   
     }
     .portletItem span.label{
@@ -2252,11 +2265,24 @@ img.image-left, img.image-right, .captioned img {
         padding-bottom: 15px !important;
         width: 100% !important;
     }
+    .socialbox{
+        bottom: 0;
+        position: absolute;
+        right: 0;   
+        margin-bottom: 6px;
+    }
+    .socialbox img{
+        height:29px;
+        width:30px;
+    }
 }
 @media (min-width: 600px) and (max-width: 767px){
+    .carousel-body {
+        margin: 0 auto -1px;
+    }
     .carousel-body p {
-        font-size:26px !important;
-        line-height:26px;
+        font-size:20px !important;
+        line-height:35px;
         padding-left: 1%;
     }
     #featurenavi .navi-item {
@@ -2281,9 +2307,6 @@ img.image-left, img.image-right, .captioned img {
         top: auto;
         width: auto !important;
     }
-    #box{
-        padding-bottom: 75px;
-    }
     #footer-wrapper #doormat-container .doormatColumn{
         width: 30%;
     }
@@ -2296,20 +2319,17 @@ img.image-left, img.image-right, .captioned img {
     #portal-globalnav li{
         float:right !important;   
     }
-    .icons-on .row,#header .row,.carousel-pager,#header .row,.footer .row,#portal-columns,#featurenavi,.nav-over-carousel,.carousel-text .carousel-title,.carousel-body{
+    .icons-on .row,#header .row,.carousel-pager,#header .row,.footer .row,#content-columns,#featurenavi,.nav-over-carousel,.carousel-text .carousel-title,.carousel-body{
         width: 100%;
     }
     .colophonWrapper{
         width:98%;
         padding:0 1%;
     }
-    #portal-column-two #formfield-form-widgets-object_type .collapse .option {
+    #right-column #formfield-form-widgets-object_type .collapse .option {
         width: 50% !important; 
         float: left;
         clear: none;
-    }
-    #portal-logo{
-        display:none;   
     }
     #featurenavi {
         margin-top: 88px;
@@ -2317,47 +2337,47 @@ img.image-left, img.image-right, .captioned img {
     div.width-3{
         width:30%;   
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-0.width-5{
+    .portaltype-collective-cover-content #center-column div.position-0.width-5{
         margin: 0;
         position: static;
         width: 49%;   
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-5.width-5{
+    .portaltype-collective-cover-content #center-column div.position-5.width-5{
         margin: 0;
         position: static;
         width: 49%;   
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-10.width-5{
+    .portaltype-collective-cover-content #center-column div.position-10.width-5{
         margin: 0;
         position: static;
         width: 49%;   
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-0 {
+    .portaltype-collective-cover-content #center-column div.position-0 {
         margin-left: -100%;
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-3 {
+    .portaltype-collective-cover-content #center-column div.position-3 {
         margin-left: -65%;
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-6 {
+    .portaltype-collective-cover-content #center-column div.position-6 {
         margin-left: -30%;
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-9 {
+    .portaltype-collective-cover-content #center-column div.position-9 {
         margin-left: -100%;
         margin-top: 160px;
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-12 {
+    .portaltype-collective-cover-content #center-column div.position-12 {
         margin-left: -65%;
         margin-top: 160px;
     }
     .footer #doormat-container .column-1,.footer #doormat-container .column-2{
         min-height:240px;   
     }
-    #portal-column-content #content .row:last-of-type .position-0{
+    #center-column #content .row:last-of-type .position-0{
         margin: 0;
         position: absolute;
         left: 0;
     }
-    #portal-column-content #content .row:last-of-type .position-7{
+    #center-column #content .row:last-of-type .position-7{
         margin: 5% 0 0;
         position: static;
         width: 100%;
@@ -2405,13 +2425,13 @@ img.image-left, img.image-right, .captioned img {
         margin-right: 370px;
         right: 0;
     }
-    #portal-column-two #form-widgets-lot_size-max {
+    #right-column #form-widgets-lot_size-max {
         width: 37%;
         float: right;
         clear: none;
         height: 25px;
     }
-    #portal-column-two #form-widgets-interior_area-max {
+    #right-column #form-widgets-interior_area-max {
         width: 37%;
         float: right;
         clear: none;
@@ -2422,18 +2442,18 @@ img.image-left, img.image-right, .captioned img {
         float: right;
         width: 37%;
     }
-    #portal-column-two #form-widgets-price_max {
+    #right-column #form-widgets-price_max {
         width: 97%;
     }
-    #portal-column-two #form-widgets-baths-max {
+    #right-column #form-widgets-baths-max {
         width: 37%;
         float:right;
     }
-    #portal-column-two #form-widgets-beds-max {
+    #right-column #form-widgets-beds-max {
         width: 37%;
         float:right;
     }
-    #portal-column-two #form-widgets-location_city {
+    #right-column #form-widgets-location_city {
         width: 98%;
     }
     .form-row-listing-type .field span.option {
@@ -2487,40 +2507,46 @@ img.image-left, img.image-right, .captioned img {
         padding-bottom: 15px !important;
         width: 100% !important;
     }
-    #ps-slider {
-        bottom:55px;
-    }
-    .full-nav-over-carousel {
-        top: 33px !important;
-    }
     .full-nav-over-carousel.carousel_inactive{
         top:-62px !important;   
     }
-    #portal-column-content {
+    #center-column {
         left: 0;
         margin-left: 0;
         width: 98%;
         padding: 0 1%;
-        bottom: 46px !important;
+    }
+    .socialbox{
+        bottom: 0;
+        position: absolute;
+        right: 0;   
+        margin-bottom: 6px;
+    }
+    .socialbox img{
+        height:29px;
+        width:30px;
     }
 }
 @media (min-width: 481px) and (max-width: 599px){
+    .carousel-body {
+        margin: 0 auto -1px;
+    }
     .carousel-body p {
-        font-size:24px !important;
-        line-height:24px;
+        font-size:20px !important;
+        line-height:33px;
         padding-left: 1%;
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-0.width-5{
+    .portaltype-collective-cover-content #center-column div.position-0.width-5{
         margin: 0;
         position: static;
         width: 100%;   
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-5.width-5{
+    .portaltype-collective-cover-content #center-column div.position-5.width-5{
         margin: 0;
         position: static;
         width: 100%;   
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-10.width-5{
+    .portaltype-collective-cover-content #center-column div.position-10.width-5{
         margin: 0;
         position: static;
         width: 100%;   
@@ -2534,21 +2560,14 @@ img.image-left, img.image-right, .captioned img {
     .tileFooter {
         margin-left: 156px important;
     }
-    #ps-slider {
-        bottom:55px !important;
-    }
-    .full-nav-over-carousel {
-        top: 33px !important;
-    }
     .full-nav-over-carousel.carousel_inactive{
         top:-62px !important;   
     }
-    #portal-column-content {
+    #center-column {
         left: 0;
         margin-left: 0;
         width: 98%;
         padding: 0 1%;
-        bottom: 46px !important;
     }
     .carousel-text {
         bottom: 0;
@@ -2558,9 +2577,6 @@ img.image-left, img.image-right, .captioned img {
         right: 0;
         top: auto;
         width: auto !important;
-    }
-    #box{
-        padding-bottom: 75px;
     }
     #footer-wrapper #doormat-container .doormatColumn{
         width:45%;   
@@ -2572,7 +2588,7 @@ img.image-left, img.image-right, .captioned img {
         width:100%;
         right:0;
     }
-    .carousel-pager,#header .row, .footer .row,#portal-columns,.icons-on .row,#featurenavi,.nav-over-carousel,.carousel-text .carousel-title,.carousel-body{
+    .carousel-pager,#header .row, .footer .row,#content-columns,.icons-on .row,#featurenavi,.nav-over-carousel,.carousel-text .carousel-title,.carousel-body{
         width: 100%;
     }
     .colophonWrapper{
@@ -2588,32 +2604,32 @@ img.image-left, img.image-right, .captioned img {
     div.width-3{
         width:30%;   
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-0 {
+    .portaltype-collective-cover-content #center-column div.position-0 {
         margin-left: -100%;
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-3 {
+    .portaltype-collective-cover-content #center-column div.position-3 {
         margin-left: -65%;
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-6 {
+    .portaltype-collective-cover-content #center-column div.position-6 {
         margin-left: -30%;
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-9 {
+    .portaltype-collective-cover-content #center-column div.position-9 {
         margin-left: -100%;
         margin-top: 155px;
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-12 {
+    .portaltype-collective-cover-content #center-column div.position-12 {
         margin-left: -65%;
         margin-top: 155px;
     }
     .footer #doormat-container .column-1{
         min-height:240px;   
     }
-    #portal-column-content #content .row:last-of-type .position-0{
+    #center-column #content .row:last-of-type .position-0{
         margin: 0;
         position: absolute;
         left: 0;
     }
-    #portal-column-content #content .row:last-of-type .position-7{
+    #center-column #content .row:last-of-type .position-7{
         margin: 5% 0 0;
         position: static;
         width: 100%;
@@ -2668,35 +2684,32 @@ img.image-left, img.image-right, .captioned img {
         margin-right: 370px;
         right: 0;
     }
-    #portal-logo {
-        display: none;
-    }
-    #portal-column-two #formfield-form-widgets-object_type .collapse .option {
+    #right-column #formfield-form-widgets-object_type .collapse .option {
         width: 50% !important; 
         float: left;
         clear: none;
     }
-    #portal-column-two #form-widgets-price_max {
+    #right-column #form-widgets-price_max {
         width: 97%;
     }
-    #portal-column-two #form-widgets-beds-max {
+    #right-column #form-widgets-beds-max {
         width: 37%;
         float:right;
     }
-    #portal-column-two #form-widgets-baths-max {
+    #right-column #form-widgets-baths-max {
         width: 37%;
         float:right;
     }
-    #portal-column-two #form-widgets-location_city {
+    #right-column #form-widgets-location_city {
         width: 98%;
     }
-    #portal-column-two #form-widgets-lot_size-max {
+    #right-column #form-widgets-lot_size-max {
         width: 37%;
         float: right;
         clear: none;
         height: 25px;
     }
-    #portal-column-two #form-widgets-interior_area-max {
+    #right-column #form-widgets-interior_area-max {
         width: 37%;
         float: right;
         clear: none;
@@ -2760,19 +2773,54 @@ img.image-left, img.image-right, .captioned img {
         padding-bottom: 15px !important;
         width: 100% !important;
     }
+    .socialbox{
+        bottom: 0;
+        position: absolute;
+        right: 0;   
+        margin-bottom: 6px;
+    }
+    .socialbox img{
+        height:29px;
+        width:30px;
+    }
 }
 @media (min-width: 401px) and (max-width: 480px){
-    .portaltype-collective-cover-content #portal-column-content div.position-0.width-5{
+    ul#portal-languageselector{
+        max-width: 99% !important;
+        padding: 0 !important;
+    }   
+    ul#portal-languageselector li.language-de a,
+    ul#portal-languageselector li.language-es a,
+    ul#portal-languageselector li.language-en a,
+    ul#portal-languageselector li.language-fr a,
+    ul#portal-languageselector li.language-po a,
+    ul#portal-languageselector li.language-ru a,
+    ul#portal-languageselector li.language-de a:hover,
+    ul#portal-languageselector li.language-es a:hover,
+    ul#portal-languageselector li.language-en a:hover,
+    ul#portal-languageselector li.language-fr a:hover,
+    ul#portal-languageselector li.language-po a:hover,
+    ul#portal-languageselector li.language-ru a:hover{
+        width: 130px !important; 
+    }
+    ul#country-chooser-list a{
+        width:100% !important   
+    }
+    #portal-logo img{
+        height: auto;
+        width: 65%;   
+    }
+    .portaltype-collective-cover-content #center-column div.position-0.width-5{
         margin: 0;
         position: static;
         width: 100%;   
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-5.width-5{
+    .portaltype-collective-cover-content #center-column div.position-5.width-5{
         margin: 0;
         position: static;
         width: 100%;   
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-10.width-5{
+    .portaltype-collective-cover-content #center-column div.position-10.width-5{
         margin: 0;
         position: static;
         width: 100%;   
@@ -2789,18 +2837,12 @@ img.image-left, img.image-right, .captioned img {
     .tileFooter {
         margin-left: 156px important;
     }
-    #portal-column-two #formfield-form-widgets-object_type .collapse .option {
+    #right-column #formfield-form-widgets-object_type .collapse .option {
         width: 80% !important;
         float: left;
         clear: none;
     }
-    #ps-slider {
-        bottom:55px !important;
-    }
-    .full-nav-over-carousel {
-        top: 33px !important;
-    }
-    #portal-column-content {
+    #center-column {
         left: 0;
         margin-left: 0;
         width: 98%;
@@ -2813,9 +2855,6 @@ img.image-left, img.image-right, .captioned img {
     #ps-slider{
         display:none   
     }
-    #box{
-        padding-bottom: 75px;
-    }
     #footer-wrapper #doormat-container .doormatColumn{
         width:44%;  
     }
@@ -2826,7 +2865,7 @@ img.image-left, img.image-right, .captioned img {
         width:100%;
         right:0;
     }
-    .carousel-pager,#header .row, .footer .row,#portal-columns,.icons-on .row,#featurenavi,.nav-over-carousel,.carousel-text .carousel-title,.carousel-body{
+    .carousel-pager,#header .row, .footer .row,#content-columns,.icons-on .row,#featurenavi,.nav-over-carousel,.carousel-text .carousel-title,.carousel-body{
         width: 100%;
     }
     .colophonWrapper{
@@ -2839,29 +2878,29 @@ img.image-left, img.image-right, .captioned img {
     #portal-globalnav li{
         float:right !important;   
     }
-    #portal-column-content div.position-0 {
+    #center-column div.position-0 {
         margin-left: -100%;
     }
-    #portal-column-content div.position-3 {
+    #center-column div.position-3 {
         margin-left: -65%;
     }
-    #portal-column-content div.position-6 {
+    #center-column div.position-6 {
         margin-left: -30%;
     }
-    #portal-column-content div.position-9 {
+    #center-column div.position-9 {
         margin-left: -100%;
         margin-top: 140px;
     }
-    #portal-column-content div.position-12 {
+    #center-column div.position-12 {
         margin-left: -65%;
         margin-top: 140px;
     }
-    #portal-column-content #content .row:last-of-type .position-0{
+    #center-column #content .row:last-of-type .position-0{
         margin: 0;
         position: static;
         width: 100%;
     }
-    #portal-column-content #content .row:last-of-type .position-7{
+    #center-column #content .row:last-of-type .position-7{
         margin: 5% 0 0;
         position: static;
         width: 100%;
@@ -2901,39 +2940,42 @@ img.image-left, img.image-right, .captioned img {
         text-align:center;        
     }
     .language-chooser{
-        left:0;
-        width: 47%;
+        right: 0;
+        width: 30%;
     }
     .country-chooser{
-        width: 47%;
         right: 0;
-        top: 0px;
+        top: 29px;
+        width: 30%;
+    }
+    .country-chooser span,.language-chooser span{
+        font-size:9px;   
+    }
+    .language-chooser span{
+        padding:3px 5px 5px !important;    
     }
     ul#country-chooser-list a {
         width: 185px;
     }
     #portal-personaltools-wrapper{
-        left: 7%;
-        top: 27px;
+        right: 0;
+        top: 84px;
     }
-    #portal-logo {
-        display: none;
-    }
-    #portal-column-two #form-widgets-price_max {
+    #right-column #form-widgets-price_max {
         width: 97%;
     }
-    #portal-column-two #form-widgets-beds-max {
+    #right-column #form-widgets-beds-max {
         width: 37% !important;
         float:right;;
     }
-    #portal-column-two #form-widgets-baths-max {
+    #right-column #form-widgets-baths-max {
         width: 37% !important;
         float:right;
     }
-    #portal-column-two #form-widgets-location_city {
+    #right-column #form-widgets-location_city {
         width: 98%;
     }
-    #portal-column-two #form-widgets-lot_size-max {
+    #right-column #form-widgets-lot_size-max {
         width: 37%;
         float: right;
         clear: none;
@@ -2943,13 +2985,13 @@ img.image-left, img.image-right, .captioned img {
         float: right;
         width: 37%;
     }
-    #portal-column-two #form-widgets-interior_area-max {
+    #right-column #form-widgets-interior_area-max {
         width: 37%;
         float: right;
         clear: none;
         height: 25px;
     }
-    #portal-column-two #formfield-form-widgets-object_type .collapse .option {
+    #right-column #formfield-form-widgets-object_type .collapse .option {
         width: 80% !important;
         float: left;
         clear: none;
@@ -2977,7 +3019,6 @@ img.image-left, img.image-right, .captioned img {
     .footer #doormat-container .column-1{
         min-height:225px;   
     }
-
     .container .nav-over-carousel{
         top:80px;   
     }
@@ -3006,27 +3047,27 @@ img.image-left, img.image-right, .captioned img {
         margin: 0;
         width: 55%;
     }
-    #portal-column-content #content .row:last-of-type .position-0 {
+    #center-column #content .row:last-of-type .position-0 {
         margin: 0;
         position: absolute;
         left: 0;
     }
-    #portal-column-content #content .row .width-3.position-0{
+    #center-column #content .row .width-3.position-0{
         left: 100%;
         margin-left: -100%;
         width: 49%;
     }
-    #portal-column-content #content .row .width-3.position-3{
+    #center-column #content .row .width-3.position-3{
         margin-left: -49%   
     }
-    #portal-column-content #content .row .width-3.position-6{
+    #center-column #content .row .width-3.position-6{
         margin-left: -100%;
         margin-top: 140px; 
     }
-    #portal-column-content #content .row .width-3.position-9{
+    #center-column #content .row .width-3.position-9{
         margin-left: -49%;  
     }
-    #portal-column-content #content .row .width-3.position-12{
+    #center-column #content .row .width-3.position-12{
         margin-left: -100%;
         margin-top: 280px;  
     }
@@ -3053,28 +3094,61 @@ img.image-left, img.image-right, .captioned img {
     }
     .full-nav-over-carousel {
         top: 33px !important;
-        margin-top: -41px !important;
     }
-    #portal-column-content {
+    #center-column {
         left: 0;
         margin-left: 0;
         width: 98%;
         padding: 0 1%;
         bottom: -9px !important;
     }
+    .socialbox{
+        position: absolute;
+        right: 0;   
+        top: 58px;
+    }
+    .socialbox img{
+        height:23px;
+        width:24px;
+    }
 }
 @media (min-width: 321px) and (max-width: 400px){
-    .portaltype-collective-cover-content #portal-column-content div.position-0.width-5{
+    ul#portal-languageselector{
+        max-width: 99% !important;
+        padding: 0 !important;
+    }   
+    ul#portal-languageselector li.language-de a,
+    ul#portal-languageselector li.language-es a,
+    ul#portal-languageselector li.language-en a,
+    ul#portal-languageselector li.language-fr a,
+    ul#portal-languageselector li.language-po a,
+    ul#portal-languageselector li.language-ru a,
+    ul#portal-languageselector li.language-de a:hover,
+    ul#portal-languageselector li.language-es a:hover,
+    ul#portal-languageselector li.language-en a:hover,
+    ul#portal-languageselector li.language-fr a:hover,
+    ul#portal-languageselector li.language-po a:hover,
+    ul#portal-languageselector li.language-ru a:hover{
+        width: 130px !important; 
+    }
+    ul#country-chooser-list a{
+        width:100% !important   
+    }
+    #portal-logo img{
+        width:65%;   
+        height:auto;
+    }
+    .portaltype-collective-cover-content #center-column div.position-0.width-5{
         margin: 0;
         position: static;
         width: 100%;   
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-5.width-5{
+    .portaltype-collective-cover-content #center-column div.position-5.width-5{
         margin: 0;
         position: static;
         width: 100%;   
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-10.width-5{
+    .portaltype-collective-cover-content #center-column div.position-10.width-5{
         margin: 0;
         position: static;
         width: 100%;   
@@ -3093,12 +3167,12 @@ img.image-left, img.image-right, .captioned img {
         width: 50% !important;
         margin-left: 59px;
     }
-    #portal-column-two #formfield-form-widgets-object_type .collapse .option {
+    #right-column #formfield-form-widgets-object_type .collapse .option {
         width: 100% !important;
         float: left;
         clear: none;
     }
-    #portal-column-content {
+    #center-column {
         left: 0;
         margin-left: 0;
         width: 98%;
@@ -3107,13 +3181,9 @@ img.image-left, img.image-right, .captioned img {
     }
     .full-nav-over-carousel{
         position:static !important;
-        margin-top: -41px !important;
     }
     #ps-slider{
         display:none   
-    }
-    #box{
-        padding-bottom: 92px;
     }
     #footer-wrapper #doormat-container .doormatColumn{
         width:44%;  
@@ -3125,7 +3195,7 @@ img.image-left, img.image-right, .captioned img {
         width:100%;
         right:0;
     }
-    .carousel-pager,#header .row, .footer .row,#portal-columns,.icons-on .row,#featurenavi,.nav-over-carousel,.carousel-title,.carousel-body{
+    .carousel-pager,#header .row, .footer .row,#content-columns,.icons-on .row,#featurenavi,.nav-over-carousel,.carousel-title,.carousel-body{
         width: 100%;
     }
     .colophonWrapper{
@@ -3141,29 +3211,29 @@ img.image-left, img.image-right, .captioned img {
     div.width-3{
         width:30%;   
     }
-    #portal-column-content div.position-0 {
+    #center-column div.position-0 {
         margin-left: -100%;
     }
-    #portal-column-content div.position-3 {
+    #center-column div.position-3 {
         margin-left: -65%;
     }
-    #portal-column-content div.position-6 {
+    #center-column div.position-6 {
         margin-left: -30%;
     }
-    #portal-column-content div.position-9 {
+    #center-column div.position-9 {
         margin-left: -100%;
         margin-top: 140px;
     }
-    #portal-column-content div.position-12 {
+    #center-column div.position-12 {
         margin-left: -65%;
         margin-top: 140px;
     }
-    #portal-column-content #content .row:last-of-type .position-0{
+    #center-column #content .row:last-of-type .position-0{
         margin: 0;
         position: static;
         width: 100%;
     }
-    #portal-column-content #content .row:last-of-type .position-7{
+    #center-column #content .row:last-of-type .position-7{
         margin: 5% 0 0;
         position: static;
         width: 100%;
@@ -3203,15 +3273,19 @@ img.image-left, img.image-right, .captioned img {
         text-align:center;        
     }
     .language-chooser{
-        left:0;
-        width: 58%;
-        line-height: 36px;
+        right: 0;
+        width: 33%;
     }
     .country-chooser{
         right: 0;
-        top: 0;
-        width: 39%;
-        line-height: 36px;
+        top: 29px;
+        width: 33%;
+    }
+    .country-chooser span,.language-chooser span{
+        font-size:9px;   
+    }
+    .language-chooser span{
+        padding:3px 5px 5px !important;    
     }
     ul#portal-languageselector,ul#country-chooser-list{
         top:44px;   
@@ -3220,47 +3294,44 @@ img.image-left, img.image-right, .captioned img {
         width: 130px !important;   
     }
     #portal-personaltools-wrapper{
-        left: 7%;
-        top: 44px;
+        right: 0;
+        top: 84px;
     }
-    #portal-column-content #content .row .width-3.position-3{
+    #center-column #content .row .width-3.position-3{
         margin-left: -200%;
         margin-top: 140px;
         width: 100%;  
     }
-    #portal-column-content #content .row .width-3.position-6{
+    #center-column #content .row .width-3.position-6{
         margin-left: -200%;
         margin-top: 280px;
         width: 100%; 
     }
-    #portal-column-content #content .row .width-3.position-9{
+    #center-column #content .row .width-3.position-9{
         margin-left: -200%;
         margin-top: 420px;
         width: 100%;  
     }
-    #portal-column-content #content .row .width-3.position-12{
+    #center-column #content .row .width-3.position-12{
         margin-left: -200%;
         margin-top: 560px;
         width: 100%;  
     }
-    #portal-logo {
-        display: none;
-    }
-    #portal-column-two #form-widgets-price_max {
+    #right-column #form-widgets-price_max {
         width: 97%;
     }
-    #portal-column-two #form-widgets-beds-max {
+    #right-column #form-widgets-beds-max {
         width: 37% !important;
         float:right;;
     }
-    #portal-column-two #form-widgets-baths-max {
+    #right-column #form-widgets-baths-max {
         width: 37% !important;
         float:right;
     }
-    #portal-column-two #form-widgets-location_city {
+    #right-column #form-widgets-location_city {
         width: 98%;
     }
-    #portal-column-two #form-widgets-lot_size-max {
+    #right-column #form-widgets-lot_size-max {
         width: 37%;
         float: right;
         clear: none;
@@ -3270,7 +3341,7 @@ img.image-left, img.image-right, .captioned img {
         float: right;
         width: 37%;
     }
-    #portal-column-two #form-widgets-interior_area-max {
+    #right-column #form-widgets-interior_area-max {
         width: 37%;
         float: right;
         clear: none;
@@ -3358,39 +3429,77 @@ img.image-left, img.image-right, .captioned img {
         position: relative;
         margin-left: 116px;
     }
+    .socialbox{
+        position: absolute;
+        right: 0;   
+        top: 58px;
+    }
+    .socialbox img{
+        height:23px;
+        width:24px;
+    }
 }
 @media (max-width: 320px){
-    .portaltype-collective-cover-content #portal-column-content div.position-0.width-5{
+    ul#portal-languageselector{
+        max-width: 99% !important;
+        padding: 0 !important;
+    }   
+    ul#portal-languageselector li.language-de a,
+    ul#portal-languageselector li.language-es a,
+    ul#portal-languageselector li.language-en a,
+    ul#portal-languageselector li.language-fr a,
+    ul#portal-languageselector li.language-po a,
+    ul#portal-languageselector li.language-ru a,
+    ul#portal-languageselector li.language-de a:hover,
+    ul#portal-languageselector li.language-es a:hover,
+    ul#portal-languageselector li.language-en a:hover,
+    ul#portal-languageselector li.language-fr a:hover,
+    ul#portal-languageselector li.language-po a:hover,
+    ul#portal-languageselector li.language-ru a:hover{
+        padding-left: 10%;
+        text-align: left;
+        width: 80% !important;
+    }
+    ul#country-chooser-list a{
+        padding-left: 10%;
+        text-align: left;
+        width: 85% !important;  
+    }
+    #portal-logo img{
+        width:100%;
+        height:auto;
+    }
+    .portaltype-collective-cover-content #center-column div.position-0.width-5{
         margin: 0;
         position: static;
         width: 100%;   
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-5.width-5{
+    .portaltype-collective-cover-content #center-column div.position-5.width-5{
         margin: 0;
         position: static;
         width: 100%;   
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-10.width-5{
+    .portaltype-collective-cover-content #center-column div.position-10.width-5{
         margin: 0;
         position: static;
         width: 100%;   
     }
-    #portal-column-content #content .row .width-3.position-3{
+    #center-column #content .row .width-3.position-3{
         margin-left: -200%;
         margin-top: 140px;
         width: 100%;  
     }
-    #portal-column-content #content .row .width-3.position-6{
+    #center-column #content .row .width-3.position-6{
         margin-left: -200%;
         margin-top: 280px;
         width: 100%; 
     }
-    #portal-column-content #content .row .width-3.position-9{
+    #center-column #content .row .width-3.position-9{
         margin-left: -200%;
         margin-top: 420px;
         width: 100%;  
     }
-    #portal-column-content #content .row .width-3.position-12{
+    #center-column #content .row .width-3.position-12{
         margin-left: -200%;
         margin-top: 560px;
         width: 100%;  
@@ -3409,7 +3518,7 @@ img.image-left, img.image-right, .captioned img {
         font-size: 16px;
         margin-left: 25px !important;
     }
-    #portal-column-two #formfield-form-widgets-object_type .collapse .option {
+    #right-column #formfield-form-widgets-object_type .collapse .option {
         width: 100% !important;
         float: left;
         clear: none;
@@ -3433,7 +3542,7 @@ img.image-left, img.image-right, .captioned img {
         width:100%;
         right:0;
     }
-    .carousel-pager,#header .row, .footer .row,#portal-columns,.icons-on .row,#featurenavi,.nav-over-carousel,.carousel-title,.carousel-body{
+    .carousel-pager,#header .row, .footer .row,#content-columns,.icons-on .row,#featurenavi,.nav-over-carousel,.carousel-title,.carousel-body{
         width: 100%;
     }
     .colophonWrapper{
@@ -3449,29 +3558,29 @@ img.image-left, img.image-right, .captioned img {
     div.width-3{
         width:30%;   
     }
-    #portal-column-content div.position-0 {
+    #center-column div.position-0 {
         margin-left: -100%;
     }
-    #portal-column-content div.position-3 {
+    #center-column div.position-3 {
         margin-left: -65%;
     }
-    #portal-column-content div.position-6 {
+    #center-column div.position-6 {
         margin-left: -30%;
     }
-    #portal-column-content div.position-9 {
+    #center-column div.position-9 {
         margin-left: -100%;
         margin-top: 140px;
     }
-    #portal-column-content div.position-12 {
+    #center-column div.position-12 {
         margin-left: -65%;
         margin-top: 140px;
     }
-    #portal-column-content #content .row:last-of-type .position-0{
+    #center-column #content .row:last-of-type .position-0{
         margin: 0;
         position: static;
         width: 100%;
     }
-    #portal-column-content #content .row:last-of-type .position-7{
+    #center-column #content .row:last-of-type .position-7{
         margin: 5% 0 0;
         position: static;
         width: 100%;
@@ -3512,37 +3621,42 @@ img.image-left, img.image-right, .captioned img {
     }
     .language-chooser{
         left: 0;
-        width: 52%;
+        top: 121px;
+        width: 40%;
     }
     .country-chooser{
         right: 0;
-        width: 38%;
+        top: 121px;
+        width: 40%;
     }
-    ul#country-chooser-list,ul#portal-languageselector{
-        top: 44px !important;
+    .full-nav-over-carousel{
+        margin-top:0px;   
+    }
+    .country-chooser span,.language-chooser span{
+        font-size:9px;   
+    }
+    .language-chooser span{
+        padding:3px 5px 5px !important;    
     }
     #portal-personaltools-wrapper{
-        left: 7%;
-        top: 45px;
+        right: 0;
+        top: 84px;
     }
-    #portal-logo {
-        display: none;
-    }
-    #portal-column-two #form-widgets-price_max {
+    #right-column #form-widgets-price_max {
         width: 97%;
     }
-    #portal-column-two #form-widgets-beds-max {
+    #right-column #form-widgets-beds-max {
         width: 37% !important;
         float:right;;
     }
-    #portal-column-two #form-widgets-baths-max {
+    #right-column #form-widgets-baths-max {
         width: 37% !important;
         float:right;
     }
-    #portal-column-two #form-widgets-location_city {
+    #right-column #form-widgets-location_city {
         width: 98%;
     }
-    #portal-column-two #form-widgets-lot_size-max {
+    #right-column #form-widgets-lot_size-max {
         width: 37%;
         float: right;
         clear: none;
@@ -3552,7 +3666,7 @@ img.image-left, img.image-right, .captioned img {
         float: right;
         width: 37%;
     }
-    #portal-column-two #form-widgets-interior_area-max {
+    #right-column #form-widgets-interior_area-max {
         width: 37%;
         float: right;
         clear: none;
@@ -3625,6 +3739,15 @@ img.image-left, img.image-right, .captioned img {
     ul#portal-languageselector li a,ul#portal-languageselector li a.hover{
         width: 100px !important;   
     }
+    .socialbox{
+        width:100%;
+        text-align:center;
+        margin-top: 5px;
+    }
+    .socialbox img{
+        height:23px;
+        width:24px;
+    }
 }
 body .portaltype-collective-cover-content #content h3{
   font-size:16px;
@@ -3649,6 +3772,7 @@ body #content a:link, body dl.portlet a:link {
 .carousel-body p {
     position:relative;
     font-style: normal;
+    margin-bottom:0;
 }
 .carousel-body a {
     color: #FFFFFF;

@@ -369,7 +369,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem{
 .portletAgentInformation .portletItem h3{
     margin-top:5%; 
 }
-#portal-columns{
+#content-columns{
     margin:0 auto;    
 }
 #portal-column-one .portletWrapper .portlet{
@@ -453,7 +453,7 @@ div.width-full{
     margin:0;
 }
 @media (min-width: 1200px){
-    #portal-columns,#header .row,.footer .row,.colophonWrapper{
+    #content-columns,#header .row,.footer .row,.colophonWrapper{
         width:1080px;   
     }
     #portal-column-two .portletWrapper{
@@ -470,6 +470,14 @@ div.width-full{
         width: 72%;
         margin-left: -100%;
     }   
+    #center-column.span9{
+        width: 72%;  
+        margin:0;
+    } 
+    #right-column.span3{
+        margin-top: 42px;
+        width: 25%;   
+    }
     #portal-column-content.width-3\:4.position-1\:4{
         width:72%;   
     }
@@ -563,7 +571,7 @@ div.width-full{
     }
 }
 @media (min-width: 980px) and (max-width:1199px){ 
-    #portal-columns,#header .row,.footer .row,.colophonWrapper{
+    #content-columns,#header .row,.footer .row,.colophonWrapper{
         width:870px;   
     }
     .container{
@@ -578,6 +586,14 @@ div.width-full{
     }   
     #portal-column-content.width-3\:4.position-1\:4{
         width:72%;   
+    }
+    #center-column.span9{
+        width: 72%;  
+        margin:0;
+    } 
+    #right-column.span3{
+        margin-top: 42px;
+        width: 29%;   
     }
     div#portal-column-two.width-1\:4{
         width: 29%;
@@ -642,7 +658,7 @@ div.width-full{
     }
 }
 @media (min-width: 768px) and (max-width: 979px) {
-    #portal-columns,#header .row,.footer .row,.colophonWrapper{
+    #content-columns,#header .row,.footer .row,.colophonWrapper{
         width:680px;   
     }
     #portal-column-content{
@@ -662,6 +678,15 @@ div.width-full{
         margin-left: 0;
         margin-top: 20px;
         left:0;
+    }
+    #center-column.span9{
+        width: 98%;  
+        margin:0;
+        padding:0 1%;
+    } 
+    #right-column.span3{
+        margin-top: 20px;
+        width: 100%;   
     }
     .container{
         width:100%;   
@@ -737,7 +762,7 @@ div.width-full{
     #header .row,.footer .row,.colophonWrapper{
         width:100%;   
     }
-    #portal-columns{
+    #content-columns{
         width:98%;   
     }
     #portal-column-content{
@@ -757,6 +782,15 @@ div.width-full{
         margin-left: 0;
         margin-top: 20px;
         width: 100%;
+    }
+    #center-column.span9{
+        width: 98%;  
+        margin:0;
+        padding:0 1%;
+    } 
+    #right-column.span3{
+        margin-top: 20px;
+        width: 100%;   
     }
     .container{
         width:100%;   
@@ -842,7 +876,7 @@ div.width-full{
     #header .row,.footer .row,.colophonWrapper{
         width:100%;   
     }
-    #portal-columns{
+    #content-columns{
         width:98%;  
     }
     #portal-column-content{
@@ -862,6 +896,15 @@ div.width-full{
         margin-left: 0;
         margin-top: 20px;
         width: 100%;
+    }
+    #center-column.span9{
+        width: 98%;  
+        margin:0;
+        padding:0 1%;
+    } 
+    #right-column.span3{
+        margin-top: 20px;
+        width: 100%;   
     }
     .container{
         width:100%;   
@@ -947,7 +990,7 @@ div.width-full{
     #header .row,.footer .row,.colophonWrapper{
         width:100%;   
     }
-    #portal-columns{
+    #content-columns{
         width:98%;   
     }
     #portal-column-content{
@@ -967,6 +1010,15 @@ div.width-full{
         margin-left: 0;
         margin-top: 20px;
         width: 100%;
+    }
+    #center-column.span9{
+        width: 98%;  
+        margin:0;
+        padding:0 1%;
+    } 
+    #right-column.span3{
+        margin-top: 20px;
+        width: 100%;   
     }
     .container{
         width:100%;   

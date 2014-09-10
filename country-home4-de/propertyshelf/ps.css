@@ -347,7 +347,7 @@ ul#country-chooser-list a.country-usa{
     padding-left:0 !important;
 }
 /*-----------------------------------Navigation portlets---------------------------------------*/
-#portal-column-two .portletWrapper {
+#right-column .portletWrapper {
     padding:0;
     margin:0;
 }
@@ -414,7 +414,7 @@ dl.portlet ul.navTree .navTreeCurrentItem {
 .navTreeCurrentNode ul.navTree span{
     padding-left: 16%;
 }
-#portal-columns dt.portletHeader a {
+#content-columns dt.portletHeader a {
     font-size: 16px;
     color: #fff;
     line-height: 45px;
@@ -875,7 +875,7 @@ dl.portletNews{
     border:1px solid #8c8c8c; 
     padding-bottom: 5%;
 }
-#portal-columns dl.portletNews dt.portletHeader a,#portal-columns dl.portletNews dt.portletHeader a:hover{
+#content-columns dl.portletNews dt.portletHeader a,#content-columns dl.portletNews dt.portletHeader a:hover{
     font-family: 'Sanchez', serif;
     font-size:16px;
     color:#ffffff;
@@ -1006,11 +1006,11 @@ dl.portletNews p{
     background:#E6E6E6;
     border:1px solid #b3b2b2;
 }
-#portal-column-content #content{
+#center-column #content{
     margin:0; 
     padding:0;
 }
-#portal-column-content #content .detail{ 
+#center-column #content .detail{ 
     padding:0 2%;
 }
 .portletAgentContact div.formControls{
@@ -1226,78 +1226,78 @@ dl.portlet dt.portletHeader {
 input[type="submit"]{
     margin-top:2em;   
 }
-#portal-column-two  #formfield-form-widgets-listing_type{
+#right-column  #formfield-form-widgets-listing_type{
     overflow:auto;   
 }
-#portal-column-two #formfield-form-widgets-beds{
+#right-column #formfield-form-widgets-beds{
     width: 100%;
 }
-#portal-column-two #form-widgets-beds-min {
+#right-column #form-widgets-beds-min {
     width: 46%;
     float: left;
 }
-#portal-column-two .separator{
+#right-column .separator{
     display:none;   
 }
-#portal-column-two #formfield-form-widgets-baths{
+#right-column #formfield-form-widgets-baths{
     width:100%;
 }
-#portal-column-two #form-widgets-baths-min {
+#right-column #form-widgets-baths-min {
     width: 46%;
     float:left;
 }
-#portal-column-two .form-row-price {
+#right-column .form-row-price {
     width: 100%;
 }
-#portal-column-two #formfield-form-widgets-price_min {
+#right-column #formfield-form-widgets-price_min {
     width: 37%;
     float: left;
     clear: none;
 }
-#portal-column-two #form-widgets-price_min {
+#right-column #form-widgets-price_min {
     width: 114% !important;
 }
-#portal-column-two #form-widgets-price_max {
+#right-column #form-widgets-price_max {
     width: 92% !important;
 }
-#portal-column-two #formfield-form-widgets-lot_size {
+#right-column #formfield-form-widgets-lot_size {
     width: 100%;
 }
-#portal-column-two #form-widgets-lot_size-min {
+#right-column #form-widgets-lot_size-min {
     width: 46%;
     float: left;
     clear: none;
     height: 25px;
 }
-#portal-column-two #formfield-form-widgets-interior_area {
+#right-column #formfield-form-widgets-interior_area {
     width: 100%;
 }
-#portal-column-two #form-widgets-interior_area-min {
+#right-column #form-widgets-interior_area-min {
     width: 46%;
     float: left;
     clear: none;
     height: 25px;
 }
-#portal-column-two  .portletItem label{
+#right-column  .portletItem label{
     font-weight: normal;
     font-size: 11px;
 }
-#portal-column-two .portletItem select,
-#portal-column-two textarea, 
-#portal-column-two input[type="text"], 
-#portal-column-two input[type="password"], 
-#portal-column-two input[type="datetime"], 
-#portal-column-two input[type="datetime-local"],
-#portal-column-two input[type="date"],
-#portal-column-two input[type="month"], 
-#portal-column-two input[type="time"], 
-#portal-column-two input[type="week"],
-#portal-column-two input[type="number"],
-#portal-column-two input[type="email"],
-#portal-column-two input[type="url"], 
-#portal-column-two input[type="search"],
-#portal-column-two input[type="tel"],
-#portal-column-two input[type="color"],
+#right-column .portletItem select,
+#right-column textarea, 
+#right-column input[type="text"], 
+#right-column input[type="password"], 
+#right-column input[type="datetime"], 
+#right-column input[type="datetime-local"],
+#right-column input[type="date"],
+#right-column input[type="month"], 
+#right-column input[type="time"], 
+#right-column input[type="week"],
+#right-column input[type="number"],
+#right-column input[type="email"],
+#right-column input[type="url"], 
+#right-column input[type="search"],
+#right-column input[type="tel"],
+#right-column input[type="color"],
 .uneditable-input {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -1310,22 +1310,22 @@ input[type="submit"]{
     box-shadow: 0 0 1em #888888;
     font-size: 11px;
 }
-#portal-column-two #formfield-form-widgets-air_condition .collapse .option {
+#right-column #formfield-form-widgets-air_condition .collapse .option {
     width: 20% !important; 
     float: left;
     clear: none;
 }
-#portal-column-two #formfield-form-widgets-jacuzzi .collapse .option {
+#right-column #formfield-form-widgets-jacuzzi .collapse .option {
     width: 20% !important; 
     float: left;
     clear: none;
 }
-#portal-column-two #formfield-form-widgets-pool .collapse .option {
+#right-column #formfield-form-widgets-pool .collapse .option {
     width: 20% !important; 
     float: left;
     clear: none;
 }
-#portal-column-two #form-widgets-location_state {
+#right-column #form-widgets-location_state {
     height: 27px;
 }
 /*----------------------------------- agent portlets---------------------------*/
@@ -1333,8 +1333,8 @@ input[type="submit"]{
     float: left;
     width: 40%;
 }
-.template-listing-detail #portal-column-content #listing-info .price dt,
-.template-listing-detail #portal-column-content #listing-info .price dd{
+.template-listing-detail #center-column #listing-info .price dt,
+.template-listing-detail #center-column #listing-info .price dd{
     font-size: 12px;
     color: #fff;
     font-weight: normal;
@@ -1369,15 +1369,15 @@ dl.contact_details dt, dl.contact_details dd {
     display:none;
 }
 /*----------------------------------- listing details-------------------------*/
-.template-listing-detail #portal-column-content #content{
+.template-listing-detail #center-column #content{
     background:#e6e6e6;
 }
-.template-listing-detail #portal-column-content #listing-info dt{
+.template-listing-detail #center-column #listing-info dt{
     font-size: 12px;
     color:#6b6b6b;
     font-weight:normal;
 }
-.template-listing-detail #portal-column-content #listing-info dd{
+.template-listing-detail #center-column #listing-info dd{
     font-size: 12px;
     color:#6b6b6b;
     font-weight:normal;
@@ -1436,13 +1436,15 @@ dl.contact_details dt, dl.contact_details dd {
     display:block;   
 }
 .frontpage-search-wrapper label{
-	color:#ffffff;
+    color:#ffffff;
 }
 .frontpage-search-wrapper .frontpage-search{
     margin:0;
     float: right;
     background: rgba(3, 3, 3, 0.5);
-    padding-bottom: 30px;
+    padding-bottom: 8px;
+    padding-top: 5px;
+    padding-left: 15px;
 }
 #ps-slider .toolkit.plugin{
     bottom: 6%;
@@ -1450,11 +1452,30 @@ dl.contact_details dt, dl.contact_details dd {
     right: 0;
     width: 100%;
 }
+.frontpage-search #formfield-form-left #formfield-form-widgets-location_state #form-widgets-location_state{
+    margin-top: 0;
+}
+.frontpage-search #formfield-form-left #formfield-form-widgets-location_state .horizontal{
+    height: 20px !important;
+    margin-bottom: 0;
+    line-height: 20px;
+}
+.frontpage-search #formfield-form-right #formfield-form-widgets-listing_type .horizontal{
+    height: 20px !important;
+    margin-bottom: 0;
+    line-height: 20px;
+}
+.frontpage-search #formfield-form-left #formfield-form-widgets-location_state{
+    margin-bottom: 0;
+    width: 200px;
+}
 .frontpage-search-wrapper #formfield-form-left{
 	float: left;
-    padding-left: 14px;
-    padding-top: 10px;
-    width: 190px;
+    padding:0;
+}
+.frontpage-search-wrapper #formfield-form-right{
+    float: left;   
+    padding:0;
 }
 .frontpage-search-wrapper #formfield-form-widgets-listing_type{
 	width: 200px;
@@ -1484,6 +1505,7 @@ dl.contact_details dt, dl.contact_details dd {
 .frontpage-search-wrapper #formfield-form-widgets-beds{
 	display: inline-block;
 	margin:0;
+    width: 199px;
 }
 .frontpage-search-wrapper #form-widgets-beds-min, .frontpage-search-wrapper #form-widgets-beds-max{
 	width: 48px;
@@ -1497,12 +1519,13 @@ dl.contact_details dt, dl.contact_details dd {
     background-color:#E6E6E6;
     font-size: 10px;
     padding:0;
+    margin-left: 6px;
 }
 #formfield-form-widgets-price-min .horizontal-price{
     float: left;
     margin-left: 49px;
-    margin-right: 7px;
-    line-height: 23px;
+    margin-right: 0;
+    margin-top: 4px;
 }
 .frontpage-search-wrapper .horizontal-price{
     margin-right: 69px;
@@ -1519,23 +1542,11 @@ dl.contact_details dt, dl.contact_details dd {
     background-color:#E6E6E6;
     font-size: 10px;
     padding:0;
+    margin-left: 6px;
+    margin-bottom: 6px;
 }
 .frontpage-search-wrapper #form-widgets-price-min{
-	margin-right: 7px;
-}
-.frontpage-search-wrapper #form-buttons-search{
-    background-image: url("countrypage/img/button.png");
-    border: 0 none;
-    border-radius: 6px;
-    color: #ffffff;
-    font-style: oblique;
-    font-weight: bold;
-    height: 27px;
-    left: 81px;
-    margin-top: 0;
-    position: absolute;
-    top: 85px;
-    width: 105px;
+	margin-left: 6px;
 }	
 .frontpage-search-wrapper #formfield-form-widgets-price-min{
 	clear:none;
@@ -1581,22 +1592,20 @@ div.listingBar .next, div.listingBar .current, div.listingBar a{
 }
 /*----------------------------------s.mask-----------------------------------*/
 .frontpage-search-wrapper #form-buttons-search {
-    position: absolute;
     background-image: url('countrypage/img/button.png');
-    width: 103px;
+    width: 102px;
     height: 27px;
     border: 0;
     color: #FFFFFF;
     font-style: oblique;
     font-weight: bold;
     border-radius: 6px;
-    left: 80px;
-    top: 85px;
     margin-top: 0;
-    margin-left: 5px;
+    margin-right: 15px;
+    float: right;
 }
 .frontpage-search-wrapper #formfield-form-widgets-location_state .select-widget {
-    width: 190px;
+    width: 185px;
     border-radius: 3px;
     text-transform: uppercase;
     padding-left: 4%;
@@ -1604,9 +1613,10 @@ div.listingBar .next, div.listingBar .current, div.listingBar a{
     color: #6E6E6E;
     border: 1px solid #E6E6E6;
     font-size: 10px;
+    margin-bottom: 6px;
 }
 .frontpage-search-wrapper #formfield-form-widgets-listing_type .select-widget {
-    width: 187px;
+    width: 185px;
     border-radius: 3px;
     text-transform: uppercase;
     padding-left: 4%;
@@ -1614,6 +1624,7 @@ div.listingBar .next, div.listingBar .current, div.listingBar a{
     color: #6E6E6E;
     border: 1px solid #E6E6E6;
     font-size: 10px;
+    margin-bottom: 6px;
 }
 
 .frontpage-search-wrapper .horizontal-price {
@@ -1624,30 +1635,21 @@ div.listingBar .next, div.listingBar .current, div.listingBar a{
 #formfield-form-widgets-listing_type .horizontal {
     display: block;
     width: 50%;
-    margin-bottom: 2px !important;
-}
-
-.frontpage-search-wrapper #formfield-form-right{
-    float: left;
-    margin-top: 8px;
-    position: relative;
-    margin-left: 13px;
+    margin-bottom: 0 !important;
 }
 
 .frontpage-search-wrapper #form-widgets-beds-min{
-    margin-right: 7px;
-    margin-left: 47px;
+    margin-left: 6px;
 }
 .frontpage-search-wrapper .horizontal-bedrooms{
-    margin-right: 20px !important;
+    margin-right: 58px !important;
 	float: left;
-    line-height: 23px;
+    margin-top: 4px;
     width: 10%;
 }
 .frontpage-search-wrapper label {
     color: #fff;
     font-family: 'Istok Web', sans-serif;
-    line-height: 20px;
 }
 #globalwrapper.template-manage-portlets .full-nav-over-carousel,
 #globalwrapper.template-manage-portlets .toolkit.viewlet.plugin,
@@ -1769,28 +1771,28 @@ img.image-left, img.image-right, .captioned img {
     #footer-wrapper #doormat-container .doormatColumn{
         width:20%;   
     } 
-    #portal-columns .row,div.row{
+    #content-columns .row,div.row{
         width:auto;   
     }
-    .colophonWrapper,#doormat-container,.carousel-body a,#header-chooser,.carousel-pager,#header .row, .footer .row,#portal-columns,#featurenavi,.nav-over-carousel,.carousel-text .carousel-title{
+    .colophonWrapper,#doormat-container,.carousel-body a,#header-chooser,.carousel-pager,#header .row, .footer .row,#content-columns,#featurenavi,.nav-over-carousel,.carousel-text .carousel-title{
         width: 1080px;
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-0 {
+    .portaltype-collective-cover-content #center-column div.position-0 {
         margin-left: -100%;
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-3 {
+    .portaltype-collective-cover-content #center-column div.position-3 {
         margin-left: -79%;
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-6 {
+    .portaltype-collective-cover-content #center-column div.position-6 {
         margin-left: -58%;
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-9 {
+    .portaltype-collective-cover-content #center-column div.position-9 {
         margin-left: -37%;
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-12 {
+    .portaltype-collective-cover-content #center-column div.position-12 {
         margin-left: -16.5%;
     }
-    div#portal-column-two.width-1\:4{
+    div#right-column.width-1\:4{
         margin-top: 42px; 
     }
     .move-head select{
@@ -1829,23 +1831,23 @@ img.image-left, img.image-right, .captioned img {
     #portal-personaltools-wrapper{
         left: 59.1%;
     }
-    #portal-column-two .collapse .option {
+    #right-column .collapse .option {
         width: 50%;
         float: left;
         clear: none;
     }
-    #portal-column-two #formfield-form-widgets-object_type .collapse .option {
+    #right-column #formfield-form-widgets-object_type .collapse .option {
         width: 80% !important; 
         float: left;
         clear: none;
     }
-    #portal-column-two #form-widgets-lot_size-max {
+    #right-column #form-widgets-lot_size-max {
         width: 46%;
         float: right;
         clear: none;
         height: 25px;
     }
-    #portal-column-two #form-widgets-interior_area-max {
+    #right-column #form-widgets-interior_area-max {
         width: 46%;
         float: right;
         clear: none;
@@ -1861,11 +1863,11 @@ img.image-left, img.image-right, .captioned img {
         width: 46%;
         float: right;
     }
-    #portal-column-two #form-widgets-beds-max {
+    #right-column #form-widgets-beds-max {
         width: 46%;
         float:right;
     }
-    #portal-column-two #form-widgets-baths-max {
+    #right-column #form-widgets-baths-max {
         width: 46%;
         float:right;
     }
@@ -1930,22 +1932,22 @@ img.image-left, img.image-right, .captioned img {
     .tileItem p.tileBody {
         width: 70% !important;
     }
-    .colophonWrapper,#doormat-container,.carousel-body a,#header-chooser,.carousel-pager,#header .row, .footer .row,#portal-columns,#featurenavi,.nav-over-carousel,.carousel-text .carousel-title{
+    .colophonWrapper,#doormat-container,.carousel-body a,#header-chooser,.carousel-pager,#header .row, .footer .row,#content-columns,#featurenavi,.nav-over-carousel,.carousel-text .carousel-title{
         width: 870px;
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-0 {
+    .portaltype-collective-cover-content #center-column div.position-0 {
         margin-left: -100%;
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-3 {
+    .portaltype-collective-cover-content #center-column div.position-3 {
         margin-left: -79%;
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-6 {
+    .portaltype-collective-cover-content #center-column div.position-6 {
         margin-left: -58%;
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-9 {
+    .portaltype-collective-cover-content #center-column div.position-9 {
         margin-left: -37%;
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-12 {
+    .portaltype-collective-cover-content #center-column div.position-12 {
         margin-left: -16.5%;
     }
     .blue-box, .orange-box, .green-box, .purple-box, .yellow-box{
@@ -1986,47 +1988,47 @@ img.image-left, img.image-right, .captioned img {
     #portal-personaltools-wrapper{
         left: 49.2%;
     }
-    #portal-column-two .collapse .option {
+    #right-column .collapse .option {
         width: 70%;
         float: left;
         clear: none;
     }
-    #portal-column-two #formfield-form-widgets-object_type .collapse .option {
+    #right-column #formfield-form-widgets-object_type .collapse .option {
         width: 90% !important; 
         float: left;
         clear: none;
     }
-    #portal-column-two #form-widgets-lot_size-max {
+    #right-column #form-widgets-lot_size-max {
         width: 46% !important;
         float: right;
         clear: none;
         height: 25px;
     }
-    #portal-column-two #form-widgets-interior_area-max {
+    #right-column #form-widgets-interior_area-max {
         width: 46% !important;
         float: right;
         clear: none;
         height: 25px;
     }
-    #portal-column-two #formfield-form-widgets-price_max {
+    #right-column #formfield-form-widgets-price_max {
         width: 46% !important;
         float:right;
     }
-    #portal-column-two #form-widgets-beds-max {
+    #right-column #form-widgets-beds-max {
         width: 46% !important;
         float:right;
     }
-    #portal-column-two #form-widgets-baths-max {
+    #right-column #form-widgets-baths-max {
         width: 46% !important;
         float:right;
     }
-    #portal-column-two #form-widgets-location_city {
+    #right-column #form-widgets-location_city {
         width: 98%;
     }
     .form-row-listing-type .field span.option {
         width: 50%;
     }
-    #portal-column-two{
+    #right-column{
         padding-top:35px;   
     }
     #doormat-container.column-5{
@@ -2073,10 +2075,10 @@ img.image-left, img.image-right, .captioned img {
     #doormat-container {
         margin-left: 15px!important;
     }
-    #portal-column-two #form-widgets-price_max {
+    #right-column #form-widgets-price_max {
         width: 97% !important;
     }
-    #portal-column-two #form-widgets-price_min {
+    #right-column #form-widgets-price_min {
         width: 122% !important;
     }
     .carousel-text {
@@ -2097,26 +2099,26 @@ img.image-left, img.image-right, .captioned img {
     #portal-globalnav li{
         float:left !important   
     }
-    .carousel-pager,#header .row, .footer .row,#portal-columns,.icons-on .row,#featurenavi,.nav-over-carousel,.carousel-text .carousel-title{
+    .carousel-pager,#header .row, .footer .row,#content-columns,.icons-on .row,#featurenavi,.nav-over-carousel,.carousel-text .carousel-title{
         width: 100%;
     }
     .colophonWrapper{
         width:98%;
         padding: 0 1%;
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-0 {
+    .portaltype-collective-cover-content #center-column div.position-0 {
         margin-left: -100%;
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-3 {
+    .portaltype-collective-cover-content #center-column div.position-3 {
         margin-left: -79%;
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-6 {
+    .portaltype-collective-cover-content #center-column div.position-6 {
         margin-left: -58%;
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-9 {
+    .portaltype-collective-cover-content #center-column div.position-9 {
         margin-left: -37%;
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-12 {
+    .portaltype-collective-cover-content #center-column div.position-12 {
         margin-left: -16.4%;
     }
     .blue-box, .orange-box, .green-box, .purple-box, .yellow-box{
@@ -2152,35 +2154,35 @@ img.image-left, img.image-right, .captioned img {
         margin-right: 370px;
         right: 0;
     }
-    #portal-column-two .collapse .option {
+    #right-column .collapse .option {
         width: 50%;
         float: left;
         clear: none;
     }
-    #portal-column-two #formfield-form-widgets-object_type .collapse .option {
+    #right-column #formfield-form-widgets-object_type .collapse .option {
         width: 31% !important;
         float: left;
         clear: none;
     }
-    #portal-column-two #form-widgets-lot_size-max {
+    #right-column #form-widgets-lot_size-max {
         width: 37%;
         float: right;
         clear: none;
         height: 25px;
     }
-    #portal-column-two #form-widgets-interior_area-max {
+    #right-column #form-widgets-interior_area-max {
         width: 37%;
         float: right;
         clear: none;
         height: 25px;
         margin-left: 15%;
     }
-    #portal-column-two #form-widgets-beds-max {
+    #right-column #form-widgets-beds-max {
         width: 37%;
         float:right;
         margin-left: 15%;
     }
-    #portal-column-two #form-widgets-baths-max {
+    #right-column #form-widgets-baths-max {
         width: 37%;
         margin-left: 15%;
         float:right;
@@ -2190,17 +2192,17 @@ img.image-left, img.image-right, .captioned img {
         float:right;
         width:37%;
     }
-    #portal-column-two #form-widgets-price_max {
+    #right-column #form-widgets-price_max {
         float: left;
         width: 97%;
     }
-    #portal-column-two #form-widgets-location_city {
+    #right-column #form-widgets-location_city {
         width: 98%;
     }
     .form-row-listing-type .field span.option {
         width: 20%;
     }
-    #portal-column-two .portletWrapper{
+    #right-column .portletWrapper{
         padding: 0;   
     }
     .portletItem span.label{
@@ -2280,14 +2282,14 @@ img.image-left, img.image-right, .captioned img {
     #portal-globalnav li{
         float:right !important;   
     }
-    .icons-on .row,#header .row,.carousel-pager,#header .row,.footer .row,#portal-columns,#featurenavi,.nav-over-carousel,.carousel-text .carousel-title{
+    .icons-on .row,#header .row,.carousel-pager,#header .row,.footer .row,#content-columns,#featurenavi,.nav-over-carousel,.carousel-text .carousel-title{
         width: 100%;
     }
     .colophonWrapper{
         width:98%;
         padding:0 1%;
     }
-    #portal-column-two #formfield-form-widgets-object_type .collapse .option {
+    #right-column #formfield-form-widgets-object_type .collapse .option {
         width: 50% !important; 
         float: left;
         clear: none;
@@ -2301,47 +2303,47 @@ img.image-left, img.image-right, .captioned img {
     div.width-3{
         width:30%;   
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-0.width-5{
+    .portaltype-collective-cover-content #center-column div.position-0.width-5{
         margin: 0;
         position: static;
         width: 49%;   
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-5.width-5{
+    .portaltype-collective-cover-content #center-column div.position-5.width-5{
         margin: 0;
         position: static;
         width: 49%;   
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-10.width-5{
+    .portaltype-collective-cover-content #center-column div.position-10.width-5{
         margin: 0;
         position: static;
         width: 49%;   
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-0 {
+    .portaltype-collective-cover-content #center-column div.position-0 {
         margin-left: -100%;
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-3 {
+    .portaltype-collective-cover-content #center-column div.position-3 {
         margin-left: -65%;
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-6 {
+    .portaltype-collective-cover-content #center-column div.position-6 {
         margin-left: -30%;
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-9 {
+    .portaltype-collective-cover-content #center-column div.position-9 {
         margin-left: -100%;
         margin-top: 160px;
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-12 {
+    .portaltype-collective-cover-content #center-column div.position-12 {
         margin-left: -65%;
         margin-top: 160px;
     }
     .footer #doormat-container .column-1,.footer #doormat-container .column-2{
         min-height:240px;   
     }
-    #portal-column-content #content .row:last-of-type .position-0{
+    #center-column #content .row:last-of-type .position-0{
         margin: 0;
         position: absolute;
         left: 0;
     }
-    #portal-column-content #content .row:last-of-type .position-7{
+    #center-column #content .row:last-of-type .position-7{
         margin: 5% 0 0;
         position: static;
         width: 100%;
@@ -2389,13 +2391,13 @@ img.image-left, img.image-right, .captioned img {
         margin-right: 370px;
         right: 0;
     }
-    #portal-column-two #form-widgets-lot_size-max {
+    #right-column #form-widgets-lot_size-max {
         width: 37%;
         float: right;
         clear: none;
         height: 25px;
     }
-    #portal-column-two #form-widgets-interior_area-max {
+    #right-column #form-widgets-interior_area-max {
         width: 37%;
         float: right;
         clear: none;
@@ -2406,18 +2408,18 @@ img.image-left, img.image-right, .captioned img {
         float: right;
         width: 37%;
     }
-    #portal-column-two #form-widgets-price_max {
+    #right-column #form-widgets-price_max {
         width: 97%;
     }
-    #portal-column-two #form-widgets-baths-max {
+    #right-column #form-widgets-baths-max {
         width: 37%;
         float:right;
     }
-    #portal-column-two #form-widgets-beds-max {
+    #right-column #form-widgets-beds-max {
         width: 37%;
         float:right;
     }
-    #portal-column-two #form-widgets-location_city {
+    #right-column #form-widgets-location_city {
         width: 98%;
     }
     .form-row-listing-type .field span.option {
@@ -2480,7 +2482,7 @@ img.image-left, img.image-right, .captioned img {
     .full-nav-over-carousel.carousel_inactive{
         top:-62px !important;   
     }
-    #portal-column-content {
+    #center-column {
         left: 0;
         margin-left: 0;
         width: 98%;
@@ -2489,17 +2491,17 @@ img.image-left, img.image-right, .captioned img {
     }
 }
 @media (min-width: 481px) and (max-width: 599px){
-    .portaltype-collective-cover-content #portal-column-content div.position-0.width-5{
+    .portaltype-collective-cover-content #center-column div.position-0.width-5{
         margin: 0;
         position: static;
         width: 100%;   
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-5.width-5{
+    .portaltype-collective-cover-content #center-column div.position-5.width-5{
         margin: 0;
         position: static;
         width: 100%;   
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-10.width-5{
+    .portaltype-collective-cover-content #center-column div.position-10.width-5{
         margin: 0;
         position: static;
         width: 100%;   
@@ -2522,7 +2524,7 @@ img.image-left, img.image-right, .captioned img {
     .full-nav-over-carousel.carousel_inactive{
         top:-62px !important;   
     }
-    #portal-column-content {
+    #center-column {
         left: 0;
         margin-left: 0;
         width: 98%;
@@ -2545,7 +2547,7 @@ img.image-left, img.image-right, .captioned img {
         width:100%;
         right:0;
     }
-    .carousel-pager,#header .row, .footer .row,#portal-columns,.icons-on .row,#featurenavi,.nav-over-carousel,.carousel-text .carousel-title{
+    .carousel-pager,#header .row, .footer .row,#content-columns,.icons-on .row,#featurenavi,.nav-over-carousel,.carousel-text .carousel-title{
         width: 100%;
     }
     .colophonWrapper{
@@ -2561,32 +2563,32 @@ img.image-left, img.image-right, .captioned img {
     div.width-3{
         width:30%;   
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-0 {
+    .portaltype-collective-cover-content #center-column div.position-0 {
         margin-left: -100%;
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-3 {
+    .portaltype-collective-cover-content #center-column div.position-3 {
         margin-left: -65%;
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-6 {
+    .portaltype-collective-cover-content #center-column div.position-6 {
         margin-left: -30%;
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-9 {
+    .portaltype-collective-cover-content #center-column div.position-9 {
         margin-left: -100%;
         margin-top: 155px;
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-12 {
+    .portaltype-collective-cover-content #center-column div.position-12 {
         margin-left: -65%;
         margin-top: 155px;
     }
     .footer #doormat-container .column-1{
         min-height:240px;   
     }
-    #portal-column-content #content .row:last-of-type .position-0{
+    #center-column #content .row:last-of-type .position-0{
         margin: 0;
         position: absolute;
         left: 0;
     }
-    #portal-column-content #content .row:last-of-type .position-7{
+    #center-column #content .row:last-of-type .position-7{
         margin: 5% 0 0;
         position: static;
         width: 100%;
@@ -2644,32 +2646,32 @@ img.image-left, img.image-right, .captioned img {
     #portal-logo {
         display: none;
     }
-    #portal-column-two #formfield-form-widgets-object_type .collapse .option {
+    #right-column #formfield-form-widgets-object_type .collapse .option {
         width: 50% !important; 
         float: left;
         clear: none;
     }
-    #portal-column-two #form-widgets-price_max {
+    #right-column #form-widgets-price_max {
         width: 97%;
     }
-    #portal-column-two #form-widgets-beds-max {
+    #right-column #form-widgets-beds-max {
         width: 37%;
         float:right;
     }
-    #portal-column-two #form-widgets-baths-max {
+    #right-column #form-widgets-baths-max {
         width: 37%;
         float:right;
     }
-    #portal-column-two #form-widgets-location_city {
+    #right-column #form-widgets-location_city {
         width: 98%;
     }
-    #portal-column-two #form-widgets-lot_size-max {
+    #right-column #form-widgets-lot_size-max {
         width: 37%;
         float: right;
         clear: none;
         height: 25px;
     }
-    #portal-column-two #form-widgets-interior_area-max {
+    #right-column #form-widgets-interior_area-max {
         width: 37%;
         float: right;
         clear: none;
@@ -2735,17 +2737,17 @@ img.image-left, img.image-right, .captioned img {
     }
 }
 @media (min-width: 401px) and (max-width: 480px){
-    .portaltype-collective-cover-content #portal-column-content div.position-0.width-5{
+    .portaltype-collective-cover-content #center-column div.position-0.width-5{
         margin: 0;
         position: static;
         width: 100%;   
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-5.width-5{
+    .portaltype-collective-cover-content #center-column div.position-5.width-5{
         margin: 0;
         position: static;
         width: 100%;   
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-10.width-5{
+    .portaltype-collective-cover-content #center-column div.position-10.width-5{
         margin: 0;
         position: static;
         width: 100%;   
@@ -2762,7 +2764,7 @@ img.image-left, img.image-right, .captioned img {
     .tileFooter {
         margin-left: 156px important;
     }
-    #portal-column-two #formfield-form-widgets-object_type .collapse .option {
+    #right-column #formfield-form-widgets-object_type .collapse .option {
         width: 80% !important;
         float: left;
         clear: none;
@@ -2773,7 +2775,7 @@ img.image-left, img.image-right, .captioned img {
     .full-nav-over-carousel {
         top: 33px !important;
     }
-    #portal-column-content {
+    #center-column {
         left: 0;
         margin-left: 0;
         width: 98%;
@@ -2799,7 +2801,7 @@ img.image-left, img.image-right, .captioned img {
         width:100%;
         right:0;
     }
-    .carousel-pager,#header .row, .footer .row,#portal-columns,.icons-on .row,#featurenavi,.nav-over-carousel,.carousel-text .carousel-title{
+    .carousel-pager,#header .row, .footer .row,#content-columns,.icons-on .row,#featurenavi,.nav-over-carousel,.carousel-text .carousel-title{
         width: 100%;
     }
     .colophonWrapper{
@@ -2812,29 +2814,29 @@ img.image-left, img.image-right, .captioned img {
     #portal-globalnav li{
         float:right !important;   
     }
-    #portal-column-content div.position-0 {
+    #center-column div.position-0 {
         margin-left: -100%;
     }
-    #portal-column-content div.position-3 {
+    #center-column div.position-3 {
         margin-left: -65%;
     }
-    #portal-column-content div.position-6 {
+    #center-column div.position-6 {
         margin-left: -30%;
     }
-    #portal-column-content div.position-9 {
+    #center-column div.position-9 {
         margin-left: -100%;
         margin-top: 140px;
     }
-    #portal-column-content div.position-12 {
+    #center-column div.position-12 {
         margin-left: -65%;
         margin-top: 140px;
     }
-    #portal-column-content #content .row:last-of-type .position-0{
+    #center-column #content .row:last-of-type .position-0{
         margin: 0;
         position: static;
         width: 100%;
     }
-    #portal-column-content #content .row:last-of-type .position-7{
+    #center-column #content .row:last-of-type .position-7{
         margin: 5% 0 0;
         position: static;
         width: 100%;
@@ -2892,21 +2894,21 @@ img.image-left, img.image-right, .captioned img {
     #portal-logo {
         display: none;
     }
-    #portal-column-two #form-widgets-price_max {
+    #right-column #form-widgets-price_max {
         width: 97%;
     }
-    #portal-column-two #form-widgets-beds-max {
+    #right-column #form-widgets-beds-max {
         width: 37% !important;
         float:right;;
     }
-    #portal-column-two #form-widgets-baths-max {
+    #right-column #form-widgets-baths-max {
         width: 37% !important;
         float:right;
     }
-    #portal-column-two #form-widgets-location_city {
+    #right-column #form-widgets-location_city {
         width: 98%;
     }
-    #portal-column-two #form-widgets-lot_size-max {
+    #right-column #form-widgets-lot_size-max {
         width: 37%;
         float: right;
         clear: none;
@@ -2916,13 +2918,13 @@ img.image-left, img.image-right, .captioned img {
         float: right;
         width: 37%;
     }
-    #portal-column-two #form-widgets-interior_area-max {
+    #right-column #form-widgets-interior_area-max {
         width: 37%;
         float: right;
         clear: none;
         height: 25px;
     }
-    #portal-column-two #formfield-form-widgets-object_type .collapse .option {
+    #right-column #formfield-form-widgets-object_type .collapse .option {
         width: 80% !important;
         float: left;
         clear: none;
@@ -2979,27 +2981,27 @@ img.image-left, img.image-right, .captioned img {
         margin: 0;
         width: 55%;
     }
-    #portal-column-content #content .row:last-of-type .position-0 {
+    #center-column #content .row:last-of-type .position-0 {
         margin: 0;
         position: absolute;
         left: 0;
     }
-    #portal-column-content #content .row .width-3.position-0{
+    #center-column #content .row .width-3.position-0{
         left: 100%;
         margin-left: -100%;
         width: 49%;
     }
-    #portal-column-content #content .row .width-3.position-3{
+    #center-column #content .row .width-3.position-3{
         margin-left: -49%   
     }
-    #portal-column-content #content .row .width-3.position-6{
+    #center-column #content .row .width-3.position-6{
         margin-left: -100%;
         margin-top: 140px; 
     }
-    #portal-column-content #content .row .width-3.position-9{
+    #center-column #content .row .width-3.position-9{
         margin-left: -49%;  
     }
-    #portal-column-content #content .row .width-3.position-12{
+    #center-column #content .row .width-3.position-12{
         margin-left: -100%;
         margin-top: 280px;  
     }
@@ -3028,7 +3030,7 @@ img.image-left, img.image-right, .captioned img {
         top: 33px !important;
         margin-top: -41px !important;
     }
-    #portal-column-content {
+    #center-column {
         left: 0;
         margin-left: 0;
         width: 98%;
@@ -3037,17 +3039,17 @@ img.image-left, img.image-right, .captioned img {
     }
 }
 @media (min-width: 321px) and (max-width: 400px){
-    .portaltype-collective-cover-content #portal-column-content div.position-0.width-5{
+    .portaltype-collective-cover-content #center-column div.position-0.width-5{
         margin: 0;
         position: static;
         width: 100%;   
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-5.width-5{
+    .portaltype-collective-cover-content #center-column div.position-5.width-5{
         margin: 0;
         position: static;
         width: 100%;   
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-10.width-5{
+    .portaltype-collective-cover-content #center-column div.position-10.width-5{
         margin: 0;
         position: static;
         width: 100%;   
@@ -3066,12 +3068,12 @@ img.image-left, img.image-right, .captioned img {
         width: 50% !important;
         margin-left: 59px;
     }
-    #portal-column-two #formfield-form-widgets-object_type .collapse .option {
+    #right-column #formfield-form-widgets-object_type .collapse .option {
         width: 100% !important;
         float: left;
         clear: none;
     }
-    #portal-column-content {
+    #center-column {
         left: 0;
         margin-left: 0;
         width: 98%;
@@ -3098,7 +3100,7 @@ img.image-left, img.image-right, .captioned img {
         width:100%;
         right:0;
     }
-    .carousel-pager,#header .row, .footer .row,#portal-columns,.icons-on .row,#featurenavi,.nav-over-carousel,.carousel-title{
+    .carousel-pager,#header .row, .footer .row,#content-columns,.icons-on .row,#featurenavi,.nav-over-carousel,.carousel-title{
         width: 100%;
     }
     .colophonWrapper{
@@ -3114,29 +3116,29 @@ img.image-left, img.image-right, .captioned img {
     div.width-3{
         width:30%;   
     }
-    #portal-column-content div.position-0 {
+    #center-column div.position-0 {
         margin-left: -100%;
     }
-    #portal-column-content div.position-3 {
+    #center-column div.position-3 {
         margin-left: -65%;
     }
-    #portal-column-content div.position-6 {
+    #center-column div.position-6 {
         margin-left: -30%;
     }
-    #portal-column-content div.position-9 {
+    #center-column div.position-9 {
         margin-left: -100%;
         margin-top: 140px;
     }
-    #portal-column-content div.position-12 {
+    #center-column div.position-12 {
         margin-left: -65%;
         margin-top: 140px;
     }
-    #portal-column-content #content .row:last-of-type .position-0{
+    #center-column #content .row:last-of-type .position-0{
         margin: 0;
         position: static;
         width: 100%;
     }
-    #portal-column-content #content .row:last-of-type .position-7{
+    #center-column #content .row:last-of-type .position-7{
         margin: 5% 0 0;
         position: static;
         width: 100%;
@@ -3196,22 +3198,22 @@ img.image-left, img.image-right, .captioned img {
         left: 7%;
         top: 44px;
     }
-    #portal-column-content #content .row .width-3.position-3{
+    #center-column #content .row .width-3.position-3{
         margin-left: -200%;
         margin-top: 140px;
         width: 100%;  
     }
-    #portal-column-content #content .row .width-3.position-6{
+    #center-column #content .row .width-3.position-6{
         margin-left: -200%;
         margin-top: 280px;
         width: 100%; 
     }
-    #portal-column-content #content .row .width-3.position-9{
+    #center-column #content .row .width-3.position-9{
         margin-left: -200%;
         margin-top: 420px;
         width: 100%;  
     }
-    #portal-column-content #content .row .width-3.position-12{
+    #center-column #content .row .width-3.position-12{
         margin-left: -200%;
         margin-top: 560px;
         width: 100%;  
@@ -3219,21 +3221,21 @@ img.image-left, img.image-right, .captioned img {
     #portal-logo {
         display: none;
     }
-    #portal-column-two #form-widgets-price_max {
+    #right-column #form-widgets-price_max {
         width: 97%;
     }
-    #portal-column-two #form-widgets-beds-max {
+    #right-column #form-widgets-beds-max {
         width: 37% !important;
         float:right;;
     }
-    #portal-column-two #form-widgets-baths-max {
+    #right-column #form-widgets-baths-max {
         width: 37% !important;
         float:right;
     }
-    #portal-column-two #form-widgets-location_city {
+    #right-column #form-widgets-location_city {
         width: 98%;
     }
-    #portal-column-two #form-widgets-lot_size-max {
+    #right-column #form-widgets-lot_size-max {
         width: 37%;
         float: right;
         clear: none;
@@ -3243,7 +3245,7 @@ img.image-left, img.image-right, .captioned img {
         float: right;
         width: 37%;
     }
-    #portal-column-two #form-widgets-interior_area-max {
+    #right-column #form-widgets-interior_area-max {
         width: 37%;
         float: right;
         clear: none;
@@ -3333,37 +3335,37 @@ img.image-left, img.image-right, .captioned img {
     }
 }
 @media (max-width: 320px){
-    .portaltype-collective-cover-content #portal-column-content div.position-0.width-5{
+    .portaltype-collective-cover-content #center-column div.position-0.width-5{
         margin: 0;
         position: static;
         width: 100%;   
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-5.width-5{
+    .portaltype-collective-cover-content #center-column div.position-5.width-5{
         margin: 0;
         position: static;
         width: 100%;   
     }
-    .portaltype-collective-cover-content #portal-column-content div.position-10.width-5{
+    .portaltype-collective-cover-content #center-column div.position-10.width-5{
         margin: 0;
         position: static;
         width: 100%;   
     }
-    #portal-column-content #content .row .width-3.position-3{
+    #center-column #content .row .width-3.position-3{
         margin-left: -200%;
         margin-top: 140px;
         width: 100%;  
     }
-    #portal-column-content #content .row .width-3.position-6{
+    #center-column #content .row .width-3.position-6{
         margin-left: -200%;
         margin-top: 280px;
         width: 100%; 
     }
-    #portal-column-content #content .row .width-3.position-9{
+    #center-column #content .row .width-3.position-9{
         margin-left: -200%;
         margin-top: 420px;
         width: 100%;  
     }
-    #portal-column-content #content .row .width-3.position-12{
+    #center-column #content .row .width-3.position-12{
         margin-left: -200%;
         margin-top: 560px;
         width: 100%;  
@@ -3382,7 +3384,7 @@ img.image-left, img.image-right, .captioned img {
         font-size: 16px;
         margin-left: 25px !important;
     }
-    #portal-column-two #formfield-form-widgets-object_type .collapse .option {
+    #right-column #formfield-form-widgets-object_type .collapse .option {
         width: 100% !important;
         float: left;
         clear: none;
@@ -3406,7 +3408,7 @@ img.image-left, img.image-right, .captioned img {
         width:100%;
         right:0;
     }
-    .carousel-pager,#header .row, .footer .row,#portal-columns,.icons-on .row,#featurenavi,.nav-over-carousel,.carousel-title{
+    .carousel-pager,#header .row, .footer .row,#content-columns,.icons-on .row,#featurenavi,.nav-over-carousel,.carousel-title{
         width: 100%;
     }
     .colophonWrapper{
@@ -3422,29 +3424,29 @@ img.image-left, img.image-right, .captioned img {
     div.width-3{
         width:30%;   
     }
-    #portal-column-content div.position-0 {
+    #center-column div.position-0 {
         margin-left: -100%;
     }
-    #portal-column-content div.position-3 {
+    #center-column div.position-3 {
         margin-left: -65%;
     }
-    #portal-column-content div.position-6 {
+    #center-column div.position-6 {
         margin-left: -30%;
     }
-    #portal-column-content div.position-9 {
+    #center-column div.position-9 {
         margin-left: -100%;
         margin-top: 140px;
     }
-    #portal-column-content div.position-12 {
+    #center-column div.position-12 {
         margin-left: -65%;
         margin-top: 140px;
     }
-    #portal-column-content #content .row:last-of-type .position-0{
+    #center-column #content .row:last-of-type .position-0{
         margin: 0;
         position: static;
         width: 100%;
     }
-    #portal-column-content #content .row:last-of-type .position-7{
+    #center-column #content .row:last-of-type .position-7{
         margin: 5% 0 0;
         position: static;
         width: 100%;
@@ -3501,21 +3503,21 @@ img.image-left, img.image-right, .captioned img {
     #portal-logo {
         display: none;
     }
-    #portal-column-two #form-widgets-price_max {
+    #right-column #form-widgets-price_max {
         width: 97%;
     }
-    #portal-column-two #form-widgets-beds-max {
+    #right-column #form-widgets-beds-max {
         width: 37% !important;
         float:right;;
     }
-    #portal-column-two #form-widgets-baths-max {
+    #right-column #form-widgets-baths-max {
         width: 37% !important;
         float:right;
     }
-    #portal-column-two #form-widgets-location_city {
+    #right-column #form-widgets-location_city {
         width: 98%;
     }
-    #portal-column-two #form-widgets-lot_size-max {
+    #right-column #form-widgets-lot_size-max {
         width: 37%;
         float: right;
         clear: none;
@@ -3525,7 +3527,7 @@ img.image-left, img.image-right, .captioned img {
         float: right;
         width: 37%;
     }
-    #portal-column-two #form-widgets-interior_area-max {
+    #right-column #form-widgets-interior_area-max {
         width: 37%;
         float: right;
         clear: none;

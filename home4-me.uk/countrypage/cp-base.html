@@ -69,11 +69,11 @@
                         <span class="lang lang-ja"> あなたの国を選択してください</span>
                         <span class="lang lang-ru"> Выберите вашу страну</span>
                         <ul id="country-chooser-list">
-                            <li><a href="http://costarica.homes4.me.uk" class="country-costarica">Costa Rica</a></li>
-                            <li><a href="http://ecuador.homes4.me.uk" class="country-ecuador">Ecuador</a></li>
-                            <li><a href="http://nicaragua.homes4.me.uk" class="country-nicaragua">Nicaragua</a></li>
-                            <li><a href="http://panama.homes4.me.uk" class="country-panama">Panama</a></li>
-                            <li><a href="http://usa.homes4.me.uk" class="country-usa">USA</a></li>
+                            <li><a href="http://costarica.homes4.de" class="country-costarica">Costa Rica</a></li>
+                            <li><a href="http://ecuador.homes4.de" class="country-ecuador">Ecuador</a></li>
+                            <li><a href="http://nicaragua.homes4.de" class="country-nicaragua">Nicaragua</a></li>
+                            <li><a href="http://panama.homes4.de" class="country-panama">Panama</a></li>
+                            <li><a href="http://usa.homes4.de" class="country-usa">USA</a></li>
                         </ul>
                     </div>
                 </div> 
@@ -87,53 +87,13 @@
             </div>
             <div id="ps-slider"></div>
          
-            <div id="main" role="main" class="icons-on">
-               <div>
-                  <ul class="breadcrumb">
-                     <li><a href="#">Home</a><span class="divider">/</span></li>
-                     <li class="active">Plone</li>
-                  </ul>
-               </div>
-               <div id="content-columns">
-                  <div class="row">
-                     <div id="left-column" class="span3">
-                        <div id="left-column-content">
-                        <span />
-                        </div>
-                     </div>
-                     <div id="center-column">
-                        <div id="center-column-content">
-                        <article>
-                           <div id="content">
-                             <span />
-                             
-                           </div>
-                        </article>
-                        </div>
-                     </div>
-                     <div id="right-column" class="span3">
-                        <div id="right-column-content">
-                         <span />
-                        </div>
-                     </div>
+            <div id="main" role="main">         
+            <div id="content-columns">
+                 <div class="row">
+                    <div id="center-column"><span /></div>
+                    <div id="right-column" class="span3"><span /></div>
                   </div>
-               </div>
-               <div id="portletBelowContentManager" class="row">
-                  <div id="portletBelowContentA" class="span4">
-                    <span />
-                  </div>
-                  <div id="portletBelowContentB" class="span4">
-                    <span />
-                  </div>
-                  <div id="portletBelowContentC" class="span4">
-                     <span />
-                  </div>
-               </div>
-               <div class="row">
-                  <div id="portletBelowContentD" class="offset1 span10">
-                  </div>
-               </div>
-                <div style="clear:both">&nbsp;</div>
+                </div>
             </div>
             
             <div id="feature-listing-slider">
@@ -167,6 +127,9 @@
             </script>
             <script defer src="js/plugins.js"></script>
             <script defer src="js/script.js"></script>
+            <script>
+                $( ".actionMenuContent #folder .subMenuTitle" ).text( "Folder" );
+            </script>
             <div id="site-scripts"></div>
 
             <!-- end scripts-->
