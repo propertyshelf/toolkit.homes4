@@ -588,7 +588,7 @@ div.width-full{
         width:72%;   
     }
     #center-column.span9{
-        width: 72%;  
+        width: 67%;  
         margin:0;
     } 
     #right-column.span3{
@@ -686,7 +686,9 @@ div.width-full{
     } 
     #right-column.span3{
         margin-top: 20px;
-        width: 100%;   
+        width: 98%;  
+        margin-left:0;
+        padding:0 1%;  
     }
     .container{
         width:100%;   
@@ -790,7 +792,9 @@ div.width-full{
     } 
     #right-column.span3{
         margin-top: 20px;
-        width: 100%;   
+        width: 98%;  
+        margin-left:0;
+        padding:0 1%; 
     }
     .container{
         width:100%;   
@@ -904,7 +908,9 @@ div.width-full{
     } 
     #right-column.span3{
         margin-top: 20px;
-        width: 100%;   
+        width: 98%;  
+        margin-left:0;
+        padding:0 1%;   
     }
     .container{
         width:100%;   
@@ -1018,7 +1024,9 @@ div.width-full{
     } 
     #right-column.span3{
         margin-top: 20px;
-        width: 100%;   
+        width: 98%;  
+        margin-left:0;
+        padding:0 1%; 
     }
     .container{
         width:100%;   
